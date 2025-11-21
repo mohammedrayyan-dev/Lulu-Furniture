@@ -38,42 +38,19 @@
 
 ### 🛬 Landing Page
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/268e3b6b-49ae-4d28-a071-75a0fe87d2c2" alt="Home Page" width="70%"/>
+  <img src="https://github.com/user-attachments/assets/e0e6f38d-311a-463f-b781-a77fd6a2a60b" alt="Landing Page" width="70%" />
 </p>
 
-### 👤 Auth Page
+### 📦 Products Page (Ex. Sofa & Storage Shelf)
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6c321f50-50a7-4bea-8e6f-17ec4ac44b5c" alt="Manage Page - Section 1" width="45%"/>
-  <img src="https://github.com/user-attachments/assets/283bff4e-7513-48ba-99ee-b29ee17c504c" alt="Manage Page - Section 2" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/d2df1955-e5b8-4d8f-82d4-d4c1e19de8c8" alt="Sofa Page - Section 1" width="45%" />
+  <img src="https://github.com/user-attachments/assets/abafe5f5-b708-4b8e-ad80-1e52b1c771c6" alt="Storage Shelf Page - Section 2" width="45%"/>
 </p>
 
-### 🏠 Home Page
+### 👟 Footer Page
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b1ae80e5-80b6-41d1-83ad-d06426c7c633" alt="Home Page" width="70%"/>  
+  <img src="https://github.com/user-attachments/assets/1113233d-abcf-4ee8-ab29-544892ff62e9" alt="Home Page" width="70%"/>  
 </p>
-
----
-
-## ⚙️ Installation & Setup
-
-Clone the repository and install dependencies:
-
-```bash
-
-# Clone this repository
-git clone https://github.com/your-username/profina.git
-
-# Navigate into the project folder
-cd profina
-
-# Install dependencies
-npm install
-
-# Start development server
-npm start
-
-```
-Your app will be live at http://localhost:3000/
 
 ---
 

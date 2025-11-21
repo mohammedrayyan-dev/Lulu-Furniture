@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Corinthia:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+@theme {
+  --font-family-dm: "DM Sans", sans-serif;
+  --font-family-corinthia: "Corinthia", cursive;
+  --font-family-lato: "Lato", sans-serif;
+}
+
+@import "tailwindcss";
+
+@layer utilities {
+  .font-dm {
+    font-family: var(--font-family-dm);
+  }
+  .font-corinthia {
+    font-family: var(--font-family-corinthia);
+  }
+  .font-lato {
+    font-family: var(--font-family-lato);
+  }
+}

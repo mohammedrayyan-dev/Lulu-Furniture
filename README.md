@@ -5,7 +5,6 @@
 # 🪑 Lulu Furniture
 
 **Lulu Furniture** is an online ecommerce platform built for an store located at Hosur. It offers various design patterns
-🔗 **Live Demo:** Currently working on it almost done
 
 ---
 
@@ -17,12 +16,6 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 </p>
 
----
-
-## 🌟 Features
-
-  - 📊 Landing Page – See all your tasks in one place for a complete snapshot of your productivity.
-     
 ---
 
 ## 📸 Screenshots

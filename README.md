@@ -33,7 +33,7 @@
 
 ### 👟 Footer Page
 <p align="center">
-  
+  <img src="https://github.com/user-attachments/assets/0846e698-cea7-40e1-906b-580136c07793" alt="Landing Page" width="70%" />
 </p>
 
 ---

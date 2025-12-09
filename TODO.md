@@ -1,0 +1,3 @@
+- [ ] Update hamburger width to w-[24px] for small screens
+- [ ] Remove pl-[540px] from navbar div
+- [ ] Add centering classes to inner navbar div

@@ -3,23 +3,23 @@ import HeroBanner3 from "/src/assets/images/icons/ui/banners/HeroBanner3.png"
 const MadeForYou = () => {
   return (
     <>
-    <div className="bg-[#FFFFFF] h-dvh flex justify-center gap-24 px-10 py-16">
+    <div className="bg-[#FFFFFF] lg:h-dvh flex flex-col lg:mt-[50px] justify-center items-center lg:items-start md:flex-row lg:flex-row md:gap-4 lg:gap-28 lg:px-10 py-8 lg:py-0">
 
-  <div className="flex flex-col">
-  <div className="mb-10 border-t border-[#33333366]"></div>
-    <h1 className="text-[40px] pt-[10px] font-corinthia text-[#6B4C41] font-bold">
+  <div className="flex flex-col space-y-4 lg:space-y-10">
+  <div className="hidden lg:block mb-10 border-t border-[#33333366]" />
+    <h1 className="text-[24px] lg:text-[40px] pt-[10px] font-corinthia text-[#6B4C41] font-bold">
       Made for You
     </h1>
-    <p className="text-[#6F6F6F] pt-[60px] font-dm text-[19px] w-[620px]">
+    <p className="text-[#6F6F6F] max-w-xs lg:max-w-xl font-dm text-[14px] lg:text-[19px]">
       We understand that every customer is unique. That’s why we focus on customisation—allowing you to choose designs, colours, finishes, and sizes that perfectly match your space and taste. Whether you’re looking for a cozy sofa, a solid wood dining table, or a complete home interior setup, we work closely with you to turn your vision into reality.
     </p>
-    <p className="text-[#6F6F6F] pt-[60px] font-dm text-[19px] w-[620px]">
+    <p className="text-[#6F6F6F] max-w-xs lg:max-w-xl font-dm text-[14px] lg:text-[19px] ">
     Every piece we create is thoughtfully crafted to suit your lifestyle, preferences, and home aesthetics. No generic designs, no one-size-fits-all solutions—just furniture made for you. From the first idea to final installation, we ensure the result feels personal, intentional, and uniquely yours.
     </p>
   </div>
 
-  <div className="">
-    <img src={HeroBanner3} alt="Hero Banner" className="w-[575px] h-auto rounded-lg" />
+  <div>
+    <img src={HeroBanner3} alt="Hero Banner" className="pt-[25px] lg:pt-[0px] w-[326px] lg:w-[575px] h-auto rounded-lg" />
   </div>
 
 </div>

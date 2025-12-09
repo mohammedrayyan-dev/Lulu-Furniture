@@ -5,7 +5,7 @@ import IndianBedCot from "/src/assets/images/icons/ui/banners/products/bedcot/In
 import LuxuryFabricBedCot from "/src/assets/images/icons/ui/banners/products/bedcot/LuxuryFabricBedCot.png"
 import ChineseBedCot from "/src/assets/images/icons/ui/banners/products/bedcot/ChineseBedCot.png"
 import Footer from "../components/Footer.jsx"
-import { WhatsApp } from "../components/WhatsApp.jsx"
+import { WhatsApp } from "../components/Whatsapp.jsx"
 
 const BedCot = () => {
   return (

@@ -4,7 +4,7 @@ import RubberWoodDiningTable from "/src/assets/images/icons/ui/banners/products/
 import NeemWoodDiningTable from "/src/assets/images/icons/ui/banners/products/diningtable/NeemWoodDiningTable.png"
 import CoffeeTable from "/src/assets/images/icons/ui/banners/products/diningtable/CoffeeTable.png"
 import Footer from "../components/Footer.jsx"
-import { WhatsApp } from "../components/WhatsApp.jsx"
+import { WhatsApp } from "../components/Whatsapp.jsx"
 
 const DiningTable = () => {
   return (

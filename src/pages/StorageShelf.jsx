@@ -3,7 +3,7 @@ import StorageTable from "/src/assets/images/icons/ui/banners/products/storagesh
 import DressingTable from "/src/assets/images/icons/ui/banners/products/storageshelf/DressingTable.png"
 import DressCupboard from "/src/assets/images/icons/ui/banners/products/storageshelf/DressCupboard.png"
 import Footer from "../components/Footer.jsx"
-import { WhatsApp } from "../components/WhatsApp.jsx"
+import { WhatsApp } from "../components/Whatsapp.jsx"
 
 const StorageShelf = () => {
   return (

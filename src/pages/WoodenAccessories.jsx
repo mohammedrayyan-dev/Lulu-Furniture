@@ -5,7 +5,7 @@ import OfficeChair from "/src/assets/images/icons/ui/banners/products/woodenacce
 import BossChair from "/src/assets/images/icons/ui/banners/products/woodenaccessories/BossChair.png"
 import DevotionalTable from "/src/assets/images/icons/ui/banners/products/woodenaccessories/DevotionalTable.png"
 import Footer from "../components/Footer.jsx"
-import { WhatsApp } from "../components/WhatsApp.jsx"
+import { WhatsApp } from "../components/Whatsapp.jsx"
 
 const WoodenAccessories = () => {
   return (

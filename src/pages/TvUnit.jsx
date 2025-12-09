@@ -3,7 +3,7 @@ import TVCabinetDecor from "/src/assets/images/icons/ui/banners/products/tvunit/
 import TVStand from "/src/assets/images/icons/ui/banners/products/tvunit/TvStand.png"
 import TVUnitDesign from "/src/assets/images/icons/ui/banners/products/tvunit/TvUnitDesign.png"
 import Footer from "../components/Footer.jsx"
-import { WhatsApp } from "../components/WhatsApp.jsx"
+import { WhatsApp } from "../components/Whatsapp.jsx"
 
 const TvUnit = () => {
   return (

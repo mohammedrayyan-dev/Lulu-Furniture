@@ -1,13 +1,13 @@
 import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import TeakWoodSofa from "/src/assets/images/icons/ui/banners/products/Sofa/TeakWoodSofa.png"
-import RubberWoodSofa from "/src/assets/images/icons/ui/banners/products/Sofa/RubberWoodSofa.png"
-import CushionComfortSofa from "/src/assets/images/icons/ui/banners/products/Sofa/CushionComfortSofa.png"
-import FabricSofa from "/src/assets/images/icons/ui/banners/products/Sofa/FabricSofa.png"
-import VelvetFabricSofa from "/src/assets/images/icons/ui/banners/products/Sofa/VelvetFabricSofa.png"
-import ReclinerLeatherSofa from "/src/assets/images/icons/ui/banners/products/Sofa/ReclinerLeatherSofa.png"
-import TeakWoodFabricSofa from "/src/assets/images/icons/ui/banners/products/Sofa/TeakWoodFabricSofa.png"
+import TeakWoodSofa from "/src/assets/images/icons/ui/banners/products/sofa/TeakWoodSofa.png"
+import RubberWoodSofa from "/src/assets/images/icons/ui/banners/products/sofa/RubberWoodSofa.png"
+import CushionComfortSofa from "/src/assets/images/icons/ui/banners/products/sofa/CushionComfortSofa.png"
+import FabricSofa from "/src/assets/images/icons/ui/banners/products/sofa/FabricSofa.png"
+import VelvetFabricSofa from "/src/assets/images/icons/ui/banners/products/sofa/VelvetFabricSofa.png"
+import ReclinerLeatherSofa from "/src/assets/images/icons/ui/banners/products/sofa/ReclinerLeatherSofa.png"
+import TeakWoodFabricSofa from "/src/assets/images/icons/ui/banners/products/sofa/TeakWoodFabricSofa.png"
 import Footer from "../components/Footer.jsx"
-import { WhatsApp } from "../components/WhatsApp.jsx"
+import { WhatsApp } from "../components/Whatsapp.jsx"
 
 const Sofa = () => {
   return (

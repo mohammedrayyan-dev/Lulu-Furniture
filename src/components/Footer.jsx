@@ -75,7 +75,7 @@ const Footer = () => {
         </h2>
         <div className="flex">
         <a
-        href="https://wa.me/8754610386"
+        href="https://wa.me/8220137877"
         target="_blank">
         <button className="bg-[#6B4C41] hover:bg-[#553C34] font-semibold font-dm text-[12px] lg:text-[14px] text-[#ffffff] rounded-3xl w-[130px] lg:w-[160px] h-[48px] cursor-pointer">
             Customer Support

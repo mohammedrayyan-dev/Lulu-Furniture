@@ -36,15 +36,22 @@ This project was created for a real client and is included in my portfolio to sh
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
+### 🖥️ Desktop – Home Page
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a7f04c58-aed0-4856-88cb-910d5fa97a3c" alt="Home Page" width="70%"/>
 </p>
 
-### 🪵 Products Page
+### 🪑 Desktop – Product Page
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4a13105f-b805-492a-ba4f-cd1613158b8b" alt="Products Page" width="70%"/>  
 </p>
+
+### 📱 Mobile & Tablet Views
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ad0f0543-5b3d-42ff-a805-8334755b8f2f" width="30%" />
+  <img src="https://github.com/user-attachments/assets/8cbed378-557e-43d9-90b7-688d0f2a315c" width="40%" />
+</p>
+
 
 ---
 

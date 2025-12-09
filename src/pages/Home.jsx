@@ -6,7 +6,7 @@ import OurCollections from "../components/OurCollections.jsx"
 import AboutUs from "../components/AboutUs"
 import Footer from "../components/Footer"
 import CustomerFeedbacks from "../components/CustomerFeedbacks.jsx"
-import { WhatsApp } from "../components/WhatsApp.jsx"
+import { WhatsApp } from "../components/Whatsapp.jsx"
 import MobileView from "/src/assets/images/icons/ui/banners/MobileViewHeroBanner.png"
 
 const Home = () => {

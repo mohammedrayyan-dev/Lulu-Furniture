@@ -24,7 +24,7 @@ const Footer = () => {
         </a>
         </div>
         <div className="flex flex-row pt-[18px] lg:pt-[25px] space-x-3">
-        <img src={MailIcon} alt="InstagramIcon" className="w-[18px] h-[27px] lg:w-[24px]"/>
+        <img src={MailIcon} alt="InstagramIcon" className="w-[18px] lg:w-[24px]"/>
         <a 
         href="mailto:officiallulufurnitures@gmail.com" 
         className="font-dm text-[#6F6F6F] text-[12px] lg:text-[16px]"

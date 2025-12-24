@@ -1,9 +1,9 @@
-import SofaLounge from "/src/assets/images/icons/ui/banners/products/SofaLounge.png";
-import BedCot from "/src/assets/images/icons/ui/banners/products/Bed&Cot.png";
-import DiningTable from "/src/assets/images/icons/ui/banners/products/DiningTable.png";
-import StorageShelf from "/src/assets/images/icons/ui/banners/products/StorageShelf.png";
-import TvUnit from "/src/assets/images/icons/ui/banners/products/TvUnit.png";
-import WoodenAccessories from "/src/assets/images/icons/ui/banners/products/WoodenAccessories.png";
+import SofaLounge from "/src/assets/images/icons/ui/banners/products/SofaLounge.webp";
+import BedCot from "/src/assets/images/icons/ui/banners/products/Bed&Cot.webp";
+import DiningTable from "/src/assets/images/icons/ui/banners/products/DiningTable.webp";
+import StorageShelf from "/src/assets/images/icons/ui/banners/products/StorageShelf.webp";
+import TvUnit from "/src/assets/images/icons/ui/banners/products/TvUnit.webp";
+import WoodenAccessories from "/src/assets/images/icons/ui/banners/products/WoodenAccessories.webp";
 import OneSeaterSofaVector from "/src/assets/images/icons/1SeaterSofaVector.png";
 import TwoSeaterSofaVector from "/src/assets/images/icons/2SeaterSofaVector.png";
 import DeliveryVanVector from "/src/assets/images/icons/DeliveryVanVector.png";
@@ -15,7 +15,8 @@ const OurCollections = () => {
 
   return (
     <>
-     <div className="bg-white max-w-7xl mx-auto flex flex-col">
+    <div className="bg-white px-5 md:px-6 lg:px-10">
+     <div className="flex flex-col max-w-7xl mx-auto">
 
         <div className="flex flex-col">
             <div className="hidden lg:block w-full mb-10 border-t border-[#33333366]" />  
@@ -127,6 +128,7 @@ const OurCollections = () => {
 
         </div>
 
+        </div>
         </div>
         </>
   )

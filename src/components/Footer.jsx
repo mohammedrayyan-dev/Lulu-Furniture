@@ -2,20 +2,28 @@ import LuluLogo from "/src/assets/images/icons/LulufurnitureLogo.png"
 import InstagramIcon from "/src/assets/images/icons/InstagramIcon.png"
 import MailIcon from "/src/assets/images/icons/MailIcon.png"
 import { Link } from "react-router-dom"
-import GoogleReviewsMap from "./GoogleReviewsMap"
+import GoogleMaps from "./GoogleMaps"
 
 const Footer = () => {
 
   return (
-    <div className="bg-[#DBD1C7] h-[auto] pl-[30px] lg:pl-[0px] pb-[40px] lg:h-[auto] mt-[40px] lg:mt-[90px] flex flex-col lg:flex-row justify-center space-x-10 lg:space-x-20">
-
+    <div className="bg-[#DBD1C7] px-5 sm:px-6 lg:px-10">
+    <div className="h-[auto] pb-[40px] lg:h-[auto] mt-[40px] lg:mt-[90px] flex flex-col lg:flex-row justify-center gap-10 lg:gap-20">
+    
+    {/* Lulu Furntirue Info */}
     <div className="pt-[25px] lg:pt-[50px]">
-        <img src={LuluLogo} alt="Lulu Logo" className="w-[64px] lg:w-[98px]"/>
-        <p className="text-[#6F6F6F] pt-[18px] lg:pt-[32px] text-[14px] lg:text-[18px] font-normal max-w-xl lg:max-w-md">
+        <img src={LuluLogo} 
+        alt="Lulu Logo" 
+        className="w-[64px] lg:w-[98px]"
+        />
+        <p className="text-[#6F6F6F] text-justify pt-[18px] lg:pt-[32px] text-sm lg:text-lg font-normal max-w-xl lg:max-w-md">
             At our store, we believe that furniture is more than just something you use — it’s what makes a house feel like a home. Every piece we create is made with care, using high-quality woods.
         </p>
+
         <div className="flex flex-row pt-[20px] lg:pt-[30px] space-x-3">
-        <img src={InstagramIcon} alt="InstagramIcon" className="w-[18px] lg:w-[24px]"/>
+        <img src={InstagramIcon} 
+        alt="InstagramIcon" 
+        className="w-[18px] lg:w-[24px]"/>
         <a 
         href="https://www.instagram.com/lulufurniture.official/" 
         className="font-dm text-[#6F6F6F] text-[12px] lg:text-[16px]"
@@ -23,8 +31,12 @@ const Footer = () => {
             Lulufurnitures.official
         </a>
         </div>
+
         <div className="flex flex-row pt-[18px] lg:pt-[25px] space-x-3">
-        <img src={MailIcon} alt="InstagramIcon" className="w-[18px] lg:w-[24px]"/>
+        <img src={MailIcon} 
+        alt="InstagramIcon" 
+        className="w-[18px] lg:w-[24px]"
+        />
         <a 
         href="mailto:officiallulufurnitures@gmail.com" 
         className="font-dm text-[#6F6F6F] text-[12px] lg:text-[16px]"
@@ -34,8 +46,9 @@ const Footer = () => {
         </div>
     </div>
 
-    <div className="flex flex-col md:flex md:flex-row md:space-x-35 lg:space-x-20">
-    <div className="flex flex-row space-x-20 md:space-x-35 lg:space-x-20">
+    <div className="flex flex-col md:flex md:flex-row md:gap-35 lg:gap-20">
+    <div className="flex flex-row gap-20 md:gap-35 lg:gap-20">
+
     <div className="flex flex-col space-y-4 lg:space-y-8 pt-[25px] lg:pt-[50px]">
         <h2 className="font-corinthia text-[#6B4C41] text-[24px] lg:text-[36px] font-bold">
             Explore
@@ -89,11 +102,12 @@ const Footer = () => {
             Hosur - 635109.
         </h4>
         <section>
-            <GoogleReviewsMap/>
+            <GoogleMaps/>
         </section>
     </div>
     </div>
 
+    </div>
     </div>
   )
 }

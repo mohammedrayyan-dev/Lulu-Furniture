@@ -1,5 +1,6 @@
 import Navbar from "/src/components/Navbar.jsx"
-import HeroBanner from "/src/assets/images/icons/ui/banners/HeroBanner.png"
+import HeroBanner from "/src/assets/images/icons/ui/banners/HeroBanner.webp"
+import MobileView from "/src/assets/images/icons/ui/banners/MobileViewHeroBanner.webp"
 import WhatMakesUsDifferent from "/src/components/WhatMakesUsDifferent.jsx"
 import MadeForYou from "../components/MadeForYou.jsx"
 import OurCollections from "../components/OurCollections.jsx"
@@ -7,7 +8,6 @@ import AboutUs from "../components/AboutUs"
 import Footer from "../components/Footer"
 import CustomerFeedbacks from "../components/CustomerFeedbacks.jsx"
 import { WhatsApp } from "/src/components/Whatsapp.jsx"
-import MobileView from "/src/assets/images/icons/ui/banners/MobileViewHeroBanner.png"
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 

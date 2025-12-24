@@ -1,4 +1,4 @@
-import HeroBanner3 from "/src/assets/images/ui/banners/HeroBanner3.webp"
+import HeroBanner3 from "/src/assets/images/icons/ui/banners/HeroBanner3.webp"
 
 const MadeForYou = () => {
   return (

@@ -36,10 +36,12 @@ const Home = () => {
       <h1 className="font-lato font-normal text-[#333333] text-center text-2xl md:text-5xl lg:text-6xl pt-[40px] md:pt-[70px] lg:pt-[80px]">
         Inspire. Design. Make It Yours.
       </h1>
-      <div className="hidden md:block pt-[40px] md:aspect-[18/12] lg:aspect-[13/7] max-h-[550px] md:max-w-[450px] lg:max-w-[1250px] oveflow-hidden pb-[30px]">
-      <img src={HeroBanner} alt="Hero Banner" className="h-full w-full object-cover"/>
+      <div className="hidden md:block pt-[40px] md:aspect-[4/3] lg:aspect-[16/9] lg:max-w-[1250px] oveflow-hidden pb-[30px]">
+      <img src={HeroBanner} alt="Hero Banner" className="h-full w-full"/>
       </div>
-      <img src={MobileView} alt="Hero Banner" className="block md:hidden pt-[20px] w-[350px] h-[560px]"/>
+      <div className="block md:hidden pt-[20px]">
+      <img src={MobileView} alt="Hero Banner" className="h-full w-full"/>
+      </div>
     </div>
     </div>
     </section>

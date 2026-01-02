@@ -16,7 +16,7 @@ const OurCollections = () => {
   return (
     <>
     <div className="bg-white px-5 md:px-6 lg:px-10">
-     <div className="flex flex-col max-w-7xl mx-auto">
+     <div className="flex flex-col max-w-screen-2xl mx-auto">
 
         <div className="flex flex-col">
             <div className="hidden lg:block w-full mb-10 border-t border-[#33333366]" />  
@@ -29,8 +29,8 @@ const OurCollections = () => {
        
         <div
         onClick={() => navigate("/sofa")} 
-        className="flex relative cursor-pointer lg:col-start-1 lg:row-start-1 lg:row-span-2">
-            <img src={SofaLounge} alt="Sofa Lounge" className="h-[300px] w-[320px] lg:h-auto lg:w-[380px] rounded-xl"/>
+        className="flex relative cursor-pointer h-[300px] max-w-[320px] lg:h-auto lg:max-w-[400px] lg:col-start-1 lg:row-start-1 lg:row-span-2">
+            <img src={SofaLounge} alt="Sofa Lounge" className="h-full w-full rounded-xl"/>
             <div className="absolute inset-0 bg-[#00000059] hover:bg-[#00000075] rounded-xl" />
             <h3 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8">
                 SOFA <br/>
@@ -39,8 +39,8 @@ const OurCollections = () => {
         </div>
         <div 
         onClick={() => navigate("/bedcot")} 
-        className="flex relative cursor-pointer lg:col-start-2 lg:row-start-2">
-        <img src={BedCot} alt="Bed & Cot" className="h-[300px] w-[320px] lg:h-auto lg:w-[380px]  rounded-xl"/>
+        className="flex relative cursor-pointer h-[300px] max-w-[320px] lg:max-h-[420px] lg:max-w-[400px] lg:col-start-2 lg:row-start-2">
+        <img src={BedCot} alt="Bed & Cot" className="h-full w-full rounded-xl"/>
         <div className="absolute inset-0 bg-[#00000059] hover:bg-[#00000075] cursor-pointer rounded-xl" />
             <h3 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8 cursor-pointer">
                 BED & COT
@@ -48,8 +48,8 @@ const OurCollections = () => {
         </div>
         <div 
         onClick={() => navigate("/diningtable")} 
-        className="flex relative cursor-pointer lg:col-start-3 lg:row-start-2">
-        <img src={DiningTable} alt="Dinning Table" className="h-[300px] w-[320px] lg:h-auto lg:w-[380px] rounded-xl"/>
+        className="flex relative cursor-pointer h-[300px] max-w-[320px] lg:max-h-[420px] lg:max-w-[400px] lg:col-start-3 lg:row-start-2">
+        <img src={DiningTable} alt="Dinning Table" className="h-full w-full rounded-xl"/>
         <div className="absolute inset-0 bg-[#00000059] hover:bg-[#00000075] cursor-pointer rounded-xl" />
             <h3 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8 cursor-pointer">
                 DINING <br/>
@@ -58,8 +58,8 @@ const OurCollections = () => {
         </div>
         <div 
         onClick={() => navigate("/storageshelf")}
-        className="flex relative cursor-pointer lg:col-start-1 lg:row-start-3">
-        <img src={StorageShelf} alt="Storage Shelf" className="h-[300px] w-[320px] lg:h-auto lg:w-[380px] rounded-xl"/>
+        className="flex relative cursor-pointer h-[300px] max-w-[320px] lg:max-h-[420px] lg:max-w-[400px] lg:col-start-1 lg:row-start-3">
+        <img src={StorageShelf} alt="Storage Shelf" className="h-full w-full rounded-xl"/>
         <div className="absolute inset-0 bg-[#00000059] hover:bg-[#00000075] rounded-xl" />
             <h3 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8">
                 STORAGE <br/>
@@ -68,8 +68,8 @@ const OurCollections = () => {
         </div>
         <div 
         onClick={() => navigate("/tvunit")}
-        className="flex relative cursor-pointer lg:col-start-2 lg:row-start-3">
-        <img src={TvUnit} alt="Tv Unit" className="h-[300px] w-[320px] lg:h-auto lg:w-[380px] rounded-xl"/>
+        className="flex relative cursor-pointer h-[300px] max-w-[320px] lg:max-h-[420px] lg:max-w-[400px] lg:col-start-2 lg:row-start-3">
+        <img src={TvUnit} alt="Tv Unit" className="h-full w-full rounded-xl"/>
         <div className="absolute inset-0 bg-[#00000059] hover:bg-[#00000075] rounded-xl" />
             <h3 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8">
                 TV UNIT
@@ -77,8 +77,8 @@ const OurCollections = () => {
         </div>
         <div 
         onClick={() => navigate("/woodenaccessories")}
-        className="flex relative cursor-pointer lg:col-start-3 lg:row-start-3">
-        <img src={WoodenAccessories} alt="Wooden Accessories" className="h-[300px] w-[320px] lg:h-auto lg:w-[380px] rounded-xl"/>
+        className="flex relative cursor-pointer h-[300px] max-w-[320px] lg:max-h-[420px] lg:max-w-[400px] lg:col-start-3 lg:row-start-3">
+        <img src={WoodenAccessories} alt="Wooden Accessories" className="h-full w-full rounded-xl"/>
         <div className="absolute inset-0 bg-[#00000059] hover:bg-[#00000075] rounded-xl" /> 
             <h3 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8">
                 WOODEN <br/>

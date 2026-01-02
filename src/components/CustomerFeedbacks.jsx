@@ -4,7 +4,7 @@ const CustomerFeedbacks = () => {
   return (
     <>
     <div className="bg-white px-5 sm:px-6 lg:px-10">
-    <div className="flex flex-col max-w-7xl mx-auto">
+    <div className="flex flex-col max-w-screen-2xl mx-auto">
       <div className="hidden lg:block mb-10 border-t w-full border-[#33333366]" />
 
       {/* Text Content */}
@@ -15,7 +15,7 @@ const CustomerFeedbacks = () => {
       </div>
 
       {/* Google Review */}
-      <div className="pt-[20px] pb-[40px] max-w-sm md:max-w-4xl lg:max-w-7xl">
+      <div className="pt-[20px] pb-[40px] max-w-sm md:max-w-4xl lg:max-w-screen-2xl">
         <GoogleReviews />
       </div>
     </div>

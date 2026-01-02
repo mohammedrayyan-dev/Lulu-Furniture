@@ -31,18 +31,29 @@ const BedCot = () => {
             Bed Cot
         </h1>
     </div>
-    <div className="mb-10 mt-5 lg:mt-0 border-t border-[#33333366]" />
+    <div className="mt-5 lg:mt-0 border-t border-[#33333366]" />
 
+    <div className="mt-2 mb-10">
+    <h2 className="text-sm lg:text-xl font-md pt-[20px] text-[#5a4a42]">
+        Beds Designed for Everyday Use
+    </h2>
+    <p className="text-[#6F6F6F] text-justify pt-[20px] font-dm max-w-sm md:max-w-full lg:max-w-screen-2xl text-sm lg:text-lg">
+        A bed is one of the most important pieces of furniture in any home, and at Lulu Furniture, we design beds and cots that prioritise strength, comfort, and durability. We offer a variety of wooden bed designs, suitable for different room sizes, interior styles, and usage needs. Our beds are crafted using quality wood and solid construction methods to ensure stability and long-term support. From minimal designs to beds with storage options, we provide multiple design choices that balance functionality with a clean, timeless look. Each bed is built to feel sturdy and dependable, supporting everyday use without compromise.
+    </p>
+    <p className="text-[#6F6F6F] text-justify pt-[20px] font-dm max-w-sm md:max-w-full lg:max-w-screen-2xl text-sm lg:text-lg">
+        We understand that bedroom requirements vary from home to home. That’s why we offer flexibility in design, size, and layout. Whether you need a compact cot, a standard bed, or a design that includes additional storage, we help create solutions that fit naturally into your space. Comfort, structure, and thoughtful design come together in every bed we make. Our goal is to provide beds that feel solid, comfortable, and suited to long-term use — furniture that supports rest and everyday living.
+    </p>
+    </div>
     
     <div className="flex flex-col items-center px-5 sm:px-6 lg:px-15 space-y-6 lg:space-y-10">
 
         {BedCollections.map((item) => (
-        <div className="relative aspect-[18/7] lg:aspect-[25/6] max-w-[1200px]">
+        <div className="relative aspect-[12/5] lg:aspect-[25/6] w-[320px] lg:w-full">
         <img src={item.image} alt={item.alt} className="h-full w-full object-cover rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl" />
-        <h2 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
+        <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
             {item.name}
-        </h2>
+        </h3>
         </div>
         ))}
         

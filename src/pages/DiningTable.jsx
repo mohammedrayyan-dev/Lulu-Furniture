@@ -29,17 +29,29 @@ const DiningTable = () => {
             Dining Table
         </h1>
     </div>
-    <div className="mb-10 mt-5 lg:mt-0 border-t border-[#33333366]"></div>
+    <div className="mt-5 lg:mt-0 border-t border-[#33333366]" />
+
+    <div className="mt-2 mb-10">
+    <h2 className="text-sm lg:text-xl font-md pt-[20px] text-[#5a4a42]">
+        Dining Tables Made for Everyday Use
+    </h2>
+    <p className="text-[#6F6F6F] text-justify pt-[20px] font-dm max-w-sm md:max-w-full lg:max-w-screen-2xl text-sm lg:text-lg">
+        The dining table is where daily routines and shared moments come together. At Lulu Furniture, we design wooden dining tables in various designs, focusing on strength, balance, and comfort. Our dining tables are made for everyday use, whether it’s quick meals or longer family gatherings. We offer dining tables in different sizes, shapes, and design styles to suit both compact and spacious dining areas. Each table is crafted with attention to proportion, leg placement, and surface finish, ensuring stability and ease of use. Our designs focus on practicality without sacrificing visual appeal.
+    </p>
+    <p className="text-[#6F6F6F] text-justify pt-[20px] font-dm max-w-sm md:max-w-full lg:max-w-screen-2xl text-sm lg:text-lg">
+        Customization allows you to choose a dining table that fits your space and seating needs. From simple designs to more detailed wooden finishes, we provide options that blend naturally with your home interiors. Built with quality materials and solid construction, our dining tables are designed to last and remain reliable over time. They are made to feel comfortable, functional, and suited for everyday family life.
+    </p>
+    </div>
 
     <div className="flex flex-col items-center px-5 sm:px-6 lg:px-15 space-y-6 lg:space-y-10">
 
         {DiningTableCollections.map((item) => (
-        <div className="relative aspect-[18/7] lg:aspect-[25/6] max-w-[1200px]">
+        <div className="relative aspect-[12/5] lg:aspect-[25/6] w-[320px] lg:w-full">
         <img src={item.image} alt={item.alt} className="h-full w-full object-cover rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl" />
-        <h2 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
+        <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
             {item.name}
-        </h2>
+        </h3>
         </div>
         ))}
         

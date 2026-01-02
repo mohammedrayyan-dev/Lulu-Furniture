@@ -63,7 +63,7 @@ const Navbar = () => {
       <img src={HamBurgerMenu}
       alt="Menu"
       onClick={() => setIsOpen(!isOpen)}
-      className="w-[24px] lg:hidden" />
+      className="w-[22px] lg:hidden" />
     { isOpen && (
     <div className="absolute lg:hidden top-full right-0 pt-[12px] flex flex-col md:pl-[65px] gap-2 bg-[#FFFFFF66] text-[16px] backdrop-blur-sm mt-[20px] h-[152px] w-[124px] md:w-[200px] rounded-xl font-sans text-[#333333] px-[20px] py-[140x] font-semibold">
     <a href="/">

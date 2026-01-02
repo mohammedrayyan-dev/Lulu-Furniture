@@ -31,17 +31,29 @@ const WoodenAccessories = () => {
             Wooden Accessories
         </h1>
     </div>
-    <div className="mb-10 mt-5 lg:mt-0 border-t border-[#33333366]"></div>
+    <div className="mt-5 lg:mt-0 border-t border-[#33333366]" />
+
+    <div className="mt-2 mb-10">
+    <h2 className="text-sm lg:text-xl font-md pt-[20px] text-[#5a4a42]">
+        Subtle Wooden Accents for Your Home
+    </h2>
+    <p className="text-[#6F6F6F] text-justify pt-[20px] font-dm max-w-sm md:max-w-full lg:max-w-screen-2xl text-sm lg:text-lg">
+        Wooden accessories add warmth and character to a home through small but meaningful details. At Lulu Furniture, we offer wooden accessories in various designs, crafted to complement different interior styles without overwhelming the space. Our accessories are designed to be both functional and decorative, made with care and attention to finish. From subtle accents to practical wooden pieces, each item is created to blend naturally into your home environment.
+    </p>
+    <p className="text-[#6F6F6F] text-justify pt-[20px] font-dm max-w-sm md:max-w-full lg:max-w-screen-2xl text-sm lg:text-lg">
+        We focus on clean design, smooth finishing, and quality materials, ensuring each accessory feels refined and purposeful. These pieces are ideal for adding a touch of wood to shelves, tables, and living spaces. Thoughtfully made and easy to integrate, our wooden accessories help bring warmth and balance to everyday interiors.
+    </p>
+    </div>
 
     <div className="flex flex-col items-center px-5 sm:px-6 lg:px-15 space-y-6 lg:space-y-10">
 
         {WoodenAccessoriesCollections.map((item) => (
-        <div className="relative aspect-[18/7] lg:aspect-[25/6] max-w-[1200px]">
+        <div className="relative aspect-[12/5] lg:aspect-[25/6] w-[320px] lg:w-full">
         <img src={item.image} alt={item.alt} className="h-full w-full object-cover rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl" />
-        <h2 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
+        <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
             {item.name} 
-        </h2>
+        </h3>
         </div>
         ))}
 

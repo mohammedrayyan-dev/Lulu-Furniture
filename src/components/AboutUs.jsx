@@ -13,8 +13,11 @@ const AboutUs = () => {
             About us
         </h2>
 
-        <p className="font-dm text-justify pt-[15px] lg:pt-[40px] max-w-sm md:max-w-full lg:max-w-screen-2xl text-[#6F6F6F] text-sm lg:text-lg">
-            At our store, we believe that furniture is more than just something you use it’s what makes a house feel like a home. Every piece we create is made with care, using high-quality woods such as teak, rubber wood, and neem wood, known for their strength, durability, and natural beauty. Our skilled craftsmen combine traditional techniques with modern design to make furniture that is both stylish and long-lasting.
+        <p className="font-dm text-justify pt-[10px] lg:pt-[40px] max-w-sm md:max-w-full lg:max-w-screen-2xl text-[#6F6F6F] text-xs lg:text-lg">
+          Lulu Furniture was built on a simple belief — good furniture should be made properly and last for years. We focus on solid materials, skilled workmanship, and thoughtful design, rather than shortcuts or mass production. Based in Hosur, we work closely with customers who value durability, comfort, and honesty. From sourcing quality wood to crafting each piece with care, every step is handled with attention and responsibility. We believe furniture should feel dependable in everyday life, not just look good on the first day.
+        </p>
+        <p className="font-dm text-justify pt-[10px] lg:pt-[40px] max-w-sm md:max-w-full lg:max-w-screen-2xl text-[#6F6F6F] text-xs lg:text-lg">
+          Our work is shaped by experience and a clear understanding of how homes are actually used. Instead of following trends, we focus on building furniture that fits naturally into different spaces and lifestyles. Whether it’s a single piece or furniture for an entire home, we approach every project with the same level of care. What matters most to us is trust. Clear communication, honest pricing, and consistent quality are at the core of how we work. When you choose Lulu Furniture, you’re choosing craftsmanship, reliability, and furniture made to stand the test of time.
         </p>
       </div>
 

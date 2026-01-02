@@ -16,7 +16,7 @@ const Footer = () => {
         alt="Lulu Logo" 
         className="w-[64px] lg:w-[98px]"
         />
-        <p className="text-[#6F6F6F] text-justify pt-[18px] lg:pt-[32px] text-sm lg:text-lg font-normal max-w-xl md:max-w-full lg:max-w-md">
+        <p className="text-[#6F6F6F] text-justify pt-[18px] lg:pt-[32px] text-xs lg:text-lg font-normal max-w-xl md:max-w-full lg:max-w-md">
             At our store, we believe that furniture is more than just something you use — it’s what makes a house feel like a home. Every piece we create is made with care, using high-quality woods.
         </p>
 
@@ -26,7 +26,7 @@ const Footer = () => {
         className="w-[18px] lg:w-[24px]"/>
         <a 
         href="https://www.instagram.com/lulufurniture.official/" 
-        className="font-dm text-[#6F6F6F] text-[12px] lg:text-[16px]"
+        className="font-dm text-[#6F6F6F] text-xs lg:text-lg"
         target="_blank"> 
             Lulufurnitures.official
         </a>
@@ -39,7 +39,7 @@ const Footer = () => {
         />
         <a 
         href="mailto:officiallulufurnitures@gmail.com" 
-        className="font-dm text-[#6F6F6F] text-[12px] lg:text-[16px]"
+        className="font-dm text-[#6F6F6F] text-xs lg:text-lg"
         target="_blank"> 
             officiallulufurnitures@gmail.com
         </a>
@@ -51,54 +51,54 @@ const Footer = () => {
     
     {/* Explore */}
     <div className="flex flex-col space-y-4 lg:space-y-8 lg:pt-[50px]">
-        <h2 className="font-corinthia text-[#6B4C41] text-[24px] lg:text-[36px] font-bold">
+        <h2 className="font-corinthia text-[#6B4C41] text-2xl lg:text-4xl font-bold">
             Explore
         </h2>
-        <Link to="/" className="font-dm text-[#6F6F6F] text-[14px] lg:text-[18px]">
+        <Link to="/" className="font-dm text-[#6F6F6F] text-xs lg:text-lg">
             Home
         </Link>
-        <Link to="/#products" className="font-dm text-[#6F6F6F] text-[14px] lg:text-[18px]">
+        <Link to="/#products" className="font-dm text-[#6F6F6F] text-xs lg:text-lg">
             Products
         </Link>
-        <Link to="/#feedback" className="font-dm text-[#6F6F6F] text-[14px] lg:text-[18px]">
+        <Link to="/#feedback" className="font-dm text-[#6F6F6F] text-xs lg:text-lg">
             Feedback
         </Link>
-        <Link to="/#aboutus" className="font-dm text-[#6F6F6F] text-[14px] lg:text-[18px]">
+        <Link to="/#aboutus" className="font-dm text-[#6F6F6F] text-xs lg:text-lg">
             About us
         </Link>
     </div>
 
     {/* Knowledge */}
     <div className="flex flex-col space-y-4 lg:space-y-8 lg:pt-[50px]">
-        <h2 className="font-corinthia text-[#6B4C41] text-[24px] lg:text-[36px] font-bold">
+        <h2 className="font-corinthia text-[#6B4C41] text-2xl lg:text-4xl font-bold">
             Knowledge
         </h2>
-        <Link to="/" className="font-dm text-[#6F6F6F] text-[14px] lg:text-[18px]">
+        <Link to="/" className="font-dm text-[#6F6F6F] text-xs lg:text-lg">
             FAQ
         </Link>
-        <Link to="/" className="font-dm text-[#6F6F6F] text-[14px] lg:text-[18px]">
+        <Link to="/" className="font-dm text-[#6F6F6F] text-xs lg:text-lg">
             Return Policy
         </Link>
-        <Link to="/" className="font-dm text-[#6F6F6F] text-[14px] lg:text-[18px]">
+        <Link to="/" className="font-dm text-[#6F6F6F] text-xs lg:text-lg">
             EMI
         </Link>
     </div>
     </div>
 
     <div className="flex flex-col space-y-4 lg:space-y-8 pt-[30px] md:pt-[0px] lg:pt-[50px]">
-        <h2 className="font-corinthia text-[#6B4C41] text-[24px] lg:text-[36px] font-bold">
+        <h2 className="font-corinthia text-[#6B4C41] text-2xl lg:text-4xl font-bold">
             Contact
         </h2>
         <div className="flex">
         <a
         href="https://wa.me/918220137877"
         target="_blank">
-        <button className="bg-[#6B4C41] hover:bg-[#553C34] font-semibold font-dm text-[12px] lg:text-[14px] text-[#ffffff] rounded-3xl w-[130px] lg:w-[160px] h-[48px] cursor-pointer">
+        <button className="bg-[#6B4C41] hover:bg-[#553C34] font-semibold font-dm text-xs lg:text-md text-[#ffffff] rounded-3xl w-[160px] lg:w-[160px] h-[48px] cursor-pointer">
             Customer Support
         </button>
         </a>
         </div>
-        <h4 className="font-dm text-[#6F6F6F] max-w-md lg:max-w-xs text-[14px] lg:text-[18px]">
+        <h4 className="font-dm text-[#6F6F6F] max-w-md lg:max-w-xs text-xs lg:text-lg">
             2nd Street, Nanjundeshwar Nagar, <br/>
             Near Ashok Pillor, <br/>
             Hosur - 635109.

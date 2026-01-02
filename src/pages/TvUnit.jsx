@@ -27,17 +27,29 @@ const TvUnit = () => {
             Tv Unit
         </h1>
     </div>
-    <div className="mb-10 mt-5 lg:mt-0 border-t border-[#33333366]" />
+    <div className="mt-5 lg:mt-0 border-t border-[#33333366]" />
+
+    <div className="mt-2 mb-10">
+    <h2 className="text-sm lg:text-xl font-md pt-[20px] text-[#5a4a42]">
+        Clean and Practical TV Unit Designs
+    </h2>
+    <p className="text-[#6F6F6F] text-justify pt-[20px] font-dm max-w-sm md:max-w-full lg:max-w-screen-2xl text-sm lg:text-lg">
+        A TV unit should do more than hold a screen — it should help organise your living space. At Lulu Furniture, we design wooden TV units in various designs, focusing on layout, storage, and everyday usability. Our TV units are built with thoughtful compartments for devices, cables, and accessories, helping keep your space neat and functional. We offer different design styles, from simple and minimal to more detailed wooden units, depending on your preference and room layout.
+    </p>
+    <p className="text-[#6F6F6F] text-justify pt-[20px] font-dm max-w-sm md:max-w-full lg:max-w-screen-2xl text-sm lg:text-lg">
+        Each TV unit is designed to feel stable, balanced, and visually clean. Proper ventilation, strong structure, and practical storage are key considerations in every design. With flexible sizing and design options, our TV units are made to fit naturally into different living areas, offering a reliable and organised setup for everyday use.
+    </p>
+    </div>
 
     <div className="flex flex-col items-center px-5 sm:px-6 lg:px-15 space-y-6 lg:space-y-10">
 
         {TvUnitCollections.map((item) => (
-        <div className="relative aspect-[18/7] lg:aspect-[25/6] max-w-[1200px]">
+        <div className="relative aspect-[12/5] lg:aspect-[25/6] w-[320px] lg:w-full">
         <img src={item.image} alt={item.alt} className="h-full w-full object-cover rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl" />
-        <h2 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
+        <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
             {item.name}
-        </h2>
+        </h3>
         </div>
         ))}
         

@@ -36,7 +36,7 @@ const Home = () => {
       <h1 className="font-lato font-normal text-[#333333] text-center text-2xl md:text-5xl lg:text-6xl pt-[40px] md:pt-[70px] lg:pt-[80px]">
         Inspire. Design. Make It Yours.
       </h1>
-      <div className="hidden md:block pt-[40px] md:aspect-[4/3] lg:aspect-[15/7] lg:max-w-[1250px] oveflow-hidden pb-[30px]">
+      <div className="hidden md:block pt-[35px] aspect-[16/9] max-h-[650px] lg:max-w-[1250px] pb-[30px]">
       <img src={HeroBanner} alt="Hero Banner" className="h-full w-full"/>
       </div>
       <div className="block md:hidden pt-[20px]">

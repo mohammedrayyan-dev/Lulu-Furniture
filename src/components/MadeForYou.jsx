@@ -24,13 +24,13 @@ const MadeForYou = () => {
       Every piece we create is thoughtfully made to suit how you live and use your space. No generic designs or one-size-fits-all solutions — just furniture that fits naturally into your home. From the initial discussion to the final installation, we make sure the result feels personal, intentional, and truly yours.
     </p>
     <button 
-    className="hidden md:block bg-[#6B4C41] hover:bg-[#553C34] mt-[20px] font-semibold font-dm text-[12px] lg:text-[14px] text-[#ffffff] rounded-lg w-[130px] lg:w-[220px] h-[48px] cursor-pointer"
+    className="hidden md:block bg-[#6B4C41] hover:bg-[#553C34] mt-[20px] font-semibold font-dm text-[12px] lg:text-[14px] text-[#ffffff] rounded-lg w-[130px] md:w-[180px] lg:w-[220px] h-[48px] cursor-pointer"
     onClick={() => window.open("https://maps.app.goo.gl/spwoasBbUh7aSXJeA", "_blank")}>
       Visit our showroom in Hosur
     </button>
   </div>
 
-  <div className="mx-auto pt-[30px] lg:pt-[0px] aspect-[1/1] max-w-full lg:max-w-[800px]">
+  <div className="mx-auto pt-[15px] lg:pt-[0px]  max-w-full lg:max-w-[800px]">
     <img src={HeroBanner3} alt="Hero Banner" className="w-full h-full rounded-lg" />
   </div>
 

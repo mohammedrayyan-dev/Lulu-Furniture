@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
     </div>
 
-    <div className="flex flex-col md:flex md:flex-row  md:gap-35 lg:gap-20">
+    <div className="flex flex-col md:flex md:flex-row md:gap-35 lg:gap-20">
     <div className="flex flex-row gap-25 md:gap-35 lg:gap-20">
     
     {/* Explore */}

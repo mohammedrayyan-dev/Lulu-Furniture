@@ -25,7 +25,7 @@ const OurCollections = () => {
             </h2>
         </div>
 
-        <div className="mt-[10px] mx-auto lg:mt-[40px] grid md:grid-cols-2 lg:grid-cols-3 lg:auto-rows-[290px] gap-6 lg:gap-8 mb-[40px] lg:mb-[100px]">
+        <div className="mx-auto mt-[10px] md:mt-[20px] lg:mt-[40px] grid md:grid-cols-2 lg:grid-cols-3 lg:auto-rows-[290px] gap-6 lg:gap-8 mb-[40px] lg:mb-[100px]">
        
         <div
         onClick={() => navigate("/sofa")} 

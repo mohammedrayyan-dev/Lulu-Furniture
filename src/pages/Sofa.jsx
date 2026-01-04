@@ -26,7 +26,7 @@ const Sofa = () => {
     <WhatsApp />
     
     {/* Sofa */}
-    <div className="bg-[#FFFFFF] mt-5 lg:mt-10 mx-5 md:mx-10 lg:mx-15">
+    <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">
     <div className="flex flex-row items-center space-x-4">
         <a href="/">
         <img src={BackArrow} alt="Back Arrow" onClick={"/"} className="w-[24px] lg:w-[28px] cursor-pointer" />
@@ -49,10 +49,10 @@ const Sofa = () => {
     </p>
     </div>
 
-    <div className="flex flex-col items-center px-5 sm:px-6 lg:px-15 space-y-6 lg:space-y-10">
+    <div className="flex flex-col items-center space-y-6 lg:space-y-10">
 
         {SofaCollections.map((item) => (
-        <div className="relative aspect-[12/5] md:aspect-[25/6] lg:aspect-[25/6] w-[320px] md:w-full lg:w-full">
+        <div className="relative aspect-[12/5] md:aspect-[25/6] lg:aspect-[25/6] w-full">
         <img src={item.image} alt={item.alt} className="h-full w-full object-cover rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl" />
         <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">

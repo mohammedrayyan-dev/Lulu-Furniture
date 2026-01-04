@@ -3,7 +3,7 @@ import GoogleReviews from "/src/components/GoogleReviews.jsx"
 const CustomerFeedbacks = () => {
   return (
     <>
-    <div className="bg-white px-5 sm:px-6 lg:px-10">
+    <div className="bg-white mx-5 sm:mx-6 lg:mx-10">
     <div className="flex flex-col max-w-screen-2xl mx-auto">
       <div className="hidden lg:block mb-10 border-t w-full border-[#33333366]" />
 

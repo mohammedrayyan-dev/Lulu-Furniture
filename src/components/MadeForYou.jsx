@@ -3,7 +3,7 @@ import HeroBanner3 from "/src/assets/images/ui/banners/HeroBanner3.webp"
 const MadeForYou = () => {
   return (
     <>
-    <div className="bg-white px-5 sm:px-6 lg:px-10">
+    <div className="bg-white mx-5 sm:mx-6 lg:mx-10">
     <div className="grid grid-cols-1 md:grid-cols-2 max-w-screen-2xl mx-auto lg:mt-[50px] lg:mb-[50px] justify-center md:flex-row lg:flex-row md:gap-4 lg:gap-10 py-8 lg:py-0">
 
   <div className="flex flex-col space-y-4 lg:space-y-6">

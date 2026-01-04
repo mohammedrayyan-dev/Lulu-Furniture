@@ -7,7 +7,7 @@ import GoogleMaps from "./GoogleMaps"
 const Footer = () => {
 
   return (
-    <div className="bg-[#DBD1C7] px-5 sm:px-6 lg:px-10">
+    <div className="bg-[#DBD1C7] mx-5 sm:mx-6 lg:mx-10">
     <div className="h-[auto] pb-[40px] lg:h-[auto] lg:max-w-screen-2xl mt-[40px] lg:mt-[90px] flex flex-col lg:flex-row justify-center gap-10 lg:gap-20">
     
     {/* Lulu Furntirue Info */}
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
     </div>
 
-    <div className="flex flex-col md:flex md:flex-row md:gap-35 lg:gap-20">
+    <div className="flex flex-col md:flex md:flex-row md:mx-auto md:gap-35 lg:gap-20">
     <div className="flex flex-row gap-25 md:gap-35 lg:gap-20">
     
     {/* Explore */}

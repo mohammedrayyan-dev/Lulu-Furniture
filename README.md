@@ -48,8 +48,8 @@ This project was created for a real client and is included in my portfolio to sh
 
 ### 📱 Mobile & Tablet Views
 <p align="center">
-  <img src="/.github/assets/MobileView.png" width="30%" />
-  <img src="/.github/assets/TabletView.png" width="40%" />
+  <img src="/.github/assets/MobileView.png" alt="Mobile View" width="30%" />
+  <img src="/.github/assets/TabletView.png" alt="Tablet View" width="40%" />
 </p>
 ![Uploading mobile.png…]()
 

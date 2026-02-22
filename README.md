@@ -108,7 +108,7 @@ Your app will be available at: <br/>
   
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 **Mohammed Rayyan** <br/>
 Frontend / Web Developer

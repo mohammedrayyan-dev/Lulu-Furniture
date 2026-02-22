@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <div className="bg-[#DBD1C7] px-5 sm:px-6 lg:px-10">
-    <div className="h-[auto] pb-[40px] lg:h-[auto] lg:max-w-screen-2xl mt-[40px] lg:mt-[90px] flex flex-col lg:flex-row justify-center gap-10 lg:gap-20">
+    <div className="h-[auto] pb-[40px] lg:h-[auto] lg:max-w-screen-2xl mt-[40px] lg:mt-[90px] flex flex-col md:flex-row lg:flex-row justify-center gap-10 md:gap-15 lg:gap-20">
     
     {/* Lulu Furntirue Info */}
     <div className="pt-[25px] lg:pt-[50px]">
@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="flex flex-row pt-[20px] lg:pt-[30px] space-x-3">
         <img src={InstagramIcon} 
         alt="InstagramIcon" 
-        className="w-[18px] lg:w-[24px]"/>
+        className="w-[18px] lg:w-[24px] object-contain"/>
         <a 
         href="https://www.instagram.com/lulufurniture.official/" 
         className="font-dm text-[#6F6F6F] text-xs lg:text-lg"
@@ -35,7 +35,7 @@ const Footer = () => {
         <div className="flex flex-row pt-[18px] lg:pt-[25px] space-x-3">
         <img src={MailIcon} 
         alt="InstagramIcon" 
-        className="w-[18px] lg:w-[24px]"
+        className="w-[18px] lg:w-[24px] object-contain"
         />
         <a 
         href="mailto:officiallulufurnitures@gmail.com" 
@@ -46,11 +46,10 @@ const Footer = () => {
         </div>
     </div>
 
-    <div className="flex flex-col md:flex md:flex-row md:mx-auto md:gap-35 lg:gap-20">
-    <div className="flex flex-row gap-25 md:gap-35 lg:gap-20">
+    <div className="flex flex-row gap-10 md:gap-15 lg:gap-20">
     
     {/* Explore */}
-    <div className="flex flex-col space-y-4 lg:space-y-8 lg:pt-[50px]">
+    <div className="flex flex-col space-y-4 lg:space-y-8 md:pt-[25px] lg:pt-[50px]">
         <h2 className="font-corinthia text-[#6B4C41] text-2xl lg:text-4xl font-bold">
             Explore
         </h2>
@@ -68,24 +67,7 @@ const Footer = () => {
         </Link>
     </div>
 
-    {/* Knowledge */}
-    <div className="flex flex-col space-y-4 lg:space-y-8 lg:pt-[50px]">
-        <h2 className="font-corinthia text-[#6B4C41] text-2xl lg:text-4xl font-bold">
-            Knowledge
-        </h2>
-        <Link to="/" className="font-dm text-[#6F6F6F] text-xs lg:text-lg">
-            FAQ
-        </Link>
-        <Link to="/" className="font-dm text-[#6F6F6F] text-xs lg:text-lg">
-            Return Policy
-        </Link>
-        <Link to="/" className="font-dm text-[#6F6F6F] text-xs lg:text-lg">
-            EMI
-        </Link>
-    </div>
-    </div>
-
-    <div className="flex flex-col space-y-4 lg:space-y-8 pt-[30px] md:pt-[0px] lg:pt-[50px]">
+    <div className="flex flex-col space-y-4 lg:space-y-8 pt-[0px] md:pt-[25px] lg:pt-[50px]">
         <h2 className="font-corinthia text-[#6B4C41] text-2xl lg:text-4xl font-bold">
             Contact
         </h2>
@@ -93,7 +75,7 @@ const Footer = () => {
         <a
         href="https://wa.me/918220137877"
         target="_blank">
-        <button className="bg-[#6B4C41] hover:bg-[#553C34] font-semibold font-dm text-xs lg:text-md text-[#ffffff] rounded-3xl w-[160px] lg:w-[160px] h-[48px] cursor-pointer">
+        <button className="bg-[#6B4C41] hover:bg-[#553C34] font-semibold font-dm text-xs lg:text-md text-[#ffffff] rounded-3xl w-[140px] lg:w-[160px] h-[48px] cursor-pointer">
             Customer Support
         </button>
         </a>

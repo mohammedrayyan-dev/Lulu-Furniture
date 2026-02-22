@@ -3,18 +3,19 @@ import InstagramIcon from "/src/assets/images/icons/InstagramIcon.png"
 import MailIcon from "/src/assets/images/icons/MailIcon.png"
 import { Link } from "react-router-dom"
 import GoogleMaps from "./GoogleMaps"
+import BajajIcon from "/src/assets/images/icons/BajajFinanceIcon.png"
 
 const Footer = () => {
 
   return (
     <div className="bg-[#DBD1C7] px-5 sm:px-6 lg:px-10">
-    <div className="h-[auto] pb-[40px] lg:h-[auto] lg:max-w-screen-2xl mt-[40px] lg:mt-[90px] flex flex-col md:flex-row lg:flex-row justify-center gap-10 md:gap-15 lg:gap-20">
+    <div className="h-[auto] pb-[40px] lg:h-[auto] lg:max-w-screen-2xl mt-[40px] lg:mt-[90px] flex flex-col md:flex-row lg:flex-row justify-between gap-10 md:gap-15 lg:gap-20">
     
     {/* Lulu Furntirue Info */}
     <div className="pt-[25px] lg:pt-[50px]">
         <img src={LuluLogo} 
         alt="Lulu Logo" 
-        className="w-[64px] lg:w-[98px]"
+        className="w-[64px] lg:w-[98px] object-contain"
         />
         <p className="text-[#6F6F6F] text-justify pt-[18px] lg:pt-[32px] text-xs lg:text-lg font-normal max-w-xl md:max-w-full lg:max-w-md">
             At our store, we believe that furniture is more than just something you use — it’s what makes a house feel like a home. Every piece we create is made with care, using high-quality woods.
@@ -22,47 +23,50 @@ const Footer = () => {
 
         <div className="flex flex-row pt-[20px] lg:pt-[30px] space-x-3">
         <img src={InstagramIcon} 
-        alt="InstagramIcon" 
+        alt="Instagram Icon" 
         className="w-[18px] lg:w-[24px] object-contain"/>
         <a 
         href="https://www.instagram.com/lulufurniture.official/" 
-        className="font-dm text-[#6F6F6F] text-xs lg:text-lg"
+        className="font-dm text-[#6F6F6F] hover:text-[#4d4d4d] text-xs lg:text-lg"
         target="_blank"> 
             Lulufurnitures.official
         </a>
         </div>
 
         <div className="flex flex-row pt-[18px] lg:pt-[25px] space-x-3">
-        <img src={MailIcon} 
-        alt="InstagramIcon" 
+        <img src={MailIcon}
+        alt="Mail Icon" 
         className="w-[18px] lg:w-[24px] object-contain"
         />
         <a 
         href="mailto:officiallulufurnitures@gmail.com" 
-        className="font-dm text-[#6F6F6F] text-xs lg:text-lg"
+        className="font-dm text-[#6F6F6F] hover:text-[#4d4d4d] text-xs lg:text-lg"
         target="_blank"> 
             officiallulufurnitures@gmail.com
         </a>
         </div>
+
+        <div className="mt-[20px] md:mt-[30px] h-11 w-20 lg:h-15 lg:w-40">
+        <img src={BajajIcon} alt="Bajaj Finance Icon" className="h-full w-full object-contain"/>
+        </div>
+  
     </div>
 
-    <div className="flex flex-row gap-10 md:gap-15 lg:gap-20">
-    
     {/* Explore */}
     <div className="flex flex-col space-y-4 lg:space-y-8 md:pt-[25px] lg:pt-[50px]">
         <h2 className="font-corinthia text-[#6B4C41] text-2xl lg:text-4xl font-bold">
             Explore
         </h2>
-        <Link to="/" className="font-dm text-[#6F6F6F] text-xs lg:text-lg">
+        <Link to="/" className="font-dm text-[#6F6F6F] hover:text-[#4d4d4d] text-xs lg:text-lg">
             Home
         </Link>
-        <Link to="/#products" className="font-dm text-[#6F6F6F] text-xs lg:text-lg">
+        <Link to="/#products" className="font-dm text-[#6F6F6F] hover:text-[#4d4d4d] text-xs lg:text-lg">
             Products
         </Link>
-        <Link to="/#feedback" className="font-dm text-[#6F6F6F] text-xs lg:text-lg">
+        <Link to="/#feedback" className="font-dm text-[#6F6F6F] hover:text-[#4d4d4d] text-xs lg:text-lg">
             Feedback
         </Link>
-        <Link to="/#aboutus" className="font-dm text-[#6F6F6F] text-xs lg:text-lg">
+        <Link to="/#aboutus" className="font-dm text-[#6F6F6F] hover:text-[#4d4d4d] text-xs lg:text-lg">
             About us
         </Link>
     </div>
@@ -91,7 +95,7 @@ const Footer = () => {
     </div>
     </div>
 
-    </div>
+    
     </div>
   )
 }

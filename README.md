@@ -1,80 +1,79 @@
 <p align="center">
-  <img src="/src/assets/images/icons/LulufurnitureLogo.png" alt="Lulu Furniture Logo" height="150" width="150"/>
+  <img src="/src/assets/images/icons/LulufurnitureLogo.png" alt="Lulu Furniture Logo" height="120" width="120"/>
 </p>
 
-# 🛋️ Lulu Furniture – Furniture Business Website (Client Project)
+# 🛋️ Lulu Furniture — Production React Website (Client Project)
 
-A production-ready, fully responsive furniture business website developed using **React + Vite** for a real client.
-This project was developed for a real client using **client-provided UI designs** and is included in my portfolio to demonstrate frontend engineering, responsiveness, and deployment experience.
+A production-ready, fully responsive furniture business website built with **React + Vite** for a real client.  
+This project demonstrates real-world frontend engineering: reusable component architecture, responsive design, performance optimization, and production deployment.
 
 🔗 **Live Website:** https://lulufurniture.in
 
 ---
 
-## 👨‍💻 My Role & Responsibilities
+## 👨‍💻 My Role
 
-- Implemented the complete frontend based on client-provided designs
-- Built reusable and maintainable React components
-- Ensured responsive layouts across mobile, tablet, and desktop
-- Optimized assets and layout for performance
-- Deployed the application on Vercel with custom domain and SSL
-- Tested and fixed UI issues across browsers and screen sizes
-- Improved page load performance and responsiveness across modern browsers
+- Built the complete frontend from client-provided designs  
+- Designed reusable React components used across multiple pages  
+- Implemented responsive layouts for mobile, tablet, and desktop  
+- Optimized images and layout structure to improve load performance  
+- Deployed and maintained the app on Vercel with custom domain + SSL  
+- Debugged and fixed cross-browser UI issues  
 
 ---
 
 ## 🚀 Tech Stack
 
-<p align="left">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E" />
-  <img src="https://img.shields.io/badge/TailwindCSS-0F172A?style=for-the-badge&logo=tailwind-css" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-</p>
+- React (Hooks, component-based architecture)  
+- Vite  
+- Tailwind CSS  
+- Vercel (deployment + SSL)
 
 ---
 
-## 🌟 Key Features
+## 🌟 Features
 
-- Homepage with categorized furniture sections
-- Product listing pages (sofas, beds, dining, storage, etc.)
-- Fully responsive design (mobile-first)
-- Fast build and load performance using Vite
-- Clean, reusable component architecture
-- Custom domain and SSL configuration
-- Modern, minimal UI with smooth navigation
+- Homepage with categorized furniture sections  
+- Product listing pages (sofas, beds, dining, storage)  
+- Mobile-first responsive layout  
+- Reusable component architecture  
+- Optimized image loading for better performance  
+- Deployed production website with custom domain  
 
 ---
 
-## 🧠 Challenges & Solutions
+## 🧠 Engineering Decisions
 
-- **Maintaining layout consistency across devices**  
-  Solved using a mobile-first approach with Tailwind CSS breakpoints and flexible grid layouts.
+- **Component Structure:**  
+  Organized UI into reusable components (Navbar, Footer, ProductGrid, Cards) to reduce duplication and improve maintainability.
 
-- **Handling large image assets**  
-  Optimized images and adjusted layout sizing to improve performance and loading time.
+- **Responsive Design:**  
+  Implemented mobile-first layouts using Tailwind breakpoints to ensure consistency across devices.
 
-- **Cross-browser UI issues**  
-  Tested and fixed inconsistencies using Chrome DevTools and real-device testing.
+- **Performance:**  
+  Optimized image assets and layout structure to improve page load time and Core Web Vitals.
+
+- **Cross-Browser Support:**  
+  Tested and fixed UI inconsistencies across Chrome and mobile browsers.
 
 ---
 
 ## 📸 Screenshots
 
-### 🖥️ Desktop – Home Page
+### Desktop — Home Page
 <p align="center">
   <img src="/.github/assets/DesktopHomeView.png" alt="Home Page" width="70%"/>
 </p>
 
-### 🛋️ Desktop – Product Page
+### Desktop — Product Page
 <p align="center">
   <img src="/.github/assets/DesktopProductsView.png" alt="Products Page" width="70%"/>  
 </p>
 
-### 📱 Mobile & Tablet Views
+### Mobile & Tablet
 <p align="center">
-  <img src="/.github/assets/MobileView.png" alt="Mobile View" width="30%" />
-  <img src="/.github/assets/TabletView.png" alt="Tablet View" width="40%" />
+  <img src="/.github/assets/MobileView.png" alt="Mobile View" width="28%" />
+  <img src="/.github/assets/TabletView.png" alt="Tablet View" width="38%" />
 </p>
 
 ---
@@ -82,33 +81,29 @@ This project was developed for a real client using **client-provided UI designs*
 ## ⚙️ Installation & Setup
 
 ```bash
-# Clone the repository
 git clone https://github.com/mohammedrayyan-dev/Lulu-Furniture.git
-
-# Navigate into the project folder
 cd Lulu-Furniture
-
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
-
 ```
-Your app will be available at: <br/>
-👉 http://localhost:5173
+
+Runs at: http://localhost:5173
 
 ---
 
-## 🚀 Future Improvements
+## 🔮 Future Improvements
 
-- Cart and checkout flow
-- CMS or backend integration for product management
-- Accessibility improvements (ARIA roles, keyboard navigation)
-  
+	• Product detail pages with individual item information and image galleries
+	•	Dynamic product data via backend or CMS instead of static content
+	•	Search and filter functionality for product listings
+	•	Image lazy loading and next-gen formats for better performance
+	•	Basic SEO improvements (meta tags per page, structured data)
+	•	Improved accessibility (ARIA roles, keyboard navigation)
+
 ---
 
 ## 👨‍💻 Author
 
-**Mohammed Rayyan** <br/>
-Frontend / Web Developer
+**Mohammed Rayyan**
+Frontend Engineer (React)
+

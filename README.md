@@ -83,6 +83,10 @@ Your app will be live at http://localhost:3000/
 ```bash
 
 Lulu Furniture/
+├── .github/
+│   ├── assets/
+├── dist/
+│   ├── assets/
 ├── node_modules/   
 ├── src/
 │   ├── assets/

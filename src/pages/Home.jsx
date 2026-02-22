@@ -7,7 +7,6 @@ import OurCollections from "../components/OurCollections.jsx"
 import AboutUs from "../components/AboutUs"
 import Footer from "../components/Footer"
 import CustomerFeedbacks from "../components/CustomerFeedbacks.jsx"
-import { WhatsApp } from "/src/components/Whatsapp.jsx"
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -25,8 +24,6 @@ const Home = () => {
 
   return (
     <>
-    {/* Whatsapp float */}
-    <WhatsApp />
     
     {/* Navbar + Hero section */}
     <section id="navbar">

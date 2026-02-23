@@ -4,7 +4,6 @@ import WesternBedCot from "/src/assets/images/ui/banners/products/bedcots/Wester
 import IndianBedCot from "/src/assets/images/ui/banners/products/bedcots/IndianBedCot.webp"
 import LuxuryFabricBedCot from "/src/assets/images/ui/banners/products/bedcots/LuxuryFabricBedCot.webp"
 import ChineseBedCot from "/src/assets/images/ui/banners/products/bedcots/ChineseBedCot.webp"
-import Footer from "../components/Footer.jsx"
 
 const BedCollections = [
     { name: "Baby Bed Cot", image: BabyBedCot, alt: "Baby Bed Cot Image" },
@@ -17,8 +16,6 @@ const BedCollections = [
 const BedCot = () => {
   return (
     <>
-
-    {/* Bed Cot */}
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">
     <div className="flex flex-row items-center space-x-4">
         <a href="/">
@@ -42,10 +39,8 @@ const BedCot = () => {
         </div>
         ))}
         
+    </div> 
     </div>
-    
-    </div>
-    <Footer />
     </>
   )
 }

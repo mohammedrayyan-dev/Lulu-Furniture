@@ -1,16 +1,14 @@
 import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import Traditional from "/src/assets/images/ui/banners/products/sofas/teakwoodsofa/TraditionalTeakWoodSofa.webp"
-import Modern from "/src/assets/images/ui/banners/products/sofas/teakwoodsofa/ModernTeakWoodSofa.webp"
-import Luxury from "/src/assets/images/ui/banners/products/sofas/teakwoodsofa/LuxuryTeakWoodSofa.webp"
-import Upholstery from "/src/assets/images/ui/banners/products/sofas/teakwoodsofa/TeakWoodSofawithUpholstery.webp"
-
-import Footer from "../../components/Footer"
+import ReclinerChair from "/src/assets/images/ui/banners/products/sofas/reclinersofas/recliner-chair.webp"
+import TwoSeaterReclinerSofa from "/src/assets/images/ui/banners/products/sofas/reclinersofas/2-seater-recliner-sofa.webp"
+import ThreeSeaterReclinerSofa from "/src/assets/images/ui/banners/products/sofas/reclinersofas/3-seater-recliner-sofa.webp"
+import HomeTheatreRecliner from "/src/assets/images/ui/banners/products/sofas/reclinersofas/home-theatre-recliner.webp"
 
 const SofaCollections = [
-    { name: "Recliner Chairs (Single Seater)", image: Traditional, alt: "Traditional Teak Wood Sofa Image" },
-    { name: "2 Seater Recliner Sofas", image: Modern, alt: "Modern Teak Wood Sofa Image" },
-    { name: "3 Seater Recliner Sofas", image: Luxury, alt: "Luxury Teak Wood Sofa Image" },
-    { name: "Home Theatre Recliners", image: Upholstery, alt: "Teak Wood Sofa with Upholstery Image" },
+    { name: "Recliner Chair (Single Seater)", image: ReclinerChair, alt: "Recliner Chair (Single Seater)" },
+    { name: "2 Seater Recliner Sofa", image: TwoSeaterReclinerSofa, alt: "2 Seater Recliner Sofa" },
+    { name: "3 Seater Recliner Sofa", image: ThreeSeaterReclinerSofa, alt: "3 Seater Recliner Sofa" },
+    { name: "Home Theatre Recliner", image: HomeTheatreRecliner, alt: "Home Theatre Recliner" },
 ]
 
 const ReclinerSofas = () => {
@@ -31,7 +29,7 @@ const ReclinerSofas = () => {
     <div className="flex flex-col mt-10 items-center space-y-6 lg:space-y-10">
 
         {SofaCollections.map((item) => (
-        <div className="relative max-h-[140px] md:max-h-[350px] aspect-[8/4] md:aspect-[25/6] lg:aspect-[25/6] w-full cursor-pointer">
+        <div className="relative max-h-[140px] md:max-h-[350px] aspect-[8/4] md:aspect-[25/6] lg:aspect-[25/6] w-full">
         <img src={item.image} alt={item.alt} className="h-full w-full object-cover rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl" />
         <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
@@ -42,7 +40,6 @@ const ReclinerSofas = () => {
         
     </div>
     </div>
-    <Footer />
     </>
   )
 }

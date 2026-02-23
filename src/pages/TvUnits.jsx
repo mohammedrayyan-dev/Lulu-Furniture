@@ -2,7 +2,6 @@ import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
 import TVCabinetDecor from "/src/assets/images/ui/banners/products/tvunits/TvCabinetDoor.webp"
 import TVStand from "/src/assets/images/ui/banners/products/tvunits/TvStand.webp"
 import TVUnitDesign from "/src/assets/images/ui/banners/products/tvunits/TvUnitDesign.webp"
-import Footer from "../components/Footer.jsx"
 
 const TvUnitCollections = [
     { name: "TV Cabinet Decor", image: TVCabinetDecor, alt: "TV Cabinet Decor Image" },
@@ -13,8 +12,6 @@ const TvUnitCollections = [
 const TvUnits = () => {
   return (
     <>
-
-    {/* Tv Unit */}
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">
     <div className="flex flex-row items-center space-x-4">
         <a href="/">
@@ -40,7 +37,6 @@ const TvUnits = () => {
         
     </div>
     </div>
-    <Footer />
     </>
   )
 }

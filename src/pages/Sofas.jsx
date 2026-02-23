@@ -6,17 +6,16 @@ import FabricSofa from "/src/assets/images/ui/banners/products/sofas/FabricSofa.
 import VelvetSofa from "/src/assets/images/ui/banners/products/sofas/VelvetSofa.webp"
 import ReclinerSofa from "/src/assets/images/ui/banners/products/sofas/ReclinerSofa.webp"
 import LeatherSofa from "/src/assets/images/ui/banners/products/sofas/LeatherSofa.webp"
-import Footer from "../components/Footer.jsx"
 import { useNavigate } from "react-router-dom"
 
 const SofaCollections = [
     { name: "Teak Wood Sofas", image: TeakWoodSofa, alt: "Teak Wood Sofas Image", path: "/sofas/teak-wood" },
-    { name: "Rubber Wood Sofas", image: RubberWoodSofa, alt: "Rubber Wood Sofas Image", path: "/sofas" },
-    { name: "Cushion Comfort Sofas", image: CushionComfortSofa, alt: "Cushion Comfort Sofas Image", path: "/sofas" },
-    { name: "Fabric Sofas", image: FabricSofa,  alt: "Fabric Sofas Image", path: "/sofas" },
-    { name: "Velvet Sofas", image: VelvetSofa, alt: "Velvet Sofas Image", path: "/sofas" },
-    { name: "Recliner Sofas", image: ReclinerSofa, alt: "Recliner Sofas Image", path: "/sofas" },
-    { name: "Leather / PU Sofas", image: LeatherSofa, alt: "Leather Sofas Image", path: "/sofas" } 
+    { name: "Rubber Wood Sofas", image: RubberWoodSofa, alt: "Rubber Wood Sofas Image", path: "/sofas/rubber-wood" },
+    { name: "Cushion Comfort Sofas", image: CushionComfortSofa, alt: "Cushion Comfort Sofas Image", path: "/sofas/cushion-comfort" },
+    { name: "Fabric Sofas", image: FabricSofa,  alt: "Fabric Sofas Image", path: "/sofas/fabric" },
+    { name: "Velvet Sofas", image: VelvetSofa, alt: "Velvet Sofas Image", path: "/sofas/velvet" },
+    { name: "Recliner Sofas", image: ReclinerSofa, alt: "Recliner Sofas Image", path: "/sofas/recliner" },
+    { name: "Leather / PU Sofas", image: LeatherSofa, alt: "Leather Sofas Image", path: "/sofas/leather-pu" } 
 ]
 
 const Sofa = () => {
@@ -25,7 +24,6 @@ const Sofa = () => {
 
   return (
     <>
-    
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">
     <div className="flex flex-row items-center space-x-4">
         <a href="/">
@@ -54,7 +52,6 @@ const Sofa = () => {
         
     </div>
     </div>
-    <Footer />
     </>
   )
 }

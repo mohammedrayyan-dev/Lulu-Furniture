@@ -1,15 +1,14 @@
 import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import Chesterfield from "/src/assets/images/ui/banners/products/sofas/velvetfabricsofa/ChesterfieldVelvetSofa.webp"
-import MidCenturyModern from "/src/assets/images/ui/banners/products/sofas/velvetfabricsofa/MidCenturyModernVelvetSofa.webp"
-import Tuxedo from "/src/assets/images/ui/banners/products/sofas/velvetfabricsofa/TuxedoVelvetSofa.webp"
-import LawsonStyle from "/src/assets/images/ui/banners/products/sofas/velvetfabricsofa/LawsonStyleVelvetSofa.webp"
-import Footer from "../../components/Footer"
+import VelvetSofaSet from "/src/assets/images/ui/banners/products/sofas/velvetsofas/velvet-sofa-set.webp"
+import LshapedVelvetSofa from "/src/assets/images/ui/banners/products/sofas/velvetsofas/lshaped-velvet-sofa.webp"
+import VelvetSofaCumBed from "/src/assets/images/ui/banners/products/sofas/velvetsofas/velvet-sofa-cum-bed.webp"
+import PremiumVelvetSofa from "/src/assets/images/ui/banners/products/sofas/velvetsofas/premium-velvet-sofa.webp"
 
 const SofaCollections = [
-    { name: "Velvet Sofa Sets", image: Chesterfield, alt: "Chesterfield Velvet Sofa Image" },
-    { name: "L-Shaped Velvet Sofas", image: MidCenturyModern, alt: "Mid Century Modern Velvet Sofa Image" },
-    { name: "Velvet Sofa Cum Bed", image: Tuxedo, alt: "Tuxedo Velvet Sofa Image" },
-    { name: "Premium Velvet Sofas", image: LawsonStyle,  alt: "Lawson Style Velvet Sofa Image" },
+    { name: "Velvet Sofa Set", image: VelvetSofaSet, alt: "Velvet Sofa Set" },
+    { name: "L-Shaped Velvet Sofa", image: LshapedVelvetSofa, alt: "L-Shaped Velvet Sofa" },
+    { name: "Velvet Sofa Cum Bed", image: VelvetSofaCumBed, alt: "Velvet Sofa Cum Bed" },
+    { name: "Premium Velvet Sofa", image: PremiumVelvetSofa,  alt: "Premium Velvet Sofa" },
 ]
 
 const VelvetSofas = () => {
@@ -30,7 +29,7 @@ const VelvetSofas = () => {
     <div className="flex flex-col mt-10 items-center space-y-6 lg:space-y-10">
 
         {SofaCollections.map((sofa) => (
-        <div className="relative max-h-[140px] md:max-h-[350px] aspect-[8/4] md:aspect-[25/6] lg:aspect-[25/6] w-full cursor-pointer">
+        <div className="relative max-h-[140px] md:max-h-[350px] aspect-[8/4] md:aspect-[25/6] lg:aspect-[25/6] w-full">
         <img src={sofa.image} alt={sofa.alt} className="h-full w-full object-cover rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl" />
         <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
@@ -41,7 +40,6 @@ const VelvetSofas = () => {
 
         </div>
     </div>
-    <Footer />
     </>
   )
 }

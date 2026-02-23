@@ -1,20 +1,18 @@
 import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import Traditional from "/src/assets/images/ui/banners/products/sofas/teakwoodsofa/TraditionalTeakWoodSofa.webp"
-import Modern from "/src/assets/images/ui/banners/products/sofas/teakwoodsofa/ModernTeakWoodSofa.webp"
-import Luxury from "/src/assets/images/ui/banners/products/sofas/teakwoodsofa/LuxuryTeakWoodSofa.webp"
-import Upholstery from "/src/assets/images/ui/banners/products/sofas/teakwoodsofa/TeakWoodSofawithUpholstery.webp"
-import Solid from "/src/assets/images/ui/banners/products/sofas/teakwoodsofa/SolidTeakWoodSofa.webp"
-import Sectional from "/src/assets/images/ui/banners/products/sofas/teakwoodsofa/TeakWoodSectionalSofa.webp"
-
-import Footer from "../../components/Footer"
+import FabricSofaSet from "/src/assets/images/ui/banners/products/sofas/fabricsofas/fabric-sofa-set.webp"
+import ThreeSeaterFabricSofa from "/src/assets/images/ui/banners/products/sofas/fabricsofas/three-seater-fabric-sofa.webp"
+import TwoSeaterFabricSofa from "/src/assets/images/ui/banners/products/sofas/fabricsofas/2-seater-fabric-sofa.webp"
+import LshapedFabricSofa from "/src/assets/images/ui/banners/products/sofas/fabricsofas/lshaped-fabric-sofa.webp"
+import FabricSofaCumBed from "/src/assets/images/ui/banners/products/sofas/fabricsofas/fabric-sofa-cum-bed.webp"
+import FabricSofasForSmallRoom from "/src/assets/images/ui/banners/products/sofas/fabricsofas/fabric-sofa-for-small-room.webp"
 
 const SofaCollections = [
-    { name: "Fabric Sofa Sets", image: Traditional, alt: "Traditional Teak Wood Sofa Image" },
-    { name: "3 Seater Fabric Sofas", image: Modern, alt: "Modern Teak Wood Sofa Image" },
-    { name: "2 Seater Fabric Sofas", image: Luxury, alt: "Luxury Teak Wood Sofa Image" },
-    { name: "L-Shaped Fabric Sofas", image: Upholstery, alt: "Teak Wood Sofa with Upholstery Image" },
-    { name: "Fabric Sofa Cum Bed", image: Solid, alt: "Solid Teak Wood Sofa Image" },
-    { name: "Fabric Sofas for Small Rooms", image: Sectional, alt: "Teak Wood Sectional Sofa Image" },
+    { name: "Fabric Sofa Set", image: FabricSofaSet, alt: "Fabric Sofa Set" },
+    { name: "3 Seater Fabric Sofa", image: ThreeSeaterFabricSofa, alt: "3 Seater Fabric Sofa" },
+    { name: "2 Seater Fabric Sofa", image: TwoSeaterFabricSofa, alt: "2 Seater Fabric Sofa" },
+    { name: "L-Shaped Fabric Sofa", image: LshapedFabricSofa, alt: "L-Shaped Fabric Sofa" },
+    { name: "Fabric Sofa Cum Bed", image: FabricSofaCumBed, alt: "Fabric Sofa Cum Bed" },
+    { name: "Fabric Sofa for Small Room", image: FabricSofasForSmallRoom, alt: "Fabric Sofas for Small Room" },
 ]
 
 const FabricSofas = () => {
@@ -35,7 +33,7 @@ const FabricSofas = () => {
     <div className="flex flex-col mt-10 items-center space-y-6 lg:space-y-10">
 
         {SofaCollections.map((item) => (
-        <div className="relative max-h-[140px] md:max-h-[350px] aspect-[8/4] md:aspect-[25/6] lg:aspect-[25/6] w-full cursor-pointer">
+        <div className="relative max-h-[140px] md:max-h-[350px] aspect-[8/4] md:aspect-[25/6] lg:aspect-[25/6] w-full">
         <img src={item.image} alt={item.alt} className="h-full w-full object-cover rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl" />
         <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
@@ -46,7 +44,6 @@ const FabricSofas = () => {
         
     </div>
     </div>
-    <Footer />
     </>
   )
 }

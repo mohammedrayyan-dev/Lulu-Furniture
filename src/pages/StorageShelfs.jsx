@@ -2,7 +2,6 @@ import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
 import StorageTable from "/src/assets/images/ui/banners/products/storageshelfs/StorageTable.webp"
 import DressingTable from "/src/assets/images/ui/banners/products/storageshelfs/DressingTable.webp"
 import DressCupboard from "/src/assets/images/ui/banners/products/storageshelfs/DressCupboard.webp"
-import Footer from "../components/Footer.jsx"
 
 const StorageShelfCollections = [
     { name: "Storage Table", image: StorageTable, alt: "Storage Table Image" },
@@ -13,8 +12,6 @@ const StorageShelfCollections = [
 const StorageShelfs = () => {
   return (
     <>
-
-    {/* Storage Shelfs */}
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">
     <div className="flex flex-row items-center space-x-4">
         <a href="/">
@@ -40,7 +37,6 @@ const StorageShelfs = () => {
         
     </div>
     </div>
-    <Footer />
     </>
   )
 }

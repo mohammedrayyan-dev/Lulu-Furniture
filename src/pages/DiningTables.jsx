@@ -3,7 +3,6 @@ import TeakWoodDiningTable from "/src/assets/images/ui/banners/products/diningta
 import RubberWoodDiningTable from "/src/assets/images/ui/banners/products/diningtables/RubberWoodDiningTable.webp"
 import NeemWoodDiningTable from "/src/assets/images/ui/banners/products/diningtables/NeemWoodDiningTable.webp"
 import CoffeeTable from "/src/assets/images/ui/banners/products/diningtables/CoffeeTable.webp"
-import Footer from "../components/Footer.jsx"
 
 const DiningTableCollections = [
     { name: "Teak Wood Dining Table", image: TeakWoodDiningTable, alt: "Teak Wood Dining Table Image" },
@@ -15,8 +14,6 @@ const DiningTableCollections = [
 const DiningTables = () => {
   return (
     <>
-
-    {/* Dining Table */}
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">
     <div className="flex flex-row items-center space-x-4">
         <a href="/">
@@ -42,7 +39,6 @@ const DiningTables = () => {
         
     </div>
     </div>
-    <Footer />
     </>
   )
 }

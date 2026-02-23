@@ -17,6 +17,7 @@ import ReclinerSofas from "./pages/sofas/ReclinerSofas.jsx"
 import LeatherSofas from "./pages/sofas/LeatherSofas.jsx"
 import './App.css'
 import FloatingBanners from './components/FloatingBanners.jsx'
+import Footer from "/src/components/Footer.jsx"
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
       <Route path="/sofas/recliner" element={<ReclinerSofas/>}/>
       <Route path="/sofas/leather-pu" element={<LeatherSofas/>}/>
     </Routes>
+    <Footer />
     </>
   )
 }

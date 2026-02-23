@@ -62,18 +62,18 @@ This project demonstrates real-world frontend engineering: reusable component ar
 
 ### Desktop — Home Page
 <p align="center">
-  <img src="/.github/assets/DesktopHomeView.png" alt="Home Page" width="70%"/>
+  <img src="/.github/assets/desktop-view-1.png" alt="Home Page" width="70%"/>
 </p>
 
 ### Desktop — Product Page
 <p align="center">
-  <img src="/.github/assets/DesktopProductsView.png" alt="Products Page" width="70%"/>  
+  <img src="/.github/assets/desktop-view-2.png" alt="Products Page" width="70%"/>  
 </p>
 
 ### Mobile & Tablet
 <p align="center">
-  <img src="/.github/assets/MobileView.png" alt="Mobile View" width="28%" />
-  <img src="/.github/assets/TabletView.png" alt="Tablet View" width="38%" />
+  <img src="/.github/assets/mobile-view.png" alt="Mobile View" width="28%" />
+  <img src="/.github/assets/tablet-view.png" alt="Tablet View" width="38%" />
 </p>
 
 ---

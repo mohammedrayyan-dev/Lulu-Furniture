@@ -5,7 +5,6 @@ import KidsBerows from "/src/assets/images/ui/banners/products/berows/kids-berow
 import SmallRoomPGBerows from "/src/assets/images/ui/banners/products/berows/small-room-pg-berows.webp"
 import HeavyDutyBerows from "/src/assets/images/ui/banners/products/berows/heavy-duty-berows.webp"
 import RustProofBerows from "/src/assets/images/ui/banners/products/berows/rust-proof-berows.webp"
-import Footer from "../components/Footer.jsx"
 import { useNavigate } from "react-router-dom"
 
 const SofaCollections = [
@@ -23,7 +22,6 @@ const Berows = () => {
 
   return (
     <>
-    
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">
     <div className="flex flex-row items-center space-x-4">
         <a href="/">
@@ -52,7 +50,6 @@ const Berows = () => {
         
     </div>
     </div>
-    <Footer />
     </>
   )
 }

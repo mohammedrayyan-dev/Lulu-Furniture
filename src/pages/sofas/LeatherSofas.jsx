@@ -1,15 +1,14 @@
 import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import Modern from "/src/assets/images/ui/banners/products/sofas/teakwoodsofa/ModernTeakWoodSofa.webp"
-import Luxury from "/src/assets/images/ui/banners/products/sofas/teakwoodsofa/LuxuryTeakWoodSofa.webp"
-import Upholstery from "/src/assets/images/ui/banners/products/sofas/teakwoodsofa/TeakWoodSofawithUpholstery.webp"
-
-import Footer from "../../components/Footer"
+import LeatherPUSofaSet from "/src/assets/images/ui/banners/products/sofas/leathersofas/leather-pu-sofa-set.webp"
+import LshapedLeatherPUSofa from "/src/assets/images/ui/banners/products/sofas/leathersofas/lshaped-leather-pu-sofa.webp"
+import LeatherPUSofaCumBed from "/src/assets/images/ui/banners/products/sofas/leathersofas/leather-pu-sofa-cum-bed.webp"
+import PremiumLeatherSofa from "/src/assets/images/ui/banners/products/sofas/leathersofas/premium-leather-sofa.webp"
 
 const SofaCollections = [
-    { name: "Leather / PU Sofa Sets", image: Modern, alt: "Traditional Teak Wood Sofa Image" },
-    { name: "L-Shaped Leather / PU Sofas", image: Modern, alt: "Modern Teak Wood Sofa Image" },
-    { name: "Leather / PU Sofa Cum Bed", image: Luxury, alt: "Luxury Teak Wood Sofa Image" },
-    { name: "Premium Leather Sofas", image: Upholstery, alt: "Teak Wood Sofa with Upholstery Image" },
+    { name: "Leather / PU Sofa Set", image: LeatherPUSofaSet, alt: "Leather / PU Sofa Set" },
+    { name: "L-Shaped Leather / PU Sofa", image: LshapedLeatherPUSofa, alt: "L-Shaped Leather / PU Sofa" },
+    { name: "Leather / PU Sofa Cum Bed", image: LeatherPUSofaCumBed, alt: "Leather / PU Sofa Cum Bed" },
+    { name: "Premium Leather Sofa", image: PremiumLeatherSofa, alt: "Premium Leather Sofa" },
 ]
 
 const LeatherSofas = () => {
@@ -41,7 +40,6 @@ const LeatherSofas = () => {
         
     </div>
     </div>
-    <Footer />
     </>
   )
 }

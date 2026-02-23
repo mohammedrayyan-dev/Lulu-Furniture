@@ -2,7 +2,6 @@ import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
 import PillowsCushions from "/src/assets/images/ui/banners/products/comfort-essentials/pillows-cushions.webp"
 import BeanBags from "/src/assets/images/ui/banners/products/comfort-essentials/bean-bags.webp"
 import PoufsOttomans from "/src/assets/images/ui/banners/products/comfort-essentials/poufs-ottomans.webp"
-import Footer from "../components/Footer.jsx"
 import { useNavigate } from "react-router-dom"
 
 const SofaCollections = [
@@ -17,8 +16,6 @@ const ComfortEssentials = () => {
 
   return (
     <>
-    
-    {/* Sofa */}
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">
     <div className="flex flex-row items-center space-x-4">
         <a href="/">
@@ -47,7 +44,6 @@ const ComfortEssentials = () => {
         
     </div>
     </div>
-    <Footer />
     </>
   )
 }

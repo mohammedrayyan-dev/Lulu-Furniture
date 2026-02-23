@@ -5,7 +5,6 @@ import WhatMakesUsDifferent from "/src/components/WhatMakesUsDifferent.jsx"
 import MadeForYou from "../components/MadeForYou.jsx"
 import OurCollections from "../components/OurCollections.jsx"
 import AboutUs from "../components/AboutUs"
-import Footer from "../components/Footer"
 import CustomerFeedbacks from "../components/CustomerFeedbacks.jsx"
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
@@ -68,10 +67,6 @@ const Home = () => {
       <AboutUs />
     </section>
 
-    {/* Footer */}
-    <section id="footer">
-      <Footer />
-    </section>    
     </>
   )
 }

@@ -3,6 +3,7 @@ import VelvetSofaSet from "/src/assets/images/products/sofas/velvetsofas/velvet-
 import LshapedVelvetSofa from "/src/assets/images/products/sofas/velvetsofas/lshaped-velvet-sofa.webp"
 import VelvetSofaCumBed from "/src/assets/images/products/sofas/velvetsofas/velvet-sofa-cum-bed.webp"
 import PremiumVelvetSofa from "/src/assets/images/products/sofas/velvetsofas/premium-velvet-sofa.webp"
+import { useEffect } from "react";
 
 const SofaCollections = [
     { name: "Velvet Sofa Set", image: VelvetSofaSet, alt: "Velvet Sofa Set" },
@@ -12,9 +13,13 @@ const SofaCollections = [
 ]
 
 const VelvetSofas = () => {
+
+    useEffect(() => {
+        document.title = "Velvet Sofas | Lulu Furniture";
+    }, []);
+
   return (
     <>
-    
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">
     <div className="flex flex-row items-center space-x-4">
         <a href="/sofas">

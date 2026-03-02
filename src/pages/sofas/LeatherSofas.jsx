@@ -3,6 +3,7 @@ import LeatherPUSofaSet from "/src/assets/images/products/sofas/leathersofas/lea
 import LshapedLeatherPUSofa from "/src/assets/images/products/sofas/leathersofas/lshaped-leather-pu-sofa.webp"
 import LeatherPUSofaCumBed from "/src/assets/images/products/sofas/leathersofas/leather-pu-sofa-cum-bed.webp"
 import PremiumLeatherSofa from "/src/assets/images/products/sofas/leathersofas/premium-leather-sofa.webp"
+import { useEffect } from "react";
 
 const SofaCollections = [
     { name: "Leather / PU Sofa Set", image: LeatherPUSofaSet, alt: "Leather / PU Sofa Set" },
@@ -12,6 +13,11 @@ const SofaCollections = [
 ]
 
 const LeatherSofas = () => {
+
+    useEffect(() => {
+        document.title = "Leather / PU Sofas | Lulu Furniture";
+    }, []);
+
   return (
     <>
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">

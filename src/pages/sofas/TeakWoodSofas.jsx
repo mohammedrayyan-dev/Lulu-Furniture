@@ -5,6 +5,7 @@ import TeakWoodSofaSet from "/src/assets/images/products/sofas/teakwoodsofas/Tea
 import CushionTeakWoodSofa from "/src/assets/images/products/sofas/teakwoodsofas/CushionTeakWoodSofa.webp"
 import TeakWoodDiwan from "/src/assets/images/products/sofas/teakwoodsofas/TeakWoodDiwan.webp"
 import TeakWoodLshapedSofa from "/src/assets/images/products/sofas/teakwoodsofas/TeakWoodLShapedSofas.webp"
+import { useEffect } from "react";
 
 const SofaCollections = [
     { name: "Traditional Teak Wood Sofa", image: TraditionalTeakWoodSofa, alt: "Traditional Teak Wood Sofa" },
@@ -16,9 +17,13 @@ const SofaCollections = [
 ]
 
 const TeakWoodSofas = () => {
+
+    useEffect(() => {
+        document.title = "Teak Wood Sofas | Lulu Furniture";
+    }, []);
+
   return (
     <>
-    
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">
     <div className="flex flex-row items-center space-x-4">
         <a href="/sofas">

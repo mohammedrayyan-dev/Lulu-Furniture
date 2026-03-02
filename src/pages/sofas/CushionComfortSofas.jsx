@@ -5,6 +5,7 @@ import TwoSeaterCushionSofa from "/src/assets/images/products/sofas/cushioncomfo
 import LshapedCushionSofa from "/src/assets/images/products/sofas/cushioncomfortsofas/lshaped-cushion-sofa.webp"
 import CushionSofaCumBed from "/src/assets/images/products/sofas/cushioncomfortsofas/cushion-sofa-cum-bed.webp"
 import CushionSofaForSmallRoom from "/src/assets/images/products/sofas/cushioncomfortsofas/cushion-sofas-for-small-room.webp"
+import { useEffect } from "react";
 
 const SofaCollections = [
     { name: "Cushion Sofa Set", image: CushionSofaSet, alt: "Cushion Sofa Set" },
@@ -16,9 +17,13 @@ const SofaCollections = [
 ]
 
 const CushionComfortSofas = () => {
+
+    useEffect(() => {
+        document.title = "Cushion Comfort Sofas | Lulu Furniture";
+    }, []);
+
   return (
     <>
-    
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">
     <div className="flex flex-row items-center space-x-4">
         <a href="/sofas">

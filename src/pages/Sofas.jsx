@@ -7,6 +7,7 @@ import VelvetSofa from "/src/assets/images/products/sofas/VelvetSofa.webp"
 import ReclinerSofa from "/src/assets/images/products/sofas/ReclinerSofa.webp"
 import LeatherSofa from "/src/assets/images/products/sofas/LeatherSofa.webp"
 import { useNavigate } from "react-router-dom"
+import { useEffect } from "react";
 
 const SofaCollections = [
     { name: "Teak Wood Sofas", image: TeakWoodSofa, alt: "Teak Wood Sofas Image", path: "/sofas/teak-wood" },
@@ -21,6 +22,10 @@ const SofaCollections = [
 const Sofa = () => {
 
     const navigate = useNavigate();
+
+    useEffect(() => {
+    document.title = "Sofas | Lulu Furniture";
+    }, []);
 
   return (
     <>

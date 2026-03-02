@@ -5,6 +5,7 @@ import TwoSeaterFabricSofa from "/src/assets/images/products/sofas/fabricsofas/2
 import LshapedFabricSofa from "/src/assets/images/products/sofas/fabricsofas/lshaped-fabric-sofa.webp"
 import FabricSofaCumBed from "/src/assets/images/products/sofas/fabricsofas/fabric-sofa-cum-bed.webp"
 import FabricSofasForSmallRoom from "/src/assets/images/products/sofas/fabricsofas/fabric-sofa-for-small-room.webp"
+import { useEffect } from "react";
 
 const SofaCollections = [
     { name: "Fabric Sofa Set", image: FabricSofaSet, alt: "Fabric Sofa Set" },
@@ -16,9 +17,13 @@ const SofaCollections = [
 ]
 
 const FabricSofas = () => {
+
+    useEffect(() => {
+        document.title = "Fabric Sofas | Lulu Furniture";
+    }, []);
+
   return (
     <>
-    
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">
     <div className="flex flex-row items-center space-x-4">
         <a href="/sofas">

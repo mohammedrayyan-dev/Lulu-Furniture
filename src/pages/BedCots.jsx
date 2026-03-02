@@ -4,6 +4,7 @@ import WesternBedCot from "/src/assets/images/products/bedcots/WesternBedCot.web
 import IndianBedCot from "/src/assets/images/products/bedcots/IndianBedCot.webp"
 import LuxuryFabricBedCot from "/src/assets/images/products/bedcots/LuxuryFabricBedCot.webp"
 import ChineseBedCot from "/src/assets/images/products/bedcots/ChineseBedCot.webp"
+import { useEffect } from "react";
 
 const BedCollections = [
     { name: "Baby Bed Cot", image: BabyBedCot, alt: "Baby Bed Cot Image" },
@@ -14,6 +15,11 @@ const BedCollections = [
 ]
 
 const BedCot = () => {
+
+    useEffect(() => {
+            document.title = "Beds & Cots | Lulu Furniture";
+    }, []);
+
   return (
     <>
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">

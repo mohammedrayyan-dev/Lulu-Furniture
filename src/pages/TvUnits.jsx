@@ -2,6 +2,7 @@ import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
 import TVCabinetDecor from "/src/assets/images/products/tvunits/TvCabinetDoor.webp"
 import TVStand from "/src/assets/images/products/tvunits/TvStand.webp"
 import TVUnitDesign from "/src/assets/images/products/tvunits/TvUnitDesign.webp"
+import { useEffect } from "react";
 
 const TvUnitCollections = [
     { name: "TV Cabinet Decor", image: TVCabinetDecor, alt: "TV Cabinet Decor Image" },
@@ -10,6 +11,11 @@ const TvUnitCollections = [
 ]
 
 const TvUnits = () => {
+
+    useEffect(() => {
+        document.title = "Tv Units | Lulu Furniture";
+    }, []);
+
   return (
     <>
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">

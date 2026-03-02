@@ -8,6 +8,7 @@ import KidsChairs from "/src/assets/images/products/chairs/kids-chairs.webp"
 import OutdoorChairs from "/src/assets/images/products/chairs/outdoor-chairs.webp"
 import CafeRestaurentChairs from "/src/assets/images/products/chairs/cafe-restaurant-chairs.webp"
 import { useNavigate } from "react-router-dom"
+import { useEffect } from "react";
 
 const SofaCollections = [
     { name: "Office Chairs", image: OfficeChairs, alt: "Office Chairs", path: "/chairs" },
@@ -23,6 +24,10 @@ const SofaCollections = [
 const Chairs = () => {
 
     const navigate = useNavigate();
+
+    useEffect(() => {
+        document.title = "Chairs | Lulu Furniture";
+    }, []);
 
   return (
     <>

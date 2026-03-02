@@ -6,6 +6,7 @@ import SmallRoomPGBerows from "/src/assets/images/products/berows/small-room-pg-
 import HeavyDutyBerows from "/src/assets/images/products/berows/heavy-duty-berows.webp"
 import RustProofBerows from "/src/assets/images/products/berows/rust-proof-berows.webp"
 import { useNavigate } from "react-router-dom"
+import { useEffect } from "react";
 
 const SofaCollections = [
     { name: "Bedroom Berows", image: BedroomBerows, alt: "Bedroom Berows", path: "/berows" },
@@ -19,6 +20,10 @@ const SofaCollections = [
 const Berows = () => {
 
     const navigate = useNavigate();
+
+    useEffect(() => {
+    document.title = "Berows | Lulu Furniture";
+    }, []);
 
   return (
     <>

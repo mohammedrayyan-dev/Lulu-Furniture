@@ -7,10 +7,12 @@ import OurCollections from "../components/OurCollections.jsx"
 import AboutUs from "../components/AboutUs"
 import CustomerFeedbacks from "../components/CustomerFeedbacks.jsx"
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation } from "react-router";
 
 const Home = () => {
   const { hash } = useLocation();
+
+  const location = useLocation();
 
   useEffect(() => {
     if (!hash) return;
@@ -20,6 +22,19 @@ const Home = () => {
       element.scrollIntoView({ behavior: "smooth" });
     }
   }, [hash]);
+
+
+  useEffect(() => {
+    if (location.hash === "#products") {
+      document.title = "Products | Lulu Furniture";
+    } else if (location.hash === "#feedback") {
+      document.title = "Customer Feedback | Lulu Furniture";
+    } else if (location.hash === "#aboutus") {
+      document.title = "About Lulu Furniture";
+    } else {
+      document.title = "Lulu Furniture | Premium Wooden Furniture";
+    }
+  }, [location]);
 
   return (
     <>

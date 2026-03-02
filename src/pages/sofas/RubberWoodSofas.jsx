@@ -5,6 +5,7 @@ import CushionRubberWoodSofa from "/src/assets/images/products/sofas/rubberwoods
 import CompactRubberWoodSofa from "/src/assets/images/products/sofas/rubberwoodsofas/compact-rubber-wood-sofa.webp"
 import RubberWoodLshapedSofa from "/src/assets/images/products/sofas/rubberwoodsofas/rubber-wood-lshaped-sofa.webp"
 import RubberWoodSofaCumBed from "/src/assets/images/products/sofas/rubberwoodsofas/rubber-wood-sofa-cum-bed.webp"
+import { useEffect } from "react";
 
 const SofaCollections = [
     { name: "Modern Rubber Wood Sofa", image: ModernRubberWoodSofa, alt: "Modern Rubber Wood Sofa" },
@@ -16,9 +17,13 @@ const SofaCollections = [
 ]
 
 const RubberWoodSofas = () => {
+
+    useEffect(() => {
+        document.title = "Rubber Wood Sofas | Lulu Furniture";
+    }, []);
+
   return (
     <>
-    
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">
     <div className="flex flex-row items-center space-x-4">
         <a href="/sofas">

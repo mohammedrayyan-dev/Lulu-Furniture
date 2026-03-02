@@ -2,7 +2,8 @@ import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
 import PillowsCushions from "/src/assets/images/products/comfort-essentials/pillows-cushions.webp"
 import BeanBags from "/src/assets/images/products/comfort-essentials/bean-bags.webp"
 import PoufsOttomans from "/src/assets/images/products/comfort-essentials/poufs-ottomans.webp"
-import { useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router"
+import { useEffect } from "react";
 
 const ComfortCollections = [
     { name: "Pillows & Cushions", image: PillowsCushions, alt: "Pillows & Cushions", path: "/comfort-essentials" },
@@ -13,6 +14,10 @@ const ComfortCollections = [
 const ComfortEssentials = () => {
 
     const navigate = useNavigate();
+
+    useEffect(() => {
+        document.title = "Comfort Essentials | Lulu Furniture";
+    }, []);
 
   return (
     <>

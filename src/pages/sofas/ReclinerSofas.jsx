@@ -3,6 +3,7 @@ import ReclinerChair from "/src/assets/images/products/sofas/reclinersofas/recli
 import TwoSeaterReclinerSofa from "/src/assets/images/products/sofas/reclinersofas/2-seater-recliner-sofa.webp"
 import ThreeSeaterReclinerSofa from "/src/assets/images/products/sofas/reclinersofas/3-seater-recliner-sofa.webp"
 import HomeTheatreRecliner from "/src/assets/images/products/sofas/reclinersofas/home-theatre-recliner.webp"
+import { useEffect } from "react";
 
 const SofaCollections = [
     { name: "Recliner Chair (Single Seater)", image: ReclinerChair, alt: "Recliner Chair (Single Seater)" },
@@ -12,9 +13,13 @@ const SofaCollections = [
 ]
 
 const ReclinerSofas = () => {
+
+    useEffect(() => {
+        document.title = "Recliner Sofas | Lulu Furniture";
+    }, []);
+
   return (
     <>
-    
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">
     <div className="flex flex-row items-center space-x-4">
         <a href="/sofas">

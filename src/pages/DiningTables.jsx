@@ -3,6 +3,7 @@ import TeakWoodDiningTable from "/src/assets/images/products/diningtables/TeakWo
 import RubberWoodDiningTable from "/src/assets/images/products/diningtables/RubberWoodDiningTable.webp"
 import NeemWoodDiningTable from "/src/assets/images/products/diningtables/NeemWoodDiningTable.webp"
 import CoffeeTable from "/src/assets/images/products/diningtables/CoffeeTable.webp"
+import { useEffect } from "react";
 
 const DiningTableCollections = [
     { name: "Teak Wood Dining Table", image: TeakWoodDiningTable, alt: "Teak Wood Dining Table Image" },
@@ -12,6 +13,11 @@ const DiningTableCollections = [
 ]
 
 const DiningTables = () => {
+
+    useEffect(() => {
+        document.title = "Dining Tables | Lulu Furniture";
+        }, []);
+    
   return (
     <>
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">

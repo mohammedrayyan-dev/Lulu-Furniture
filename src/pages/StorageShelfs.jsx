@@ -2,6 +2,7 @@ import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
 import StorageTable from "/src/assets/images/products/storageshelfs/StorageTable.webp"
 import DressingTable from "/src/assets/images/products/storageshelfs/DressingTable.webp"
 import DressCupboard from "/src/assets/images/products/storageshelfs/DressCupboard.webp"
+import { useEffect } from "react";
 
 const StorageShelfCollections = [
     { name: "Storage Table", image: StorageTable, alt: "Storage Table Image" },
@@ -10,6 +11,11 @@ const StorageShelfCollections = [
 ]
 
 const StorageShelfs = () => {
+
+    useEffect(() => {
+        document.title = "Storage Shelfs | Lulu Furniture";
+    }, []);
+
   return (
     <>
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">

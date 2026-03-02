@@ -21,12 +21,10 @@ const Navbar = () => {
       }
     };
 
-    window.addEventListener("sroll", handleScroll, {passive: true});
-    document.addEventListener("scroll", handleScroll, {passive: true});
+    window.addEventListener("scroll", handleScroll, { passive: true });
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
-      document.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -66,21 +64,23 @@ const Navbar = () => {
       className="w-[22px] lg:hidden" />
     { isOpen && (
     <div className="absolute lg:hidden top-full right-0 pt-[12px] flex flex-col md:pl-[65px] gap-2 bg-[#FFFFFF66] text-[16px] backdrop-blur-sm mt-[20px] h-[152px] w-[124px] md:w-[200px] rounded-xl font-sans text-[#333333] px-[20px] py-[140x] font-semibold">
-    <a href="/">
-    Home
-    </a>
     <Link 
-    to="#products"
+    to="/"
+    onClick={() => setIsOpen(false)}>
+    Home
+    </Link>
+    <Link 
+    to="/#products"
     onClick={() => setIsOpen(false)}>
     Products
     </Link>
     <Link 
-    to="#feedback"
+    to="/#feedback"
     onClick={() => setIsOpen(false)}>
     Feedback
     </Link>
     <Link 
-    to="#aboutus"
+    to="/#aboutus"
     onClick={() => setIsOpen(false)}>
     About Us
     </Link>

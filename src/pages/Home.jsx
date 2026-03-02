@@ -26,7 +26,9 @@ const Home = () => {
     
     {/* Navbar + Hero section */}
     <section id="navbar">
+      
     <div className="bg-[#DBD1C7] to-white px-5 sm:px-6 lg:px-10 min-h-[100vh] lg:min-h-[110vh]">
+      <div className ="max-w-[1400px] mx-auto">
       <Navbar />
     <div className="flex flex-col justify-center items-center mb-[20px]">
       <h1 className="font-lato font-normal text-[#333333] text-center text-2xl md:text-5xl lg:text-6xl pt-[40px] md:pt-[70px] lg:pt-[80px]">
@@ -38,6 +40,7 @@ const Home = () => {
       <div className="block md:hidden pt-[20px]">
       <img src={MobileView} alt="Hero Banner" className="w-full h-auto"/>
       </div>
+    </div>
     </div>
     </div>
     </section>

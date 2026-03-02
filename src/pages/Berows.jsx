@@ -38,7 +38,7 @@ const Berows = () => {
         {SofaCollections.map((sofa) => (
         <div 
         onClick={() => navigate(sofa.path)}
-        className="relative max-h-[140px] md:max-h-[350px] aspect-[12/6] md:aspect-[25/6] lg:aspect-[25/6] w-full cursor-pointer"
+        className="relative h-[140px] md:h-[260px] lg:h-[350px] w-full cursor-pointer overflow-hidden"
         >
         <img src={sofa.image} alt={sofa.alt} className="h-full w-full object-cover rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl" />

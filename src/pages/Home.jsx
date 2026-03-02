@@ -10,18 +10,19 @@ import { useEffect } from "react";
 import { useLocation } from "react-router";
 
 const Home = () => {
-  const { hash } = useLocation();
 
-  const location = useLocation();
+  const { hash, pathname } = useLocation();
 
-  useEffect(() => {
-    if (!hash) return;
+useEffect(() => {
+  if (pathname !== "/") return;
+  if (!hash) return;
 
-    const element = document.querySelector(hash);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  }, [hash]);
+  const element = document.querySelector(hash);
+
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+}, [hash, pathname]);
 
 
   useEffect(() => {

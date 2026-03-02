@@ -3,12 +3,12 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import App from './App.jsx'
-import ScrollManager from './components/ScrollManager.jsx'
+import ScrollToTop from '/src/components/ScrollToTop.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-    <ScrollManager />
+    <ScrollToTop />
     <App />
     </BrowserRouter>
   </StrictMode>,

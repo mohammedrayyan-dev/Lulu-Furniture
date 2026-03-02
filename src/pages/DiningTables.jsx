@@ -1,8 +1,8 @@
-import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import TeakWoodDiningTable from "/src/assets/images/ui/banners/products/diningtables/TeakWoodDiningTable.webp"
-import RubberWoodDiningTable from "/src/assets/images/ui/banners/products/diningtables/RubberWoodDiningTable.webp"
-import NeemWoodDiningTable from "/src/assets/images/ui/banners/products/diningtables/NeemWoodDiningTable.webp"
-import CoffeeTable from "/src/assets/images/ui/banners/products/diningtables/CoffeeTable.webp"
+import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
+import TeakWoodDiningTable from "/src/assets/images/products/diningtables/TeakWoodDiningTable.webp"
+import RubberWoodDiningTable from "/src/assets/images/products/diningtables/RubberWoodDiningTable.webp"
+import NeemWoodDiningTable from "/src/assets/images/products/diningtables/NeemWoodDiningTable.webp"
+import CoffeeTable from "/src/assets/images/products/diningtables/CoffeeTable.webp"
 
 const DiningTableCollections = [
     { name: "Teak Wood Dining Table", image: TeakWoodDiningTable, alt: "Teak Wood Dining Table Image" },

@@ -1,9 +1,9 @@
-import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import BabyBedCot from "/src/assets/images/ui/banners/products/bedcots/BabyBedCot.webp"
-import WesternBedCot from "/src/assets/images/ui/banners/products/bedcots/WesternBedCot.webp"
-import IndianBedCot from "/src/assets/images/ui/banners/products/bedcots/IndianBedCot.webp"
-import LuxuryFabricBedCot from "/src/assets/images/ui/banners/products/bedcots/LuxuryFabricBedCot.webp"
-import ChineseBedCot from "/src/assets/images/ui/banners/products/bedcots/ChineseBedCot.webp"
+import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
+import BabyBedCot from "/src/assets/images/products/bedcots/BabyBedCot.webp"
+import WesternBedCot from "/src/assets/images/products/bedcots/WesternBedCot.webp"
+import IndianBedCot from "/src/assets/images/products/bedcots/IndianBedCot.webp"
+import LuxuryFabricBedCot from "/src/assets/images/products/bedcots/LuxuryFabricBedCot.webp"
+import ChineseBedCot from "/src/assets/images/products/bedcots/ChineseBedCot.webp"
 
 const BedCollections = [
     { name: "Baby Bed Cot", image: BabyBedCot, alt: "Baby Bed Cot Image" },

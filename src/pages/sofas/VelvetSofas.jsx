@@ -1,8 +1,8 @@
-import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import VelvetSofaSet from "/src/assets/images/ui/banners/products/sofas/velvetsofas/velvet-sofa-set.webp"
-import LshapedVelvetSofa from "/src/assets/images/ui/banners/products/sofas/velvetsofas/lshaped-velvet-sofa.webp"
-import VelvetSofaCumBed from "/src/assets/images/ui/banners/products/sofas/velvetsofas/velvet-sofa-cum-bed.webp"
-import PremiumVelvetSofa from "/src/assets/images/ui/banners/products/sofas/velvetsofas/premium-velvet-sofa.webp"
+import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
+import VelvetSofaSet from "/src/assets/images/products/sofas/velvetsofas/velvet-sofa-set.webp"
+import LshapedVelvetSofa from "/src/assets/images/products/sofas/velvetsofas/lshaped-velvet-sofa.webp"
+import VelvetSofaCumBed from "/src/assets/images/products/sofas/velvetsofas/velvet-sofa-cum-bed.webp"
+import PremiumVelvetSofa from "/src/assets/images/products/sofas/velvetsofas/premium-velvet-sofa.webp"
 
 const SofaCollections = [
     { name: "Velvet Sofa Set", image: VelvetSofaSet, alt: "Velvet Sofa Set" },

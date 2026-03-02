@@ -1,7 +1,7 @@
-import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import PillowsCushions from "/src/assets/images/ui/banners/products/comfort-essentials/pillows-cushions.webp"
-import BeanBags from "/src/assets/images/ui/banners/products/comfort-essentials/bean-bags.webp"
-import PoufsOttomans from "/src/assets/images/ui/banners/products/comfort-essentials/poufs-ottomans.webp"
+import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
+import PillowsCushions from "/src/assets/images/products/comfort-essentials/pillows-cushions.webp"
+import BeanBags from "/src/assets/images/products/comfort-essentials/bean-bags.webp"
+import PoufsOttomans from "/src/assets/images/products/comfort-essentials/poufs-ottomans.webp"
 import { useNavigate } from "react-router-dom"
 
 const SofaCollections = [

@@ -1,10 +1,10 @@
-import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import CushionSofaSet from "/src/assets/images/ui/banners/products/sofas/cushioncomfortsofas/cushion-sofa-set.webp"
-import ThreeSeaterCushionSofa from "/src/assets/images/ui/banners/products/sofas/cushioncomfortsofas/3-seater-cushion-sofa.webp"
-import TwoSeaterCushionSofa from "/src/assets/images/ui/banners/products/sofas/cushioncomfortsofas/2-seater-cushion-sofa.webp"
-import LshapedCushionSofa from "/src/assets/images/ui/banners/products/sofas/cushioncomfortsofas/lshaped-cushion-sofa.webp"
-import CushionSofaCumBed from "/src/assets/images/ui/banners/products/sofas/cushioncomfortsofas/cushion-sofa-cum-bed.webp"
-import CushionSofaForSmallRoom from "/src/assets/images/ui/banners/products/sofas/cushioncomfortsofas/cushion-sofas-for-small-room.webp"
+import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
+import CushionSofaSet from "/src/assets/images/products/sofas/cushioncomfortsofas/cushion-sofa-set.webp"
+import ThreeSeaterCushionSofa from "/src/assets/images/products/sofas/cushioncomfortsofas/3-seater-cushion-sofa.webp"
+import TwoSeaterCushionSofa from "/src/assets/images/products/sofas/cushioncomfortsofas/2-seater-cushion-sofa.webp"
+import LshapedCushionSofa from "/src/assets/images/products/sofas/cushioncomfortsofas/lshaped-cushion-sofa.webp"
+import CushionSofaCumBed from "/src/assets/images/products/sofas/cushioncomfortsofas/cushion-sofa-cum-bed.webp"
+import CushionSofaForSmallRoom from "/src/assets/images/products/sofas/cushioncomfortsofas/cushion-sofas-for-small-room.webp"
 
 const SofaCollections = [
     { name: "Cushion Sofa Set", image: CushionSofaSet, alt: "Cushion Sofa Set" },

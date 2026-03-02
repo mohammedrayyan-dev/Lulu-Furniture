@@ -1,7 +1,7 @@
-import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import TVCabinetDecor from "/src/assets/images/ui/banners/products/tvunits/TvCabinetDoor.webp"
-import TVStand from "/src/assets/images/ui/banners/products/tvunits/TvStand.webp"
-import TVUnitDesign from "/src/assets/images/ui/banners/products/tvunits/TvUnitDesign.webp"
+import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
+import TVCabinetDecor from "/src/assets/images/products/tvunits/TvCabinetDoor.webp"
+import TVStand from "/src/assets/images/products/tvunits/TvStand.webp"
+import TVUnitDesign from "/src/assets/images/products/tvunits/TvUnitDesign.webp"
 
 const TvUnitCollections = [
     { name: "TV Cabinet Decor", image: TVCabinetDecor, alt: "TV Cabinet Decor Image" },

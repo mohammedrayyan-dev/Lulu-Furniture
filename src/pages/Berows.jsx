@@ -1,10 +1,10 @@
-import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import BedroomBerows from "/src/assets/images/ui/banners/products/berows/bedroom-berows.webp"
-import OfficeBerows from "/src/assets/images/ui/banners/products/berows/office-berows.webp"
-import KidsBerows from "/src/assets/images/ui/banners/products/berows/kids-berows.webp"
-import SmallRoomPGBerows from "/src/assets/images/ui/banners/products/berows/small-room-pg-berows.webp"
-import HeavyDutyBerows from "/src/assets/images/ui/banners/products/berows/heavy-duty-berows.webp"
-import RustProofBerows from "/src/assets/images/ui/banners/products/berows/rust-proof-berows.webp"
+import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
+import BedroomBerows from "/src/assets/images/products/berows/bedroom-berows.webp"
+import OfficeBerows from "/src/assets/images/products/berows/office-berows.webp"
+import KidsBerows from "/src/assets/images/products/berows/kids-berows.webp"
+import SmallRoomPGBerows from "/src/assets/images/products/berows/small-room-pg-berows.webp"
+import HeavyDutyBerows from "/src/assets/images/products/berows/heavy-duty-berows.webp"
+import RustProofBerows from "/src/assets/images/products/berows/rust-proof-berows.webp"
 import { useNavigate } from "react-router-dom"
 
 const SofaCollections = [

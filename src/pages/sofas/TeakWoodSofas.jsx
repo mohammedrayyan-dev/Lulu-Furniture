@@ -1,10 +1,10 @@
-import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import TraditionalTeakWoodSofa from "/src/assets/images/ui/banners/products/sofas/teakwoodsofas/TraditionalTeakWoodSofa.webp"
-import ModernTeakWoodSofa from "/src/assets/images/ui/banners/products/sofas/teakwoodsofas/ModernTeakWoodSofa.webp"
-import TeakWoodSofaSet from "/src/assets/images/ui/banners/products/sofas/teakwoodsofas/TeakWoodSofaSets.webp"
-import CushionTeakWoodSofa from "/src/assets/images/ui/banners/products/sofas/teakwoodsofas/CushionTeakWoodSofa.webp"
-import TeakWoodDiwan from "/src/assets/images/ui/banners/products/sofas/teakwoodsofas/TeakWoodDiwan.webp"
-import TeakWoodLshapedSofa from "/src/assets/images/ui/banners/products/sofas/teakwoodsofas/TeakWoodLShapedSofas.webp"
+import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
+import TraditionalTeakWoodSofa from "/src/assets/images/products/sofas/teakwoodsofas/TraditionalTeakWoodSofa.webp"
+import ModernTeakWoodSofa from "/src/assets/images/products/sofas/teakwoodsofas/ModernTeakWoodSofa.webp"
+import TeakWoodSofaSet from "/src/assets/images/products/sofas/teakwoodsofas/TeakWoodSofaSets.webp"
+import CushionTeakWoodSofa from "/src/assets/images/products/sofas/teakwoodsofas/CushionTeakWoodSofa.webp"
+import TeakWoodDiwan from "/src/assets/images/products/sofas/teakwoodsofas/TeakWoodDiwan.webp"
+import TeakWoodLshapedSofa from "/src/assets/images/products/sofas/teakwoodsofas/TeakWoodLShapedSofas.webp"
 
 const SofaCollections = [
     { name: "Traditional Teak Wood Sofa", image: TraditionalTeakWoodSofa, alt: "Traditional Teak Wood Sofa" },

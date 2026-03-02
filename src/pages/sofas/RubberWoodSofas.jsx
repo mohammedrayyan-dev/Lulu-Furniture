@@ -1,10 +1,10 @@
-import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import ModernRubberWoodSofa from "/src/assets/images/ui/banners/products/sofas/rubberwoodsofas/modern-rubber-wood-sofa.webp"
-import RubberWoodSofaSet from "/src/assets/images/ui/banners/products/sofas/rubberwoodsofas/rubber-wood-sofa-set.webp"
-import CushionRubberWoodSofa from "/src/assets/images/ui/banners/products/sofas/rubberwoodsofas/cushion-rubber-wood-sofa.webp"
-import CompactRubberWoodSofa from "/src/assets/images/ui/banners/products/sofas/rubberwoodsofas/compact-rubber-wood-sofa.webp"
-import RubberWoodLshapedSofa from "/src/assets/images/ui/banners/products/sofas/rubberwoodsofas/rubber-wood-lshaped-sofa.webp"
-import RubberWoodSofaCumBed from "/src/assets/images/ui/banners/products/sofas/rubberwoodsofas/rubber-wood-sofa-cum-bed.webp"
+import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
+import ModernRubberWoodSofa from "/src/assets/images/products/sofas/rubberwoodsofas/modern-rubber-wood-sofa.webp"
+import RubberWoodSofaSet from "/src/assets/images/products/sofas/rubberwoodsofas/rubber-wood-sofa-set.webp"
+import CushionRubberWoodSofa from "/src/assets/images/products/sofas/rubberwoodsofas/cushion-rubber-wood-sofa.webp"
+import CompactRubberWoodSofa from "/src/assets/images/products/sofas/rubberwoodsofas/compact-rubber-wood-sofa.webp"
+import RubberWoodLshapedSofa from "/src/assets/images/products/sofas/rubberwoodsofas/rubber-wood-lshaped-sofa.webp"
+import RubberWoodSofaCumBed from "/src/assets/images/products/sofas/rubberwoodsofas/rubber-wood-sofa-cum-bed.webp"
 
 const SofaCollections = [
     { name: "Modern Rubber Wood Sofa", image: ModernRubberWoodSofa, alt: "Modern Rubber Wood Sofa" },

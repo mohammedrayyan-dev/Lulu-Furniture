@@ -1,8 +1,8 @@
-import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import ReclinerChair from "/src/assets/images/ui/banners/products/sofas/reclinersofas/recliner-chair.webp"
-import TwoSeaterReclinerSofa from "/src/assets/images/ui/banners/products/sofas/reclinersofas/2-seater-recliner-sofa.webp"
-import ThreeSeaterReclinerSofa from "/src/assets/images/ui/banners/products/sofas/reclinersofas/3-seater-recliner-sofa.webp"
-import HomeTheatreRecliner from "/src/assets/images/ui/banners/products/sofas/reclinersofas/home-theatre-recliner.webp"
+import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
+import ReclinerChair from "/src/assets/images/products/sofas/reclinersofas/recliner-chair.webp"
+import TwoSeaterReclinerSofa from "/src/assets/images/products/sofas/reclinersofas/2-seater-recliner-sofa.webp"
+import ThreeSeaterReclinerSofa from "/src/assets/images/products/sofas/reclinersofas/3-seater-recliner-sofa.webp"
+import HomeTheatreRecliner from "/src/assets/images/products/sofas/reclinersofas/home-theatre-recliner.webp"
 
 const SofaCollections = [
     { name: "Recliner Chair (Single Seater)", image: ReclinerChair, alt: "Recliner Chair (Single Seater)" },

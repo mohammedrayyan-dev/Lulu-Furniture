@@ -1,9 +1,9 @@
-import LuluLogo from "/src/assets/images/icons/LulufurnitureLogo.png"
-import InstagramIcon from "/src/assets/images/icons/InstagramIcon.png"
-import MailIcon from "/src/assets/images/icons/MailIcon.png"
+import LuluLogo from "/src/assets/images/ui/icons/LulufurnitureLogo.png"
+import InstagramIcon from "/src/assets/images/ui/icons/InstagramIcon.png"
+import MailIcon from "/src/assets/images/ui/icons/MailIcon.png"
 import { Link } from "react-router-dom"
 import GoogleMaps from "./GoogleMaps"
-import BajajIcon from "/src/assets/images/icons/BajajFinanceIcon.png"
+import BajajIcon from "/src/assets/images/ui/icons/BajajFinanceIcon.png"
 
 const Footer = () => {
 

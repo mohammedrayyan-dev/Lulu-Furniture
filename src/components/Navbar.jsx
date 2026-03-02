@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
-import logo from "/src/assets/images/icons/LulufurnitureLogo.png"
-import HamBurgerMenu from "/src/assets/images/icons/HamBurgerMenu.png"
+import logo from "/src/assets/images/ui/icons/LulufurnitureLogo.png"
+import HamBurgerMenu from "/src/assets/images/ui/icons/HamBurgerMenu.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

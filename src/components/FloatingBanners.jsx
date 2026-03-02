@@ -1,5 +1,4 @@
-import WhatsappIcon from "/src/assets/images/icons/WhatsappIcon.png"
-import BajajIcon from "/src/assets/images/icons/BajajFinanceIcon.png"
+import WhatsappIcon from "/src/assets/images/ui/icons/WhatsappIcon.png"
 
 const FloatingBanners = () => {
   return (

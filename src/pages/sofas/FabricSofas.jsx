@@ -1,10 +1,10 @@
-import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import FabricSofaSet from "/src/assets/images/ui/banners/products/sofas/fabricsofas/fabric-sofa-set.webp"
-import ThreeSeaterFabricSofa from "/src/assets/images/ui/banners/products/sofas/fabricsofas/three-seater-fabric-sofa.webp"
-import TwoSeaterFabricSofa from "/src/assets/images/ui/banners/products/sofas/fabricsofas/2-seater-fabric-sofa.webp"
-import LshapedFabricSofa from "/src/assets/images/ui/banners/products/sofas/fabricsofas/lshaped-fabric-sofa.webp"
-import FabricSofaCumBed from "/src/assets/images/ui/banners/products/sofas/fabricsofas/fabric-sofa-cum-bed.webp"
-import FabricSofasForSmallRoom from "/src/assets/images/ui/banners/products/sofas/fabricsofas/fabric-sofa-for-small-room.webp"
+import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
+import FabricSofaSet from "/src/assets/images/products/sofas/fabricsofas/fabric-sofa-set.webp"
+import ThreeSeaterFabricSofa from "/src/assets/images/products/sofas/fabricsofas/three-seater-fabric-sofa.webp"
+import TwoSeaterFabricSofa from "/src/assets/images/products/sofas/fabricsofas/2-seater-fabric-sofa.webp"
+import LshapedFabricSofa from "/src/assets/images/products/sofas/fabricsofas/lshaped-fabric-sofa.webp"
+import FabricSofaCumBed from "/src/assets/images/products/sofas/fabricsofas/fabric-sofa-cum-bed.webp"
+import FabricSofasForSmallRoom from "/src/assets/images/products/sofas/fabricsofas/fabric-sofa-for-small-room.webp"
 
 const SofaCollections = [
     { name: "Fabric Sofa Set", image: FabricSofaSet, alt: "Fabric Sofa Set" },

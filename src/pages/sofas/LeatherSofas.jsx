@@ -1,8 +1,8 @@
-import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import LeatherPUSofaSet from "/src/assets/images/ui/banners/products/sofas/leathersofas/leather-pu-sofa-set.webp"
-import LshapedLeatherPUSofa from "/src/assets/images/ui/banners/products/sofas/leathersofas/lshaped-leather-pu-sofa.webp"
-import LeatherPUSofaCumBed from "/src/assets/images/ui/banners/products/sofas/leathersofas/leather-pu-sofa-cum-bed.webp"
-import PremiumLeatherSofa from "/src/assets/images/ui/banners/products/sofas/leathersofas/premium-leather-sofa.webp"
+import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
+import LeatherPUSofaSet from "/src/assets/images/products/sofas/leathersofas/leather-pu-sofa-set.webp"
+import LshapedLeatherPUSofa from "/src/assets/images/products/sofas/leathersofas/lshaped-leather-pu-sofa.webp"
+import LeatherPUSofaCumBed from "/src/assets/images/products/sofas/leathersofas/leather-pu-sofa-cum-bed.webp"
+import PremiumLeatherSofa from "/src/assets/images/products/sofas/leathersofas/premium-leather-sofa.webp"
 
 const SofaCollections = [
     { name: "Leather / PU Sofa Set", image: LeatherPUSofaSet, alt: "Leather / PU Sofa Set" },

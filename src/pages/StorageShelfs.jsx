@@ -1,7 +1,7 @@
-import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import StorageTable from "/src/assets/images/ui/banners/products/storageshelfs/StorageTable.webp"
-import DressingTable from "/src/assets/images/ui/banners/products/storageshelfs/DressingTable.webp"
-import DressCupboard from "/src/assets/images/ui/banners/products/storageshelfs/DressCupboard.webp"
+import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
+import StorageTable from "/src/assets/images/products/storageshelfs/StorageTable.webp"
+import DressingTable from "/src/assets/images/products/storageshelfs/DressingTable.webp"
+import DressCupboard from "/src/assets/images/products/storageshelfs/DressCupboard.webp"
 
 const StorageShelfCollections = [
     { name: "Storage Table", image: StorageTable, alt: "Storage Table Image" },

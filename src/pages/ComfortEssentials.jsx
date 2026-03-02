@@ -27,7 +27,7 @@ const ComfortEssentials = () => {
     </div>
     <div className="mt-5 lg:mt-0 border-t border-[#33333366]"/>
 
-    <div className="flex flex-col mt-10 items-center space-y-6 lg:space-y-10">
+    <div className="flex flex-col mt-6 lg:mt-8 items-center gap-6 lg:gap-8">
 
         {ComfortCollections.map((comfort) => (
         <div 

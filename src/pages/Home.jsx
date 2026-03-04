@@ -41,8 +41,6 @@ useEffect(() => {
     <>
     
     {/* Navbar + Hero section */}
-    <section className="bg-[#DBD1C7]" id="navbar">
-      
     <div className="px-5 sm:px-6 lg:px-10 min-h-[100vh] lg:min-h-[110vh]">
     <div className = "max-w-7xl mx-auto">
       <Navbar />
@@ -59,7 +57,6 @@ useEffect(() => {
     </div>
     </div>
     </div>
-    </section>
 
     {/* What Makes Us Different */}
     <section id="whatmakesusdifferent">

@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-import Layout from "./layout/layout.jsx"
+import Layout from "./layout/Layout.jsx"
 import Home from "/src/pages/Home.jsx"
 import Sofa from "/src/pages/Sofas.jsx"
 import BedCot from "/src/pages/BedCots.jsx"

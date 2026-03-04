@@ -28,6 +28,8 @@ const Berows = () => {
   return (
     <>
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">
+
+    <div className="max-w-7xl mx-auto">
     <div className="flex flex-row items-center space-x-4">
         <a href="/">
         <img src={BackArrow} alt="Back Arrow" className="w-[24px] lg:w-[28px] cursor-pointer" />
@@ -52,8 +54,9 @@ const Berows = () => {
         </h3>
         </div>
         ))}
+        </div>
+        </div>
         
-    </div>
     </div>
     </>
   )

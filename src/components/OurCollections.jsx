@@ -16,7 +16,7 @@ const OurCollections = () => {
   return (
     <>
     <div className="bg-white mx-5 sm:mx-6 lg:mx-10">
-     <div className="flex flex-col max-w-screen-2xl ">
+     <div className="flex flex-col max-w-7xl mx-auto">
 
         <div className="flex flex-col">
             <div className="hidden lg:block w-full mb-10 border-t border-[#33333366]" />  
@@ -106,42 +106,46 @@ const OurCollections = () => {
         </div>
         </div>
 
-        <div className="hidden lg:flex bg-[#DBD1C7] h-[110px] mb-[60px] w-full flex items-center justify-evenly">
+        <div className="hidden md:block bg-[#DBD1C7] h-[80px] lg:h-[110px] mb-[60px] w-full">
+
+            <div className="flex flex-row items-center justify-evenly max-w-7xl mx-auto h-full">
 
             <div className="flex items-center flex-row">
-            <img src={OneSeaterSofaVector} alt="One Seater Sofa Vector" className="w-[40px]"/>
+            <img src={OneSeaterSofaVector} alt="One Seater Sofa Vector" className="w-[20px] lg:w-[40px] object-contain"/>
             <div className="flex flex-col ml-[20px]">
-            <h3 className="font-lato text-[#6B4C41] text-[20px]">
+            <h3 className="font-lato text-[#6B4C41] text-md lg:text-[20px]">
                 Shift the Furniture
             </h3>
-            <p className="font-lato text-[#6B4C41] text-[12px]">
+            <p className="font-lato text-[#6B4C41] text-xs lg:text-[12px]">
                 Tomorrow’s Comfort Today
             </p>
             </div>
             </div>
 
             <div className="flex items-center flex-row">
-            <img src={DeliveryVanVector} alt="Delivery Van Vector" className="w-[50px]"/>
+            <img src={DeliveryVanVector} alt="Delivery Van Vector" className="w-[30px] lg:w-[50px] object-contain"/>
             <div className="flex flex-col ml-[20px]">
-            <h3 className="font-lato text-[#6B4C41] text-[20px] ">
+            <h3 className="font-lato text-[#6B4C41] text-md lg:text-[20px]">
                 Simplicity in Action
             </h3>
-            <p className="font-lato text-[#6B4C41] text-[12px]">
+            <p className="font-lato text-[#6B4C41] text-xs lg:text-[12px]">
                 So Easy to Assemble!
             </p>
             </div>
             </div>
 
             <div className="flex items-center flex-row">
-            <img src={TwoSeaterSofaVector} alt="Two Seater Sofa Vector" className="w-[50px]"/>
+            <img src={TwoSeaterSofaVector} alt="Two Seater Sofa Vector" className="w-[30px] lg:w-[50px] object-contain"/>
             <div className="flex flex-col ml-[20px]">
-            <h3 className="font-lato text-[#6B4C41] text-[20px]">
+            <h3 className="font-lato text-[#6B4C41] md:text-md lg:text-[20px]">
                 Touch, Feel, Relax
             </h3>
-            <p className="font-lato text-[#6B4C41] text-[12px]">
+            <p className="font-lato text-[#6B4C41] text-xs lg:text-[12px]">
                 Upto 5yrs Warranty 
             </p>
             </div>
+            </div>
+
             </div>
 
         </div>

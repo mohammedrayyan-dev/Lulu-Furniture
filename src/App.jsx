@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import Layout from "./layout/layout.jsx"
 import Home from "/src/pages/Home.jsx"
 import Sofa from "/src/pages/Sofas.jsx"
 import BedCot from "/src/pages/BedCots.jsx"
@@ -16,14 +17,11 @@ import VelvetSofas from "./pages/sofas/VelvetSofas.jsx"
 import ReclinerSofas from "./pages/sofas/ReclinerSofas.jsx"
 import LeatherSofas from "./pages/sofas/LeatherSofas.jsx"
 import './App.css'
-import FloatingBanners from './components/FloatingBanners.jsx'
-import Footer from "/src/components/Footer.jsx"
 
 function App() {
   return (
-    <>
-    <FloatingBanners />
     <Routes>
+      <Route element={<Layout />}>
       <Route path="/" element={<Home/>}/>
       <Route path="/sofas" element={<Sofa/>}/>
       <Route path="/beds-&-cots" element={<BedCot/>}/>
@@ -40,9 +38,8 @@ function App() {
       <Route path="/sofas/velvet" element={<VelvetSofas/>}/>
       <Route path="/sofas/recliner" element={<ReclinerSofas/>}/>
       <Route path="/sofas/leather-pu" element={<LeatherSofas/>}/>
+      </Route>
     </Routes>
-    <Footer />
-    </>
   )
 }
 

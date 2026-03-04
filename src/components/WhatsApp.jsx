@@ -1,9 +1,9 @@
 import WhatsappIcon from "/src/assets/images/ui/icons/WhatsappIcon.png"
 
-const FloatingBanners = () => {
+const WhatsApp = () => {
   return (
     <>
-    <div className="fixed bg-[#FFFFFF50] backdrop-blur-sm rounded-2xl bottom-6 md:bottom-6 md:right-6lg:bottom-7 right-18 lg:right-26 z-50">
+    <div className="fixed bg-[#FFFFFF50] backdrop-blur-sm rounded-2xl bottom-6 md:bottom-6 lg:bottom-7 right-18 lg:right-26 z-50">
       <h3 className="font-lato p-[10px] text-[11px] lg:text-[14px]">
         Deals on Whatsapp!
       </h3>
@@ -20,4 +20,4 @@ const FloatingBanners = () => {
   )
 }
 
-export default FloatingBanners;
+export default WhatsApp;

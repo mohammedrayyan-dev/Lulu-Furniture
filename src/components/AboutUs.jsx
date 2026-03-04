@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <>
     <div className="bg-white mx-5 sm:mx-6 lg:mx-10">
-    <div className="flex flex-col max-w-screen-2xl mx-auto">
+    <div className="flex flex-col max-w-7xl mx-auto">
       <div className="hidden lg:block mb-10 border-t w-full border-[#33333366]" />
 
       {/* Text Content */}

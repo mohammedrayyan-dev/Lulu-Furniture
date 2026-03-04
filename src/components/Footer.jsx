@@ -9,7 +9,7 @@ const Footer = () => {
 
   return (
     <div className="bg-[#DBD1C7] px-5 sm:px-6 lg:px-10">
-    <div className="h-[auto] pb-[40px] lg:h-[auto] lg:max-w-screen-2xl mt-[40px] lg:mt-[60px] flex flex-col md:flex-row lg:flex-row justify-between gap-10 md:gap-15 lg:gap-20">
+    <div className="h-[auto] pb-[40px] lg:h-[auto] lg:max-w-7xl lg:mx-auto flex flex-col md:flex-row lg:flex-row justify-between gap-10 md:gap-15 lg:gap-20">
     
     {/* Lulu Furntirue Info */}
     <div className="pt-[25px] lg:pt-[50px]">

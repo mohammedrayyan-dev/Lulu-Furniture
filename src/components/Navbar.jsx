@@ -4,93 +4,72 @@ import logo from "/src/assets/images/ui/icons/LulufurnitureLogo.png"
 import HamBurgerMenu from "/src/assets/images/ui/icons/HamBurgerMenu.png"
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [isFloating, setIsFloating] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
+  const [isFloating, setIsFloating] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop =
-      window.scrollY ||
-      document.documentElement.scrollTop ||
-      document.body.scrollTop;
+      setIsFloating(window.scrollY > 120)
+    }
 
-      if (window.scrollY > 120) {
-        setIsFloating(true);
-      } else {
-        setIsFloating(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener("scroll", handleScroll)
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+      window.removeEventListener("scroll", handleScroll)
+    }
+  }, [])
 
   return (
     <>
-    
-    {/* Navbar */}
-    <div className="flex relative items-center justify-between">
-    <div>
-      <img src={logo} alt="LuluLogo" className="lg:ml-[20px] mt-[15px] lg:ml-[40px] lg:mt-[30px] h-[53px] md:h-[54px] md:w-[78px] lg:h-[64px] lg:w-[98px]"/>
-    </div>
-    <div
-    className={`
-    w-full z-50 transition-all duration-300 fixed ${isFloating ? "top-5" : "top-[15px] lg:top-[30px]"} bg-white shadow-md
-    `}>
-    <div className="hidden lg:absolute lg:flex lg:items-center lg:gap-6 lg:bg-[#FFFFFF66] lg:h-[60px] lg:w-[382px] lg:rounded-full lg:backdrop-blur-sm lg:font-sans lg:text-[#333333] lg:px-[20px] lg:py-[24px] lg:font-semibold lg:left-1/2 lg:transform lg:-translate-x-1/2">
-    <Link to="/">
-    Home
-    </Link>
-    <Link to="/#products">
-    Products
-    </Link>
-    <Link to="/#feedback">
-    Feedback
-    </Link>
-    <Link to="/#aboutus">
-    About Us
-    </Link>
-    </div>
-    </div>
+      <div className="flex items-center justify-between">
 
-    {/* Hamburger */}
-    <div className="relative sm:block mt-[10px]">
-      <img src={HamBurgerMenu}
-      alt="Menu"
-      onClick={() => setIsOpen(!isOpen)}
-      className="w-[22px] lg:hidden" />
-    { isOpen && (
-    <div className="absolute lg:hidden top-full right-0 pt-[12px] flex flex-col md:pl-[65px] gap-2 bg-[#FFFFFF66] text-[16px] backdrop-blur-sm mt-[20px] h-[152px] w-[124px] md:w-[200px] rounded-xl font-sans text-[#333333] px-[20px] py-[140x] font-semibold">
-    <Link 
-    to="/"
-    onClick={() => setIsOpen(false)}>
-    Home
-    </Link>
-    <Link 
-    to="/#products"
-    onClick={() => setIsOpen(false)}>
-    Products
-    </Link>
-    <Link 
-    to="/#feedback"
-    onClick={() => setIsOpen(false)}>
-    Feedback
-    </Link>
-    <Link 
-    to="/#aboutus"
-    onClick={() => setIsOpen(false)}>
-    About Us
-    </Link>
-    </div>
-    )}
-    </div>
-    </div>
+        {/* Logo */}
+        <img
+          src={logo}
+          alt="LuluLogo"
+          className="mt-[15px] lg:ml-[40px] lg:mt-[30px] h-[53px] md:h-[54px] md:w-[78px] lg:h-[64px] lg:w-[98px]"
+        />
 
+        {/* Desktop Nav */}
+        <div
+          className={`
+          hidden md:flex md:items-center md:bg-[#FFFFFF66] md:h-[60px] md:w-[382px]
+          md:rounded-full md:backdrop-blur-sm md:z-50 md:transition-all md:duration-300
+          md:fixed md:left-1/2 md:-translate-x-1/2
+          ${isFloating ? "md:top-5" : "md:top-[20px] lg:top-[30px]"}
+          bg-white shadow-md
+          `}
+        >
+          <nav className="font-sans flex flex-row gap-6 text-[#333333] px-[20px] py-[24px] font-semibold">
+            <Link to="/">Home</Link>
+            <Link to="/#products">Products</Link>
+            <Link to="/#feedback">Feedback</Link>
+            <Link to="/#aboutus">About Us</Link>
+          </nav>
+        </div>
+
+        {/* Hamburger */}
+        <div className="relative sm:block mt-[10px]">
+          <img
+            src={HamBurgerMenu}
+            alt="Menu"
+            onClick={() => setIsOpen(!isOpen)}
+            className="w-[22px] md:hidden"
+          />
+
+          {isOpen && (
+            <nav className="absolute md:hidden top-full right-0 pt-[12px] flex flex-col gap-2 bg-[#FFFFFF66] text-[16px] backdrop-blur-sm mt-[20px] h-[152px] w-[124px] md:w-[120px] rounded-xl font-sans text-[#333333] px-[20px] py-[14px] font-semibold">
+              <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
+              <Link to="/#products" onClick={() => setIsOpen(false)}>Products</Link>
+              <Link to="/#feedback" onClick={() => setIsOpen(false)}>Feedback</Link>
+              <Link to="/#aboutus" onClick={() => setIsOpen(false)}>About Us</Link>
+            </nav>
+          )}
+        </div>
+
+      </div>
     </>
   )
 }
 
-export default Navbar;
+export default Navbar

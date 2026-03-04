@@ -41,8 +41,8 @@ useEffect(() => {
     <>
     
     {/* Navbar + Hero section */}
-    <div className="px-5 sm:px-6 lg:px-10 min-h-[100vh] lg:min-h-[110vh]">
-    <div className = "max-w-7xl mx-auto">
+    <div className="bg-[#DBD1C7] px-5 sm:px-6 lg:px-10 min-h-[100vh] lg:min-h-[110vh]">
+    <div className="max-w-7xl mx-auto">
       <Navbar />
     <div className="flex flex-col justify-center items-center mb-[20px]">
       <h1 className="font-lato font-normal text-[#333333] text-center text-2xl md:text-5xl lg:text-6xl pt-[40px] md:pt-[80px]">

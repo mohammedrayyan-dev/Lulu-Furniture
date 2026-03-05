@@ -1,29 +1,9 @@
-import { useEffect } from "react";
 
 const GoogleReviews = () => {
-  useEffect(() => {
-    if (!document.getElementById("tagembed-script")) {
-      const script = document.createElement("script");
-      script.id = "tagembed-script";
-      script.src = "https://widget.tagembed.com/embed.min.js";
-      script.async = true;
-      document.body.appendChild(script);
-    }
-  }, []);
 
   return (
-    <div
-      className="tagembed-widget"
-      data-widget-id="311787"
-      data-website="1"
-      style={{
-        width: "100%",
-        height: "100%",
-        overflow: "auto",
-        minHeight: "420px",
-      }}
-    ></div>
-  );
+    <div className="elfsight-app-4da904eb-f860-4c4b-a28d-5ed53a8d0f8a" data-elfsight-app-lazy />
+  )
 };
 
 export default GoogleReviews;

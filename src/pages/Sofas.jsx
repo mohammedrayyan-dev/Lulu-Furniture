@@ -3,20 +3,18 @@ import TeakWoodSofa from "/src/assets/images/products/sofas/TeakWoodSofa.webp"
 import RubberWoodSofa from "/src/assets/images/products/sofas/RubberWoodSofa.webp"
 import CushionComfortSofa from "/src/assets/images/products/sofas/CushionComfortSofa.webp"
 import FabricSofa from "/src/assets/images/products/sofas/FabricSofa.webp"
-import VelvetSofa from "/src/assets/images/products/sofas/VelvetSofa.webp"
 import ReclinerSofa from "/src/assets/images/products/sofas/ReclinerSofa.webp"
 import LeatherSofa from "/src/assets/images/products/sofas/LeatherSofa.webp"
-import { useNavigate } from "react-router-dom"
+import { useNavigate, Link } from "react-router-dom"
 import { useEffect } from "react";
 
 const SofaCollections = [
-    { name: "Teak Wood Sofas", image: TeakWoodSofa, alt: "Teak Wood Sofas Image", path: "/sofas/teak-wood" },
-    { name: "Rubber Wood Sofas", image: RubberWoodSofa, alt: "Rubber Wood Sofas Image", path: "/sofas/rubber-wood" },
-    { name: "Cushion Comfort Sofas", image: CushionComfortSofa, alt: "Cushion Comfort Sofas Image", path: "/sofas/cushion-comfort" },
-    { name: "Fabric Sofas", image: FabricSofa,  alt: "Fabric Sofas Image", path: "/sofas/fabric" },
-    { name: "Velvet Sofas", image: VelvetSofa, alt: "Velvet Sofas Image", path: "/sofas/velvet" },
-    { name: "Recliner Sofas", image: ReclinerSofa, alt: "Recliner Sofas Image", path: "/sofas/recliner" },
-    { name: "Leather / PU Sofas", image: LeatherSofa, alt: "Leather Sofas Image", path: "/sofas/leather-pu" } 
+    { name: "3 Seater Sofas", image: TeakWoodSofa, alt: "3 Seater Sofas", path: "/sofas/3-seater-sofas" },
+    { name: "2 Seater Sofas", image: RubberWoodSofa, alt: "2 Seater Sofas", path: "/sofas/2-seater-sofas" },
+    { name: "L-Shape Sofas", image: CushionComfortSofa, alt: "L-Shape Sofas", path: "/sofas/l-shape-sofas" },
+    { name: "Fabric Sofas", image: FabricSofa,  alt: "Fabric Sofas", path: "/sofas/fabric" },
+    { name: "Leatherette / PU Sofas", image: LeatherSofa, alt: "Leatherette / PU Sofas", path: "/sofas/leather-pu" },
+    { name: "Recliner Sofas", image: ReclinerSofa, alt: "Recliner Sofas", path: "/sofas/recliner" },
 ]
 
 const Sofa = () => {
@@ -32,9 +30,10 @@ const Sofa = () => {
     <div className="bg-white mt-5 lg:mt-10 mx-5 sm:mx-6 lg:mx-10">
     <div className="max-w-7xl mx-auto">
     <div className="flex flex-row items-center gap-4">
-        <a href="/">
+        <Link 
+        to="/">
         <img src={BackArrow} alt="Back Arrow" className="w-[24px] lg:w-[28px] cursor-pointer" />
-        </a>
+        </Link>
         <h1 className="font-corinthia text-2xl lg:text-[40px] text-[#6B4C41] font-bold">
             Sofas
         </h1>
@@ -46,10 +45,10 @@ const Sofa = () => {
         {SofaCollections.map((sofa) => (
         <div 
         onClick={() => navigate(sofa.path)}
-        className="relative h-[140px] md:h-[260px] lg:h-[350px] w-full cursor-pointer overflow-hidden"
+        className="relative h-[140px] md:h-[180px] lg:h-[320px] w-full cursor-pointer overflow-hidden rounded-3xl"
         >
-        <img src={sofa.image} alt={sofa.alt} className="w-full h-full object-cover rounded-3xl" />
-        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl" />
+        <img src={sofa.image} alt={sofa.alt} className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045]" />
         <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
             {sofa.name} 
         </h3>

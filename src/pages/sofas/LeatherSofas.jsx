@@ -1,15 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import LeatherPUSofaSet from "/src/assets/images/products/sofas/leathersofas/leather-pu-sofa-set.webp"
-import LshapedLeatherPUSofa from "/src/assets/images/products/sofas/leathersofas/lshaped-leather-pu-sofa.webp"
-import LeatherPUSofaCumBed from "/src/assets/images/products/sofas/leathersofas/leather-pu-sofa-cum-bed.webp"
-import PremiumLeatherSofa from "/src/assets/images/products/sofas/leathersofas/premium-leather-sofa.webp"
+import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
+import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
+import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
 import { useEffect } from "react";
+import { Link } from "react-router-dom"
 
 const SofaCollections = [
-    { name: "Leather / PU Sofa Set", image: LeatherPUSofaSet, alt: "Leather / PU Sofa Set" },
-    { name: "L-Shaped Leather / PU Sofa", image: LshapedLeatherPUSofa, alt: "L-Shaped Leather / PU Sofa" },
-    { name: "Leather / PU Sofa Cum Bed", image: LeatherPUSofaCumBed, alt: "Leather / PU Sofa Cum Bed" },
-    { name: "Premium Leather Sofa", image: PremiumLeatherSofa, alt: "Premium Leather Sofa" },
+    { name: "Black PU", image: BlackPU, alt: "Black PU" },
+    { name: "Brown PU", image: BrownPU, alt: "Brown PU" },
+    { name: "Cream PU", image: CreamPU, alt: "Cream PU" },
 ]
 
 const LeatherSofas = () => {
@@ -24,9 +23,10 @@ const LeatherSofas = () => {
         
     <div className="max-w-7xl mx-auto">
     <div className="flex flex-row items-center space-x-4">
-        <a href="/sofas">
+        <Link 
+        to="/sofas">
         <img src={BackArrow} alt="Back Arrow" className="w-[24px] lg:w-[28px] cursor-pointer" />
-        </a>
+        </Link>
         <h1 className="font-corinthia text-2xl lg:text-[40px] text-[#6B4C41] font-bold">
             Leather / PU Sofas
         </h1>
@@ -37,10 +37,10 @@ const LeatherSofas = () => {
 
         {SofaCollections.map((item) => (
         <div 
-        className="relative h-[140px] md:h-[260px] lg:h-[350px] w-full cursor-pointer overflow-hidden"
+        className="relative h-[140px] md:h-[180px] lg:h-[320px] w-full overflow-hidden rounded-3xl"
         >
-        <img src={item.image} alt={item.alt} className="h-full w-full object-cover rounded-3xl" />
-        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl" />
+        <img src={item.image} alt={item.alt} className="h-full w-full object-cover" />
+        <div className="absolute inset-0 bg-[#00000030]" />
         <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
             {item.name}
         </h3>

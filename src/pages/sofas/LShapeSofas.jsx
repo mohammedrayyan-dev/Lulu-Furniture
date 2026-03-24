@@ -1,21 +1,20 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import CottonFabric from "/src/assets/images/products/sofas/fabricsofas/cotton-fabric.webp"
-import LinenFabric from "/src/assets/images/products/sofas/fabricsofas/linen-fabric.webp"
-import ChennileFabric from "/src/assets/images/products/sofas/fabricsofas/chennile-fabric.webp"
-
+import LeftHandLShape from "/src/assets/images/products/sofas/l-shape-sofas/left-hand-l-shape.webp"
+import RightHandLShape from "/src/assets/images/products/sofas/l-shape-sofas/right-hand-l-shape.webp"
+import UShapeSectional from "/src/assets/images/products/sofas/l-shape-sofas/u-shape-sectional.webp"
 import { useEffect } from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
-const SofaCollections = [
-    { name: "Cotton Fabric", image: CottonFabric, alt: "Cotton Fabric" },
-    { name: "Linen Fabric", image: LinenFabric, alt: "Linen Fabric" },
-    { name: "Chennile Fabric", image: ChennileFabric, alt: "Chennile Fabric" },
+const LShapeSofaCollections = [
+    { name: "Left Hand L-Shape", image: LeftHandLShape, alt: "Left Hand L-Shape" },
+    { name: "Right Hand L-Shape", image: RightHandLShape, alt: "Right Hand L-Shape" },
+    { name: "U-Shape Sectional", image: UShapeSectional, alt: "U-Shape Sectional" },
 ]
 
-const FabricSofas = () => {
+const LShapeSofas = () => {
 
     useEffect(() => {
-        document.title = "Fabric Sofas | Lulu Furniture";
+        document.title = "L-Shape Sofas | Lulu Furniture";
     }, []);
 
   return (
@@ -29,30 +28,30 @@ const FabricSofas = () => {
         <img src={BackArrow} alt="Back Arrow" className="w-[24px] lg:w-[28px] cursor-pointer" />
         </Link>
         <h1 className="font-corinthia text-2xl lg:text-[40px] text-[#6B4C41] font-bold">
-            Fabric Sofas
+            L-Shape Sofas
         </h1>
     </div>
     <div className="mt-5 lg:mt-0 border-t border-[#33333366]"/>
 
     <div className="flex flex-col mt-6 lg:mt-8 items-center gap-6 lg:gap-8">
 
-        {SofaCollections.map((item) => (
+        {LShapeSofaCollections.map((sofa) => (
         <div 
         className="relative h-[140px] md:h-[180px] lg:h-[350px] w-full overflow-hidden rounded-3xl"
         >
-        <img src={item.image} alt={item.alt} className="h-full w-full object-cover" />
+        <img src={sofa.image} alt={sofa.alt} className="h-full w-full object-cover" />
         <div className="absolute inset-0 bg-[#00000030]" />
         <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
-            {item.name}
+            {sofa.name}
         </h3>
         </div>
         ))}
         </div>
         </div>
-        
+    
     </div>
     </>
   )
 }
 
-export default FabricSofas;
+export default LShapeSofas;

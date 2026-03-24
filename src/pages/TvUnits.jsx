@@ -3,6 +3,7 @@ import TVCabinetDecor from "/src/assets/images/products/tvunits/TvCabinetDoor.we
 import TVStand from "/src/assets/images/products/tvunits/TvStand.webp"
 import TVUnitDesign from "/src/assets/images/products/tvunits/TvUnitDesign.webp"
 import { useEffect } from "react";
+import { useNavigate, Link } from "react-router-dom";
 
 const TvUnitCollections = [
     { name: "TV Cabinet Decor", image: TVCabinetDecor, alt: "TV Cabinet Decor Image" },
@@ -22,9 +23,10 @@ const TvUnits = () => {
 
     <div className="max-w-7xl mx-auto">
     <div className="flex flex-row items-center space-x-4">
-        <a href="/">
+        <Link 
+        to="/">
             <img src={BackArrow} alt="Back Arrow" className="w-[24px] lg:w-[28px] cursor-pointer" />
-        </a>
+        </Link>
         <h1 className="font-corinthia text-2xl lg:text-[40px] text-[#6B4C41] font-bold">
             Tv Units
         </h1>
@@ -35,10 +37,10 @@ const TvUnits = () => {
 
         {TvUnitCollections.map((item) => (
         <div 
-        className="relative h-[140px] md:h-[260px] lg:h-[350px] w-full cursor-pointer overflow-hidden"
+        className="relative h-[140px] md:h-[180px] lg:h-[320px] w-full cursor-pointer overflow-hidden rounded-3xl"
         >
-        <img src={item.image} alt={item.alt} className="h-full w-full object-cover rounded-3xl" />
-        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl" />
+        <img src={item.image} alt={item.alt} className="h-full w-full object-cover" />
+        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045]" />
         <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
             {item.name}
         </h3>

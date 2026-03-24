@@ -1,20 +1,20 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import ReclinerChair from "/src/assets/images/products/sofas/reclinersofas/recliner-chair.webp"
-import TwoSeaterReclinerSofa from "/src/assets/images/products/sofas/reclinersofas/2-seater-recliner-sofa.webp"
-import ThreeSeaterReclinerSofa from "/src/assets/images/products/sofas/reclinersofas/3-seater-recliner-sofa.webp"
+import Classic2Seater from "/src/assets/images/products/sofas/two-seater-sofas/classic-2-seater.webp"
+import Cushioned2Seater from "/src/assets/images/products/sofas/two-seater-sofas/cushioned-2-seater.webp"
+import Loveseat from "/src/assets/images/products/sofas/two-seater-sofas/loveseat.webp"
 import { useEffect } from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
-const SofaCollections = [
-    { name: "Single Recliner", image: ReclinerChair, alt: "Single Recliner" },
-    { name: "2 Seater Recliner", image: TwoSeaterReclinerSofa, alt: "2 Seater Recliner" },
-    { name: "3 Seater Recliner", image: ThreeSeaterReclinerSofa, alt: "3 Seater Recliner" },
+const TwoSeaterSofaCollections = [
+    { name: "Classic 2 Seater", image: Classic2Seater, alt: "Classic 2 Seater" },
+    { name: "Cushioned 2 Seater", image: Cushioned2Seater, alt: "Cushioned 2 Seater" },
+    { name: "Loveseat", image: Loveseat, alt: "Loveseat" },
 ]
 
-const ReclinerSofas = () => {
+const TwoSeaterSofas = () => {
 
     useEffect(() => {
-        document.title = "Recliner Sofas | Lulu Furniture";
+        document.title = "2 Seater Sofas | Lulu Furniture";
     }, []);
 
   return (
@@ -28,14 +28,14 @@ const ReclinerSofas = () => {
         <img src={BackArrow} alt="Back Arrow" className="w-[24px] lg:w-[28px] cursor-pointer" />
         </Link>
         <h1 className="font-corinthia text-2xl lg:text-[40px] text-[#6B4C41] font-bold">
-            Recliner Sofas
+            2 Seater Sofas
         </h1>
     </div>
     <div className="mt-5 lg:mt-0 border-t border-[#33333366]"/>
 
     <div className="flex flex-col mt-6 lg:mt-8 items-center gap-6 lg:gap-8">
 
-        {SofaCollections.map((item) => (
+        {TwoSeaterSofaCollections.map((item) => (
         <div 
         className="relative h-[140px] md:h-[180px] lg:h-[320px] w-full overflow-hidden rounded-3xl"
         >
@@ -48,10 +48,9 @@ const ReclinerSofas = () => {
         ))}
         </div>
         </div>
-        
     </div>
     </>
   )
 }
 
-export default ReclinerSofas;
+export default TwoSeaterSofas;

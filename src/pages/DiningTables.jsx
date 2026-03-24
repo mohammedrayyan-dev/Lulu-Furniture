@@ -4,6 +4,7 @@ import RubberWoodDiningTable from "/src/assets/images/products/diningtables/Rubb
 import NeemWoodDiningTable from "/src/assets/images/products/diningtables/NeemWoodDiningTable.webp"
 import CoffeeTable from "/src/assets/images/products/diningtables/CoffeeTable.webp"
 import { useEffect } from "react";
+import { Link } from "react-router-dom"
 
 const DiningTableCollections = [
     { name: "Teak Wood Dining Table", image: TeakWoodDiningTable, alt: "Teak Wood Dining Table Image" },
@@ -24,9 +25,10 @@ const DiningTables = () => {
     
     <div className="max-w-7xl mx-auto">
     <div className="flex flex-row items-center space-x-4">
-        <a href="/">
+        <Link 
+        to="/">
             <img src={BackArrow} alt="Back Arrow" className="w-[24px] lg:w-[28px] cursor-pointer" />
-        </a>
+        </Link>
         <h1 className="font-corinthia text-2xl lg:text-[40px] text-[#6B4C41] font-bold">
             Dining Tables
         </h1>
@@ -37,10 +39,10 @@ const DiningTables = () => {
 
         {DiningTableCollections.map((item) => (
         <div 
-        className="relative max-h-[140px] md:max-h-[350px] aspect-[8/4] md:aspect-[25/6] lg:aspect-[25/6] w-full cursor-pointer"
+        className="relative h-[140px] md:h-[180px] lg:h-[320px] w-full cursor-pointer overflow-hidden rounded-3xl"
         >
-        <img src={item.image} alt={item.alt} className="h-full w-full object-fit rounded-3xl" />
-        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl" />
+        <img src={item.image} alt={item.alt} className="h-full w-full object-cover" />
+        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045]" />
         <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
             {item.name}
         </h3>

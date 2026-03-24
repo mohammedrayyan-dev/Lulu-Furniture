@@ -2,7 +2,7 @@ import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
 import PillowsCushions from "/src/assets/images/products/comfort-essentials/pillows-cushions.webp"
 import BeanBags from "/src/assets/images/products/comfort-essentials/bean-bags.webp"
 import PoufsOttomans from "/src/assets/images/products/comfort-essentials/poufs-ottomans.webp"
-import { useNavigate } from "react-router"
+import { Link, useNavigate } from "react-router"
 import { useEffect } from "react";
 
 const ComfortCollections = [
@@ -25,9 +25,10 @@ const ComfortEssentials = () => {
 
     <div className="max-w-7xl mx-auto">
     <div className="flex flex-row items-center gap-4">
-        <a href="/">
+        <Link
+        to="/">
         <img src={BackArrow} alt="Back Arrow" className="w-[24px] lg:w-[28px] cursor-pointer" />
-        </a>
+        </Link>
         <h1 className="font-corinthia text-2xl lg:text-[40px] text-[#6B4C41] font-bold">
             Comfort Essentials
         </h1>
@@ -39,10 +40,10 @@ const ComfortEssentials = () => {
         {ComfortCollections.map((comfort) => (
         <div 
         onClick={() => navigate(comfort.path)}
-        className="relative h-[140px] md:h-[260px] lg:h-[350px] w-full cursor-pointer overflow-hidden"
+        className="relative h-[140px] md:h-[180px] lg:h-[320px] w-full cursor-pointer overflow-hidden rounded-3xl"
         >
-        <img src={comfort.image} alt={comfort.alt} className="w-full h-full object-cover object-top rounded-3xl" />
-        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl" />
+        <img src={comfort.image} alt={comfort.alt} className="w-full h-full object-cover object-top" />
+        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045]" />
         <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
             {comfort.name}
         </h3>

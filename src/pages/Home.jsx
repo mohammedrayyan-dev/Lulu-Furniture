@@ -8,6 +8,7 @@ import AboutUs from "../components/AboutUs"
 import CustomerFeedbacks from "../components/CustomerFeedbacks.jsx"
 import { useEffect } from "react";
 import { useLocation } from "react-router";
+import { motion } from "framer-motion"
 
 const Home = () => {
 
@@ -44,7 +45,11 @@ useEffect(() => {
     <div className="bg-[#DBD1C7] px-5 sm:px-6 lg:px-10 min-h-[100vh] lg:min-h-[110vh]">
     <div className="max-w-7xl mx-auto">
       <Navbar />
-    <div className="flex flex-col justify-center items-center mb-[20px]">
+    <motion.div
+    initial={{ opacity: 0, y: -40 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.5 }}
+    className="flex flex-col justify-center items-center mb-[20px]">
       <h1 className="font-lato font-normal text-[#333333] text-center text-2xl md:text-5xl lg:text-6xl pt-[40px] md:pt-[80px]">
         Inspire. Design. Make It Yours.
       </h1>
@@ -54,7 +59,7 @@ useEffect(() => {
       <div className="block md:hidden pt-[20px]">
       <img src={MobileView} alt="Hero Banner" className="w-full h-auto"/>
       </div>
-    </div>
+    </motion.div>
     </div>
     </div>
 

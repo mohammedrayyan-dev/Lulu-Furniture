@@ -6,9 +6,8 @@ import { Link, useNavigate } from "react-router"
 import { useEffect } from "react";
 
 const ComfortCollections = [
-    { name: "Pillows & Cushions", image: PillowsCushions, alt: "Pillows & Cushions", path: "/comfort-essentials" },
-    { name: "Bean Bags", image: BeanBags, alt: "Bean Bags", path: "/comfort-essentials" },
-    { name: "Poufs & Ottomans", image: PoufsOttomans, alt: "Poufs & Ottomans", path: "/comfort-essentials" },
+    { name: "Bean Bags", image: BeanBags, alt: "Bean Bags", path: "/comfort-essentials/bean-bags" },
+    { name: "Cushion Pillows", image: PoufsOttomans, alt: "Cushion Pillows", path: "/comfort-essentials/cushion-pillows" },
 ]
 
 const ComfortEssentials = () => {

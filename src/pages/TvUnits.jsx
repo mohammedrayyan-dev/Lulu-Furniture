@@ -6,12 +6,15 @@ import { useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 
 const TvUnitCollections = [
-    { name: "TV Cabinet Decor", image: TVCabinetDecor, alt: "TV Cabinet Decor Image" },
-    { name: "TV Stand", image: TVStand, alt: "TV Stand Image" },
-    { name: "TV Unit Design", image: TVUnitDesign, alt: "TV Unit Design Image" }
+    { name: "Wooden TV Units", image: TVCabinetDecor, alt: "Wooden TV Units", path: "/tv-units/wooden-tv-units" },
+    { name: "TV Units with Storage", image: TVStand, alt: "TV Units with Storage", path: "/tv-units/tv-units-with-storage" },
+    { name: "Wall Mounted TV Units", image: TVUnitDesign, alt: "Wall Mounted TV Units", path: "/tv-units/wall-mounted-tv-units" },
+    { name: "Corner TV Units", image: TVUnitDesign, alt: "Corner TV Units", path: "/tv-units/corner-tv-units" },
 ]
 
 const TvUnits = () => {
+
+    const naviagte = useNavigate()
 
     useEffect(() => {
         document.title = "Tv Units | Lulu Furniture";
@@ -35,14 +38,15 @@ const TvUnits = () => {
 
     <div className="flex flex-col mt-6 lg:mt-8 items-center gap-6 lg:gap-8">
 
-        {TvUnitCollections.map((item) => (
+        {TvUnitCollections.map((tv) => (
         <div 
+        onClick={() => naviagte(tv.path)}
         className="relative h-[140px] md:h-[180px] lg:h-[320px] w-full cursor-pointer overflow-hidden rounded-3xl"
         >
-        <img src={item.image} alt={item.alt} className="h-full w-full object-cover" />
+        <img src={tv.image} alt={tv.alt} className="h-full w-full object-cover" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045]" />
         <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
-            {item.name}
+            {tv.name}
         </h3>
         </div>
         ))}

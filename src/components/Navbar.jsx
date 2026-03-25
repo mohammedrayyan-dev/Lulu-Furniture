@@ -33,7 +33,7 @@ const Navbar = () => {
         {/* Desktop Nav */}
         <div
           className={`
-          hidden md:flex md:items-center md:bg-[#FFFFFF60] md:h-[60px] md:w-[382px]
+          hidden md:flex md:items-center md:bg-[#FFFFFF40] md:h-[60px] md:w-[382px]
           md:rounded-full md:backdrop-blur-md md:z-50 md:transition-all md:duration-300
           md:fixed md:left-1/2 md:-translate-x-1/2
           ${isFloating ? "md:top-5" : "md:top-[20px] lg:top-[30px]"}
@@ -43,12 +43,26 @@ const Navbar = () => {
           <nav className="font-sans flex flex-row gap-6 text-[#333333] px-[20px] py-[24px] font-semibold">
             <Link 
             to=""
+            className="hover:text-[#000000]"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            >Home
+            >
+              Home
             </Link>
-            <Link to="/#products">Products</Link>
-            <Link to="/#feedback">Feedback</Link>
-            <Link to="/#aboutus">About Us</Link>
+            <Link 
+            to="/#products"
+            className="hover:text-[#000000]">
+              Products
+            </Link>
+            <Link 
+            to="/#feedback"
+            className="hover:text-[#000000]">
+              Feedback
+            </Link>
+            <Link 
+            to="/#aboutus"
+            className="hover:text-[#000000]">
+              About Us
+            </Link>
           </nav>
         </div>
 

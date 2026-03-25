@@ -3,18 +3,14 @@ import BedroomBerows from "/src/assets/images/products/berows/bedroom-berows.web
 import OfficeBerows from "/src/assets/images/products/berows/office-berows.webp"
 import KidsBerows from "/src/assets/images/products/berows/kids-berows.webp"
 import SmallRoomPGBerows from "/src/assets/images/products/berows/small-room-pg-berows.webp"
-import HeavyDutyBerows from "/src/assets/images/products/berows/heavy-duty-berows.webp"
-import RustProofBerows from "/src/assets/images/products/berows/rust-proof-berows.webp"
-import { useNavigate } from "react-router-dom"
+import { useNavigate, Link } from "react-router-dom"
 import { useEffect } from "react";
 
 const SofaCollections = [
-    { name: "Bedroom Berows", image: BedroomBerows, alt: "Bedroom Berows", path: "/berows" },
-    { name: "Office Berows", image: OfficeBerows, alt: "Office Berows", path: "/berows" },
-    { name: "Kids Berows", image: KidsBerows, alt: "Kids Berows", path: "/berows" },
-    { name: "Small Room / PG Berows", image: SmallRoomPGBerows,  alt: "Small Room / PG Berows", path: "/berows" },
-    { name: "Heavy Duty Berows", image: HeavyDutyBerows, alt: "Heavy Duty Berows", path: "/berows" },
-    { name: "Rust Proof Berows", image: RustProofBerows, alt: "Rust Proof Berows", path: "/berows" },
+    { name: "Berows with Mirror", image: BedroomBerows, alt: "Berows with Mirror", path: "/berows/berows-with-mirror" },
+    { name: "Berows with Drawers", image: OfficeBerows, alt: "Berows with Drawers", path: "/berows/berows-with-drawers" },
+    { name: "Sliding Door Berows", image: KidsBerows, alt: "Sliding Door Berows", path: "/berows/sliding-door-berows" },
+    { name: "Compact Berows", image: SmallRoomPGBerows, alt: "Compact Berows", path: "/berows/compact-berows" },
 ]
 
 const Berows = () => {

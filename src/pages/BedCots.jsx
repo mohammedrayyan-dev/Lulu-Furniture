@@ -5,16 +5,19 @@ import IndianBedCot from "/src/assets/images/products/bedcots/IndianBedCot.webp"
 import LuxuryFabricBedCot from "/src/assets/images/products/bedcots/LuxuryFabricBedCot.webp"
 import ChineseBedCot from "/src/assets/images/products/bedcots/ChineseBedCot.webp"
 import { useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom"
 
-const BedCollections = [
-    { name: "Baby Bed Cot", image: BabyBedCot, alt: "Baby Bed Cot Image" },
-    { name: "Western Bed Cot", image: WesternBedCot, alt: "Western Bed Cot Image" },
-    { name: "Indian Bed Cot", image: IndianBedCot, alt: "Indian Bed Cot Image" },
-    { name: "Luxury Fabric Bed Cot", image: LuxuryFabricBedCot, alt: "Luxury Fabric Bed Cot Image" },
-    { name: "Chinese Bed Cot", image: ChineseBedCot, alt: "Chinese Bed Cot Image" },
+const BedCotCollections = [
+    { name: "Teak Wood Bed Cots", image: BabyBedCot, alt: "Teak Wood Bed Cots", path: "/beds-&-cots/teak-wood-bed-cots" },
+    { name: "Engineered Wood Bed Cots", image: WesternBedCot, alt: "Engineered Wood Bed Cots", path: "/beds-&-cots/engineered-wood-bed-cots" },
+    { name: "Metal Bed Cots", image: IndianBedCot, alt: "Metal Bed Cots", path: "/beds-&-cots/metal-bed-cots" },
+    { name: "Box Storage Bed Cots", image: LuxuryFabricBedCot, alt: "Box Storage Bed Cots", path: "/beds-&-cots/box-storage-bed-cots" },
+    { name: "Hydraulic Storage Bed Cots ", image: ChineseBedCot, alt: "Hydraulic Storage Bed Cots", path: "/beds-&-cots/hydraulic-storage-bed-cots" },
 ]
 
 const BedCot = () => {
+
+    const navigate = useNavigate();
 
     useEffect(() => {
             document.title = "Beds & Cots | Lulu Furniture";
@@ -38,14 +41,15 @@ const BedCot = () => {
     
     <div className="flex flex-col mt-6 lg:mt-8 items-center gap-6 lg:gap-8">
 
-        {BedCollections.map((item) => (
+        {BedCotCollections.map((bed) => (
         <div 
+        onClick={() => navigate(bed.path)}
         className="relative h-[140px] md:h-[180px] lg:h-[320px] w-full cursor-pointer overflow-hidden rounded-3xl"
         >
-        <img src={item.image} alt={item.alt} className="h-full w-full object-cover" />
+        <img src={bed.image} alt={bed.alt} className="h-full w-full object-cover" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045]" />
         <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
-            {item.name}
+            {bed.name}
         </h3>
         </div>
         ))}

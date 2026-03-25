@@ -4,16 +4,18 @@ import RubberWoodDiningTable from "/src/assets/images/products/diningtables/Rubb
 import NeemWoodDiningTable from "/src/assets/images/products/diningtables/NeemWoodDiningTable.webp"
 import CoffeeTable from "/src/assets/images/products/diningtables/CoffeeTable.webp"
 import { useEffect } from "react";
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 const DiningTableCollections = [
-    { name: "Teak Wood Dining Table", image: TeakWoodDiningTable, alt: "Teak Wood Dining Table Image" },
-    { name: "Rubber Wood Dining Table", image: RubberWoodDiningTable, alt: "Rubber Wood Dining Table Image" },
-    { name: "Neem Wood Dining Table", image: NeemWoodDiningTable, alt: "Neem Wood Dining Table Image" },
-    { name: "Coffee Table", image: CoffeeTable, alt: "Coffee Table Image" },
+    { name: "4 Seater Dining Table", image: TeakWoodDiningTable, alt: "Teak Wood Dining Table Image", path: "/dining-tables/four-seater-dining-table" },
+    { name: "6 Seater Dining Table", image: RubberWoodDiningTable, alt: "Rubber Wood Dining Table Image", path: "/dining-tables/six-seater-dining-table" },
+    { name: "Glass Top Dining Table", image: NeemWoodDiningTable, alt: "Neem Wood Dining Table Image", path: "/dining-tables/glass-top-dining-table" },
+    { name: "Engineered Wood Dining Table", image: CoffeeTable, alt: "Coffee Table Image", path: "/dining-tables/engineered-wood-dining-table" },
 ]
 
 const DiningTables = () => {
+
+    const navigate = useNavigate();
 
     useEffect(() => {
         document.title = "Dining Tables | Lulu Furniture";
@@ -37,14 +39,15 @@ const DiningTables = () => {
 
     <div className="flex flex-col mt-6 lg:mt-8 items-center gap-6 lg:gap-8">
 
-        {DiningTableCollections.map((item) => (
+        {DiningTableCollections.map((dining) => (
         <div 
+        onClick={() => navigate(dining.path)}
         className="relative h-[140px] md:h-[180px] lg:h-[320px] w-full cursor-pointer overflow-hidden rounded-3xl"
         >
-        <img src={item.image} alt={item.alt} className="h-full w-full object-cover" />
+        <img src={dining.image} alt={dining.alt} className="h-full w-full object-cover" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045]" />
         <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
-            {item.name}
+            {dining.name}
         </h3>
         </div>
         ))}

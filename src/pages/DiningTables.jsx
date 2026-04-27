@@ -1,16 +1,16 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import TeakWoodDiningTable from "/src/assets/images/products/diningtables/TeakWoodDiningTable.webp"
-import RubberWoodDiningTable from "/src/assets/images/products/diningtables/RubberWoodDiningTable.webp"
-import NeemWoodDiningTable from "/src/assets/images/products/diningtables/NeemWoodDiningTable.webp"
-import CoffeeTable from "/src/assets/images/products/diningtables/CoffeeTable.webp"
+import FourSeaterDiningTable from "/src/assets/images/products/dining-tables/four-seater-dining-table.webp"
+import SixSeaterDiningTable from "/src/assets/images/products/dining-tables/six-seater-dining-table.webp"
+import GlassTopDiningTable from "/src/assets/images/products/dining-tables/glass-top-dining-table.webp"
+import EngineeredWoodDiningTable from "/src/assets/images/products/dining-tables/engineered-wood-dining-table.webp"
 import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom"
 
 const DiningTableCollections = [
-    { name: "4 Seater Dining Table", image: TeakWoodDiningTable, alt: "Teak Wood Dining Table Image", path: "/dining-tables/four-seater-dining-table" },
-    { name: "6 Seater Dining Table", image: RubberWoodDiningTable, alt: "Rubber Wood Dining Table Image", path: "/dining-tables/six-seater-dining-table" },
-    { name: "Glass Top Dining Table", image: NeemWoodDiningTable, alt: "Neem Wood Dining Table Image", path: "/dining-tables/glass-top-dining-table" },
-    { name: "Engineered Wood Dining Table", image: CoffeeTable, alt: "Coffee Table Image", path: "/dining-tables/engineered-wood-dining-table" },
+    { name: "4 Seater Dining Table", image: FourSeaterDiningTable, alt: "Four Seater Dining Table", path: "/dining-tables/4-seater-dining-table" },
+    { name: "6 Seater Dining Table", image: SixSeaterDiningTable, alt: "Six Seater Dining Table", path: "/dining-tables/6-seater-dining-table" },
+    { name: "Glass Top Dining Table", image: GlassTopDiningTable, alt: "Glass Top Dining Table", path: "/dining-tables/glass-top-dining-table" },
+    { name: "Engineered Wood Dining Table", image: EngineeredWoodDiningTable, alt: "Engineered Wood Dining Table", path: "/dining-tables/engineered-wood-dining-table" },
 ]
 
 const DiningTables = () => {

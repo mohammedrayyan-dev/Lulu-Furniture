@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import RoundGlassTop from "/src/assets/images/products/dining-tables/glass-top-dining-tables/round-glass-top.webp"
+import RectangularGlassTop from "/src/assets/images/products/dining-tables/glass-top-dining-tables/rectangular-glass-top.webp"
+import OvalGlassTop from "/src/assets/images/products/dining-tables/glass-top-dining-tables/oval-glass-top.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const GlassTopDiningTableCollections = [
-    { name: "Round Glass Top", image: BlackPU, alt: "Round Glass Top" },
-    { name: "Rectangular Glass Top", image: BrownPU, alt: "Rectangular Glass Top" },
-    { name: "Oval Glass Top", image: CreamPU, alt: "Oval Glass Top" },
+    { name: "Round Glass Top", image: RoundGlassTop, alt: "Round Glass Top" },
+    { name: "Rectangular Glass Top", image: RectangularGlassTop, alt: "Rectangular Glass Top" },
+    { name: "Oval Glass Top", image: OvalGlassTop, alt: "Oval Glass Top" },
 ]
 
 const GlassTopDiningTable = () => {

@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import WoodenSixSeater from "/src/assets/images/products/dining-tables/six-seater-dining-tables/wooden-six-seater.webp"
+import GlassTopSixSeater from "/src/assets/images/products/dining-tables/six-seater-dining-tables/glass-top-six-seater.webp"
+import MarbleTopSixSeater from "/src/assets/images/products/dining-tables/six-seater-dining-tables/marble-top-six-seater.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const SixSeaterDiningTableCollections = [
-    { name: "Wooden 6 Seater", image: BlackPU, alt: "Wooden 6 Seater" },
-    { name: "Glass Top 6 Seater", image: BrownPU, alt: "Glass Top 6 Seater" },
-    { name: "Marble Top 6 Seater", image: CreamPU, alt: "Marble Top 6 Seater" },
+    { name: "Wooden 6 Seater", image: WoodenSixSeater, alt: "Wooden 6 Seater" },
+    { name: "Glass Top 6 Seater", image: GlassTopSixSeater, alt: "Glass Top 6 Seater" },
+    { name: "Marble Top 6 Seater", image: MarbleTopSixSeater, alt: "Marble Top 6 Seater" },
 ]
 
 const SixSeaterDiningTable = () => {

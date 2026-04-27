@@ -1,14 +1,12 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import WoodenFourSeater from "/src/assets/images/products/dining-tables/four-seater-dining-tables/wooden-four-seater.webp"
+import GlassTopFourSeater from "/src/assets/images/products/dining-tables/four-seater-dining-tables/glass-top-four-seater.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const FourSeaterDiningTableCollections = [
-    { name: "Wooden 4 Seater", image: BlackPU, alt: "Wooden 4 Seater" },
-    { name: "Glass Top 4 Seater", image: BrownPU, alt: "Glass Top 4 Seater" },
-    { name: "Foldable 4 Seater", image: CreamPU, alt: "Foldable 4 Seater" },
+    { name: "Wooden 4 Seater", image: WoodenFourSeater, alt: "Wooden 4 Seater" },
+    { name: "Glass Top 4 Seater", image: GlassTopFourSeater, alt: "Glass Top 4 Seater" },
 ]
 
 const FourSeaterDiningTable = () => {

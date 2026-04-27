@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import PlainTop from "/src/assets/images/products/dining-tables/engineered-wood-dining-tables/plain-top.webp"
+import LaminateFinish from "/src/assets/images/products/dining-tables/engineered-wood-dining-tables/laminate-finish.webp"
+import HighGlossFinish from "/src/assets/images/products/dining-tables/engineered-wood-dining-tables/high-gloss-finish.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const EngineeredWoodDiningTableCollections = [
-    { name: "Plain Top", image: BlackPU, alt: "Plain Top" },
-    { name: "Laminate Finish", image: BrownPU, alt: "Laminate Finish" },
-    { name: "High Gloss Finish", image: CreamPU, alt: "High Gloss Finish" },
+    { name: "Plain Top", image: PlainTop, alt: "Plain Top" },
+    { name: "Laminate Finish", image: LaminateFinish, alt: "Laminate Finish" },
+    { name: "High Gloss Finish", image: HighGlossFinish, alt: "High Gloss Finish" },
 ]
 
 const EngineeredWoodDiningTable = () => {

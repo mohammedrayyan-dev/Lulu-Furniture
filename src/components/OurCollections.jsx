@@ -29,7 +29,7 @@ const OurCollections = () => {
        
         <Link
         to="/sofas" 
-        className="flex relative cursor-pointer h-[300px] max-w-full max-w-full lg:h-auto lg:max-w-[400px] lg:col-start-1 lg:row-start-1 lg:row-span-2">
+        className="flex relative cursor-pointer h-[300px] max-w-full lg:h-auto lg:max-w-[400px] lg:col-start-1 lg:row-start-1 lg:row-span-2">
             <img src={SofaLounge} alt="Sofa Lounge" className="h-full w-full rounded-xl"/>
             <div className="absolute inset-0 bg-[#00000059] hover:bg-[#00000075] rounded-xl" />
             <h3 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8">

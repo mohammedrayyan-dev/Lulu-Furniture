@@ -89,8 +89,8 @@ function App() {
       <Route path="/beds-&-cots/hydraulic-storage-bed-cots" element={<HydraulicStorageBedCots/>}/>
 
       {/* Dining Tables */}
-      <Route path="/dining-tables/four-seater-dining-table" element={<FourSeaterDiningTable/>}/>
-      <Route path="/dining-tables/six-seater-dining-table" element={<SixSeaterDiningTable/>}/>
+      <Route path="/dining-tables/4-seater-dining-table" element={<FourSeaterDiningTable/>}/>
+      <Route path="/dining-tables/6-seater-dining-table" element={<SixSeaterDiningTable/>}/>
       <Route path="/dining-tables/glass-top-dining-table" element={<GlassTopDiningTable/>}/>
       <Route path="/dining-tables/engineered-wood-dining-table" element={<EngineeredWoodDiningTable/>}/>
 

@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import BoxWithHeadboard from "/src/assets/images/products/bedcots/box-storage-bed-cots/box-with-headboard.webp"
+import SingleBox from "/src/assets/images/products/bedcots/box-storage-bed-cots/single-box.webp"
+import DoubleBox from "/src/assets/images/products/bedcots/box-storage-bed-cots/double-box.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const BoxStorageBedCotsCollections = [
-    { name: "Single Box", image: BlackPU, alt: "Single Box" },
-    { name: "Double Box", image: BrownPU, alt: "Double Box" },
-    { name: "Box With Headboard", image: CreamPU, alt: "Box With Headboard" },
+    { name: "Single Box", image: SingleBox, alt: "Single Box" },
+    { name: "Double Box", image: DoubleBox, alt: "Double Box" },
+    { name: "Box With Headboard", image: BoxWithHeadboard, alt: "Box With Headboard" },
 ]
 
 const BoxStorageBedCots = () => {

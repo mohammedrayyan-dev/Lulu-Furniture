@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import SingleHydraulic from "/src/assets/images/products/bedcots/hydraulic-storage-bed-cots/single-hydraulic.webp"
+import DoubleHydraulic from "/src/assets/images/products/bedcots/hydraulic-storage-bed-cots/double-hydraulic.webp"
+import HydraulicwithHeadboard from "/src/assets/images/products/bedcots/hydraulic-storage-bed-cots/hydraulic-with-headboard.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const HydraulicStorageBedCotsCollections = [
-    { name: "Single Hydraulic", image: BlackPU, alt: "Single Hydraulic" },
-    { name: "Double Hydraulic", image: BrownPU, alt: "Double Hydraulic" },
-    { name: "Hydraulic with Headboard", image: CreamPU, alt: "Hydraulic with Headboard" },
+    { name: "Single Hydraulic", image: SingleHydraulic, alt: "Single Hydraulic" },
+    { name: "Double Hydraulic", image: DoubleHydraulic, alt: "Double Hydraulic" },
+    { name: "Hydraulic with Headboard", image: HydraulicwithHeadboard, alt: "Hydraulic with Headboard" },
 ]
 
 const HydraulicStorageBedCots = () => {

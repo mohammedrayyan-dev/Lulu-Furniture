@@ -1,18 +1,18 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BabyBedCot from "/src/assets/images/products/bedcots/BabyBedCot.webp"
-import WesternBedCot from "/src/assets/images/products/bedcots/WesternBedCot.webp"
-import IndianBedCot from "/src/assets/images/products/bedcots/IndianBedCot.webp"
-import LuxuryFabricBedCot from "/src/assets/images/products/bedcots/LuxuryFabricBedCot.webp"
-import ChineseBedCot from "/src/assets/images/products/bedcots/ChineseBedCot.webp"
+import TeakWoodBedCots from "/src/assets/images/products/bedcots/teak-wood-bed-cots.webp"
+import EngineeredWoodBedCots from "/src/assets/images/products/bedcots/engineered-wood-bed-cots.webp"
+import MetalBedCots from "/src/assets/images/products/bedcots/metal-bed-cots.webp"
+import BoxStorageBedCots from "/src/assets/images/products/bedcots/box-storage-bed-cots.webp"
+import HydraulicStorageBedCots from "/src/assets/images/products/bedcots/hydraulic-storage-bed-cots.webp"
 import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom"
 
 const BedCotCollections = [
-    { name: "Teak Wood Bed Cots", image: BabyBedCot, alt: "Teak Wood Bed Cots", path: "/beds-&-cots/teak-wood-bed-cots" },
-    { name: "Engineered Wood Bed Cots", image: WesternBedCot, alt: "Engineered Wood Bed Cots", path: "/beds-&-cots/engineered-wood-bed-cots" },
-    { name: "Metal Bed Cots", image: IndianBedCot, alt: "Metal Bed Cots", path: "/beds-&-cots/metal-bed-cots" },
-    { name: "Box Storage Bed Cots", image: LuxuryFabricBedCot, alt: "Box Storage Bed Cots", path: "/beds-&-cots/box-storage-bed-cots" },
-    { name: "Hydraulic Storage Bed Cots ", image: ChineseBedCot, alt: "Hydraulic Storage Bed Cots", path: "/beds-&-cots/hydraulic-storage-bed-cots" },
+    { name: "Teak Wood Bed Cots", image: TeakWoodBedCots, alt: "Teak Wood Bed Cots", path: "/beds-&-cots/teak-wood-bed-cots" },
+    { name: "Engineered Wood Bed Cots", image: EngineeredWoodBedCots, alt: "Engineered Wood Bed Cots", path: "/beds-&-cots/engineered-wood-bed-cots" },
+    { name: "Metal Bed Cots", image: MetalBedCots, alt: "Metal Bed Cots", path: "/beds-&-cots/metal-bed-cots" },
+    { name: "Box Storage Bed Cots", image: BoxStorageBedCots, alt: "Box Storage Bed Cots", path: "/beds-&-cots/box-storage-bed-cots" },
+    { name: "Hydraulic Storage Bed Cots", image: HydraulicStorageBedCots, alt: "Hydraulic Storage Bed Cots", path: "/beds-&-cots/hydraulic-storage-bed-cots" },
 ]
 
 const BedCot = () => {

@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import SimpleTeak from "/src/assets/images/products/bedcots/teak-wood-bed-cots/simple-teak.webp"
+import TeakWithHeadboard from "/src/assets/images/products/bedcots/teak-wood-bed-cots/teak-with-headboard.webp"
+import TeakWithFootboard from "/src/assets/images/products/bedcots/teak-wood-bed-cots/teak-with-footboard.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const TeakWoodBedCotsCollections = [
-    { name: "Simple Teak", image: BlackPU, alt: "Simple Teak" },
-    { name: "Teak with Headboard", image: BrownPU, alt: "Teak with Headboard" },
-    { name: "Teak with Footboard", image: CreamPU, alt: "Teak with Footboard" },
+    { name: "Simple Teak", image: SimpleTeak, alt: "Simple Teak" },
+    { name: "Teak with Headboard", image: TeakWithHeadboard, alt: "Teak with Headboard" },
+    { name: "Teak with Footboard", image: TeakWithFootboard, alt: "Teak with Footboard" },
 ]
 
 const TeakWoodBedCots = () => {

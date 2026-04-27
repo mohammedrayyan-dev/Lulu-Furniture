@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import Plain from "/src/assets/images/products/bedcots/engineered-wood-bed-cots/plain.webp"
+import WithHeadboard from "/src/assets/images/products/bedcots/engineered-wood-bed-cots/with-headboard.webp"
+import WithSideStorage from "/src/assets/images/products/bedcots/engineered-wood-bed-cots/with-side-storage.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const EngineeredWoodBedCotsCollections = [
-    { name: "Plain", image: BlackPU, alt: "Plain" },
-    { name: "With Headboard", image: BrownPU, alt: "With Headboard" },
-    { name: "With Side Storage", image: CreamPU, alt: "With Side Storage" },
+    { name: "Plain", image: Plain, alt: "Plain" },
+    { name: "With Headboard", image: WithHeadboard, alt: "With Headboard" },
+    { name: "With Side Storage", image: WithSideStorage, alt: "With Side Storage" },
 ]
 
 const EngineeredWoodBedCots = () => {

@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import SimpleMetal from "/src/assets/images/products/bedcots/metal-bed-cots/simple-metal.webp"
+import MetalWithHeadboard from "/src/assets/images/products/bedcots/metal-bed-cots/metal-with-headboard.webp"
+import MetalBunkBed from "/src/assets/images/products/bedcots/metal-bed-cots/metal-bunk-bed.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const MetalBedCotsCollections = [
-    { name: "Simple Metal", image: BlackPU, alt: "Simple Metal" },
-    { name: "Metal With Headboard", image: BrownPU, alt: "Metal With Headboard" },
-    { name: "Metal Bunk Bed", image: CreamPU, alt: "Metal Bunk Bed" },
+    { name: "Simple Metal", image: SimpleMetal, alt: "Simple Metal" },
+    { name: "Metal With Headboard", image: MetalWithHeadboard, alt: "Metal With Headboard" },
+    { name: "Metal Bunk Bed", image: MetalBunkBed, alt: "Metal Bunk Bed" },
 ]
 
 const MetalBedCots = () => {

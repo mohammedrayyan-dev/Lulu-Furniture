@@ -3,9 +3,9 @@ import BedCot from "/src/assets/images/products/Bed&Cot.webp";
 import DiningTable from "/src/assets/images/products/DiningTable.webp";
 import StorageShelf from "/src/assets/images/products/StorageShelf.webp";
 import TvUnit from "/src/assets/images/products/TvUnit.webp";
-import Chair from "/src/assets/images/products/Chair.webp"
+import Chair from "/src/assets/images/products/chairs.webp"
 import Berow from "/src/assets/images/products/Berow.webp"
-import ComfortEssentials from "/src/assets/images/products/ComfortEssentials.webp";
+import ComfortEssentials from "/src/assets/images/products/comfort-essentials.webp";
 import OneSeaterSofaVector from "/src/assets/images/ui/icons/1SeaterSofaVector.png";
 import TwoSeaterSofaVector from "/src/assets/images/ui/icons/2SeaterSofaVector.png";
 import DeliveryVanVector from "/src/assets/images/ui/icons/DeliveryVanVector.png";

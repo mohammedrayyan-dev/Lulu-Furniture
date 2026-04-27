@@ -1,14 +1,13 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import StorageTable from "/src/assets/images/products/storage-shelves/StorageTable.webp"
-import DressingTable from "/src/assets/images/products/storage-shelves/DressingTable.webp"
+import BookShelves from "/src/assets/images/products/storage-shelves/book-shelves.webp"
+import ShoeRacks from "/src/assets/images/products/storage-shelves/shoe-racks.webp"
 import DressCupboard from "/src/assets/images/products/storage-shelves/DressCupboard.webp"
 import { useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom"
 
 const StorageShelfCollections = [
-    { name: "Book Shelves", image: StorageTable, alt: "Book Shelves", path: "/storage-shelves/book-shelves" },
-    { name: "Shoe Racks", image: DressingTable, alt: "Shoe Racks", path: "/storage-shelves/shoe-racks" },
-    { name: "Wall Mounted Shelves", image: DressCupboard, alt: "Wall Mounted Shelves", path: "/storage-shelves/wall-mounted-shelves" },
+    { name: "Book Shelves", image: BookShelves, alt: "Book Shelves", path: "/storage-shelves/book-shelves" },
+    { name: "Shoe Racks", image: ShoeRacks, alt: "Shoe Racks", path: "/storage-shelves/shoe-racks" },
 ]
 
 const StorageShelfs = () => {

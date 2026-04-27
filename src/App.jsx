@@ -35,13 +35,11 @@ import EngineeredWoodDiningTable from "./pages/dining-tables/EngineeredWoodDinin
 // Storage Shelves
 import BookShelves from "./pages/storage-shelves/BookShelves.jsx"
 import ShoeRacks from "./pages/storage-shelves/ShoeRacks.jsx"
-import WallMountedShelves from "./pages/storage-shelves/WallMountedShelves.jsx"
 
 // TV Units
 import WoodenTVUnits from "./pages/tv-units/WoodenTVUnits.jsx"
 import TVUnitsWithStorage from "./pages/tv-units/TVUnitsWithStorage.jsx"
 import WallMountedTVUnits from "./pages/tv-units/WallMountedTVUnits.jsx"
-import CornerTVUnits from "./pages/tv-units/CornerTVUnits.jsx"
 
 // Chairs
 import DiningChairs from "./pages/chairs/DiningChairs.jsx"
@@ -97,13 +95,11 @@ function App() {
       {/* Storage Shelves */}
       <Route path="/storage-shelves/book-shelves" element={<BookShelves/>}/>
       <Route path="/storage-shelves/shoe-racks" element={<ShoeRacks/>}/>
-      <Route path="/storage-shelves/wall-mounted-shelves" element={<WallMountedShelves/>}/>
 
       {/* TV Units */}
       <Route path="/tv-units/wooden-tv-units" element={<WoodenTVUnits/>}/>
       <Route path="/tv-units/tv-units-with-storage" element={<TVUnitsWithStorage/>}/>
       <Route path="/tv-units/wall-mounted-tv-units" element={<WallMountedTVUnits/>}/>
-      <Route path="/tv-units/corner-tv-units" element={<CornerTVUnits/>}/>
 
       {/* Berows */}
       <Route path="/berows/berows-with-mirror" element={<BerowsWithMirror/>}/>

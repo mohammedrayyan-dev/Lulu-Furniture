@@ -9,7 +9,6 @@ const TvUnitCollections = [
     { name: "Wooden TV Units", image: TVCabinetDecor, alt: "Wooden TV Units", path: "/tv-units/wooden-tv-units" },
     { name: "TV Units with Storage", image: TVStand, alt: "TV Units with Storage", path: "/tv-units/tv-units-with-storage" },
     { name: "Wall Mounted TV Units", image: TVUnitDesign, alt: "Wall Mounted TV Units", path: "/tv-units/wall-mounted-tv-units" },
-    { name: "Corner TV Units", image: TVUnitDesign, alt: "Corner TV Units", path: "/tv-units/corner-tv-units" },
 ]
 
 const TvUnits = () => {

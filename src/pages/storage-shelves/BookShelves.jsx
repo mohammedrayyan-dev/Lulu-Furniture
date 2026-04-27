@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import ThreeTier from "/src/assets/images/products/storage-shelves/book-shelves/three-tier.webp"
+import FiveTier from "/src/assets/images/products/storage-shelves/book-shelves/five-tier.webp"
+import OpenBackBookshelf from "/src/assets/images/products/storage-shelves/book-shelves/open-back-bookshelves.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const BookShelvesCollections = [
-    { name: "3 Tier", image: BlackPU, alt: "3 Tier" },
-    { name: "5 Tier", image: BrownPU, alt: "5 Tier" },
-    { name: "Open Back Bookshelf", image: CreamPU, alt: "Open Back Bookshelf" },
+    { name: "3 Tier", image: ThreeTier, alt: "3 Tier" },
+    { name: "5 Tier", image: FiveTier, alt: "5 Tier" },
+    { name: "Open Back Bookshelf", image: OpenBackBookshelf, alt: "Open Back Bookshelf" },
 ]
 
 const BookShelves = () => {

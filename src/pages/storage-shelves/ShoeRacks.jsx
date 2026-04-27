@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import TwoTier from "/src/assets/images/products/storage-shelves/shoe-racks/two-tier.webp"
+import FourTier from "/src/assets/images/products/storage-shelves/shoe-racks/four-tier.webp"
+import CoveredShoeRack from "/src/assets/images/products/storage-shelves/shoe-racks/covered-shoe-rack.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const ShoeRacksCollections = [
-    { name: "2 Tier", image: BlackPU, alt: "2 Tier" },
-    { name: "4 Tier", image: BrownPU, alt: "4 Tier" },
-    { name: "Covered Shoe Rack", image: CreamPU, alt: "Covered Shoe Rack" },
+    { name: "2 Tier", image: TwoTier, alt: "2 Tier" },
+    { name: "4 Tier", image: FourTier, alt: "4 Tier" },
+    { name: "Covered Shoe Rack", image: CoveredShoeRack, alt: "Covered Shoe Rack" },
 ]
 
 const ShoeRacks = () => {

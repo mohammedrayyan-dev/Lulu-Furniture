@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import TwoDoorCabinet from "/src/assets/images/products/tvunits/tv-units-with-storage/two-door-cabinet.webp"
+import DrawerUnit from "/src/assets/images/products/tvunits/tv-units-with-storage/drawer-units.webp"
+import OpenClosedStorage from "/src/assets/images/products/tvunits/tv-units-with-storage/open-close-storage.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const TVUnitsWithStorageCollections = [
-    { name: "2 Door Cabinet", image: BlackPU, alt: "2 Door Cabinet" },
-    { name: "Drawer Unit", image: BrownPU, alt: "Drawer Unit" },
-    { name: "Open + Closed Storage", image: CreamPU, alt: "Open + Closed Storage" },
+    { name: "2 Door Cabinet", image: TwoDoorCabinet, alt: "2 Door Cabinet" },
+    { name: "Drawer Unit", image: DrawerUnit, alt: "Drawer Unit" },
+    { name: "Open + Closed Storage", image: OpenClosedStorage, alt: "Open + Closed Storage" },
 ]
 
 const TVUnitsWithStorage = () => {

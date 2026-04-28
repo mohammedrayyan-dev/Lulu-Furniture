@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import FloatingPanel from "/src/assets/images/products/tvunits/wall-mounted-tv-units/floating-panel.webp"
+import MinimalWallUnit from "/src/assets/images/products/tvunits/wall-mounted-tv-units/minimal-wall-unit.webp"
+import FullWallUnit from "/src/assets/images/products/tvunits/wall-mounted-tv-units/full-wall-unit.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const WallMountedTVUnitsCollections = [
-    { name: "Floating Panel", image: BlackPU, alt: "Floating Panel" },
-    { name: "Minimal Wall Unit", image: BrownPU, alt: "Minimal Wall Unit" },
-    { name: "Full Wall Unit", image: CreamPU, alt: "Full Wall Unit" },
+    { name: "Floating Panel", image: FloatingPanel, alt: "Floating Panel" },
+    { name: "Minimal Wall Unit", image: MinimalWallUnit, alt: "Minimal Wall Unit" },
+    { name: "Full Wall Unit", image: FullWallUnit, alt: "Full Wall Unit" },
 ]
 
 const WallMountedTVUnits = () => {

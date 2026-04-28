@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import SimpleWooden from "/src/assets/images/products/tvunits/wooden-tv-units/simple-wooden.webp"
+import WoodenWithShelf from "/src/assets/images/products/tvunits/wooden-tv-units/wooden-with-shelf.webp"
+import WoodenWithCabinet from "/src/assets/images/products/tvunits/wooden-tv-units/wooden-with-cabinet.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const WoodenTVUnitsCollections = [
-    { name: "Simple Wooden", image: BlackPU, alt: "Simple Wooden" },
-    { name: "Wooden with Shelf", image: BrownPU, alt: "Wooden with Shelf" },
-    { name: "Wooden with Cabinet", image: CreamPU, alt: "Wooden with Cabinet" },
+    { name: "Simple Wooden", image: SimpleWooden, alt: "Simple Wooden" },
+    { name: "Wooden with Shelf", image: WoodenWithShelf, alt: "Wooden with Shelf" },
+    { name: "Wooden with Cabinet", image: WoodenWithCabinet, alt: "Wooden with Cabinet" },
 ]
 
 const WoodenTVUnits = () => {

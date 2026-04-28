@@ -1,13 +1,12 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import PillowsCushions from "/src/assets/images/products/comfort-essentials/pillows-cushions.webp"
 import BeanBags from "/src/assets/images/products/comfort-essentials/bean-bags.webp"
-import PoufsOttomans from "/src/assets/images/products/comfort-essentials/poufs-ottomans.webp"
+import CushionPillows from "/src/assets/images/products/comfort-essentials/cushion-pillows.webp"
 import { Link, useNavigate } from "react-router"
 import { useEffect } from "react";
 
 const ComfortCollections = [
     { name: "Bean Bags", image: BeanBags, alt: "Bean Bags", path: "/comfort-essentials/bean-bags" },
-    { name: "Cushion Pillows", image: PoufsOttomans, alt: "Cushion Pillows", path: "/comfort-essentials/cushion-pillows" },
+    { name: "Cushion Pillows", image: CushionPillows, alt: "Cushion Pillows", path: "/comfort-essentials/cushion-pillows" },
 ]
 
 const ComfortEssentials = () => {
@@ -41,7 +40,7 @@ const ComfortEssentials = () => {
         onClick={() => navigate(comfort.path)}
         className="relative h-[140px] md:h-[180px] lg:h-[320px] w-full cursor-pointer overflow-hidden rounded-3xl"
         >
-        <img src={comfort.image} alt={comfort.alt} className="w-full h-full object-cover object-top" />
+        <img src={comfort.image} alt={comfort.alt} className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045]" />
         <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
             {comfort.name}

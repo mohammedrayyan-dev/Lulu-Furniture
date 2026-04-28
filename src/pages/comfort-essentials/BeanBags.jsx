@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import ClassicRound from "/src/assets/images/products/comfort-essentials/bean-bags/classic-round.webp"
+import FilledBeanBag from "/src/assets/images/products/comfort-essentials/bean-bags/filled-bean-bag.webp"
+import XLBeanBag from "/src/assets/images/products/comfort-essentials/bean-bags/xl-bean-bag.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const BeanBagsCollections = [
-    { name: "Classic Round", image: BlackPU, alt: "Classic Round" },
-    { name: "Filled Bean Bag", image: BrownPU, alt: "Filled Bean Bag" },
-    { name: "XL Bean Bag", image: CreamPU, alt: "XL Bean Bag" },
+    { name: "Classic Round", image: ClassicRound, alt: "Classic Round" },
+    { name: "Filled Bean Bag", image: FilledBeanBag, alt: "Filled Bean Bag" },
+    { name: "XL Bean Bag", image: XLBeanBag, alt: "XL Bean Bag" },
 ]
 
 const BeanBags = () => {

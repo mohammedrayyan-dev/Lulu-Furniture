@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import SofaCushion from "/src/assets/images/products/comfort-essentials/cushion-pillows/sofa-cushion.jpg"
+import FloorCushion from "/src/assets/images/products/comfort-essentials/cushion-pillows/floor-cushion.jpg"
+import DecorativeCushion from "/src/assets/images/products/comfort-essentials/cushion-pillows/decorative-cushion.jpg"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const CushionPillowsCollections = [
-    { name: "Sofa Cushion", image: BlackPU, alt: "Sofa Cushion" },
-    { name: "Floor Cushion", image: BrownPU, alt: "Floor Cushion" },
-    { name: "Decorative Cushion", image: CreamPU, alt: "Decorative Cushion" },
+    { name: "Sofa Cushion", image: SofaCushion, alt: "Sofa Cushion" },
+    { name: "Floor Cushion", image: FloorCushion, alt: "Floor Cushion" },
+    { name: "Decorative Cushion", image: DecorativeCushion, alt: "Decorative Cushion" },
 ]
 
 const CushionPillows = () => {

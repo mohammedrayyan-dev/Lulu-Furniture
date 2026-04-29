@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import FabricCushion from "/src/assets/images/products/chairs/cushioned-chairs/fabric-cushion.webp"
+import LeatheretteCushion from "/src/assets/images/products/chairs/cushioned-chairs/leatherette-cushion.webp"
+import VelvetCushion from "/src/assets/images/products/chairs/cushioned-chairs/velvet-cushion.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const CushionedChairsCollections = [
-    { name: "Fabric Cushion", image: BlackPU, alt: "Fabric Cushion" },
-    { name: "Leatherette Cushion", image: BrownPU, alt: "Leatherette Cushion" },
-    { name: "Velvet Cushion", image: CreamPU, alt: "Velvet Cushion" },
+    { name: "Fabric Cushion", image: FabricCushion, alt: "Fabric Cushion" },
+    { name: "Leatherette Cushion", image: LeatheretteCushion, alt: "Leatherette Cushion" },
+    { name: "Velvet Cushion", image: VelvetCushion, alt: "Velvet Cushion" },
 ]
 
 const CushionedChairs = () => {
@@ -39,7 +39,7 @@ const CushionedChairs = () => {
         <div 
         className="relative h-[140px] md:h-[180px] lg:h-[320px] w-full overflow-hidden rounded-3xl"
         >
-        <img src={cushioned.image} alt={cushioned.alt} className="h-full w-full object-cover" />
+        <img src={cushioned.image} alt={cushioned.alt} className="h-full w-full object-cover object-bottom" />
         <div className="absolute inset-0 bg-[#00000030]" />
         <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
             {cushioned.name}

@@ -1,20 +1,20 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import MeshChair from "/src/assets/images/products/chairs/office-chairs/mesh-chair.webp"
+import ErgonomicChair from "/src/assets/images/products/chairs/office-chairs/ergonomic-chair.webp"
+import BossChair from "/src/assets/images/products/chairs/office-chairs/boss-chair.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
-const WoodenArmChairsCollections = [
-    { name: "Teak Arm Chair", image: BlackPU, alt: "Teak Arm Chair" },
-    { name: "Sheesham Arm Chair", image: BrownPU, alt: "Sheesham Arm Chair" },
-    { name: "Painted Arm Chair", image: CreamPU, alt: "Painted Arm Chair" },
+const OfficeChairsCollections = [
+    { name: "Mesh Chair", image: MeshChair, alt: "Teak Arm Chair" },
+    { name: "Ergonomic Chair", image: ErgonomicChair, alt: "Sheesham Arm Chair" },
+    { name: "Boss Chair", image: BossChair, alt: "Painted Arm Chair" },
 ]
 
-const WoodenArmChairs = () => {
+const OfficeChairs = () => {
 
     useEffect(() => {
-        document.title = "Wooden Arm Chairs | Lulu Furniture";
+        document.title = "Office Chairs | Lulu Furniture";
     }, []);
 
   return (
@@ -28,14 +28,14 @@ const WoodenArmChairs = () => {
         <img src={BackArrow} alt="Back Arrow" className="w-[24px] lg:w-[28px] cursor-pointer" />
         </Link>
         <h1 className="font-corinthia text-2xl lg:text-[40px] text-[#6B4C41] font-bold">
-            Wooden Arm Chairs
+            Office Chairs
         </h1>
     </div>
     <div className="mt-5 lg:mt-0 border-t border-[#33333366]"/>
 
     <div className="flex flex-col mt-6 lg:mt-8 items-center gap-6 lg:gap-8">
 
-        {WoodenArmChairsCollections.map((chair) => (
+        {OfficeChairsCollections.map((chair) => (
         <div 
         className="relative h-[140px] md:h-[180px] lg:h-[320px] w-full overflow-hidden rounded-3xl"
         >
@@ -54,4 +54,4 @@ const WoodenArmChairs = () => {
   )
 }
 
-export default WoodenArmChairs;
+export default OfficeChairs;

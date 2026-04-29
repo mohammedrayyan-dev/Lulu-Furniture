@@ -42,7 +42,7 @@ import TVUnitsWithStorage from "./pages/tv-units/TVUnitsWithStorage.jsx"
 import WallMountedTVUnits from "./pages/tv-units/WallMountedTVUnits.jsx"
 
 // Chairs
-import WoodenArmChairs from "./pages/chairs/WoodenArmChairs.jsx"
+import OfficeChairs from "./pages/chairs/OfficeChairs.jsx"
 import PlasticChairs from "./pages/chairs/PlasticChairs.jsx"
 import CushionedChairs from "./pages/chairs/CushionedChairs.jsx"
 
@@ -107,7 +107,7 @@ function App() {
       <Route path="/berows/compact-berows" element={<CompactBerows/>}/>
 
       {/* Chairs */}
-      <Route path="/chairs/wooden-arm-chairs" element={<WoodenArmChairs/>}/>
+      <Route path="/chairs/office-chairs" element={<OfficeChairs/>}/>
       <Route path="/chairs/plastic-chairs" element={<PlasticChairs/>}/>
       <Route path="/chairs/cushioned-chairs" element={<CushionedChairs/>}/>
 

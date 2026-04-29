@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import LivingRoomChairs from "/src/assets/images/products/chairs/living-room-chairs.webp"
-import WoodenChairs from "/src/assets/images/products/chairs/wooden-chairs.webp"
-import KidsChairs from "/src/assets/images/products/chairs/kids-chairs.webp"
+import OfficeChairs from "/src/assets/images/products/chairs/office-chairs.webp"
+import PlasticChairs from "/src/assets/images/products/chairs/plastic-chairs.webp"
+import CushionedChairs from "/src/assets/images/products/chairs/cushioned-chairs.webp"
 import { useNavigate, Link } from "react-router-dom"
 import { useEffect } from "react";
 
 const SofaCollections = [
-    { name: "Wooden Arm Chairs", image: LivingRoomChairs, alt: "Wooden Arm Chairs", path: "/chairs/wooden-arm-chairs" },
-    { name: "Plastic Chairs", image: WoodenChairs, alt: "Plastic Chairs", path: "/chairs/plastic-chairs" },
-    { name: "Cushioned Chairs", image: KidsChairs, alt: "Cushioned Chairs", path: "/chairs/cushioned-chairs" },
+    { name: "Office Chairs", image: OfficeChairs, alt: "Office Chairs", path: "/chairs/office-chairs" },
+    { name: "Plastic Chairs", image: PlasticChairs, alt: "Plastic Chairs", path: "/chairs/plastic-chairs" },
+    { name: "Cushioned Chairs", image: CushionedChairs, alt: "Cushioned Chairs", path: "/chairs/cushioned-chairs" },
 ]
 
 const Chairs = () => {

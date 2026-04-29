@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import ArmlessPlastic from "/src/assets/images/products/chairs/plastic-chairs/armless-plastic.webp"
+import ArmPlastic from "/src/assets/images/products/chairs/plastic-chairs/arm-plastic.webp"
+import CafeChair from "/src/assets/images/products/chairs/plastic-chairs/cafe-chair.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const PlasticChairsCollections = [
-    { name: "Armless Plastic", image: BlackPU, alt: "Armless Plastic" },
-    { name: "Arm Plastic", image: BrownPU, alt: "Arm Plastic" },
-    { name: "Stackable Plastic", image: CreamPU, alt: "Stackable Plastic" },
+    { name: "Armless Plastic", image: ArmlessPlastic, alt: "Armless Plastic" },
+    { name: "Arm Plastic", image: ArmPlastic, alt: "Arm Plastic" },
+    { name: "Cafe Chair", image: CafeChair, alt: "Cafe Chair" },
 ]
 
 const PlasticChairs = () => {

@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import ThreeDrawers from "/src/assets/images/products/berows/berows-with-drawers/three-drawers.webp"
+import FiveDrawers from "/src/assets/images/products/berows/berows-with-drawers/five-drawers.webp"
+import SixDrawers from "/src/assets/images/products/berows/berows-with-drawers/six-drawers.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const BerowsWithDrawersCollections = [
-    { name: "3 Drawer", image: BlackPU, alt: "3 Drawer" },
-    { name: "5 Drawer", image: BrownPU, alt: "5 Drawer" },
-    { name: "6 Drawer", image: CreamPU, alt: "6 Drawer" },
+    { name: "3 Drawer", image: ThreeDrawers, alt: "3 Drawer" },
+    { name: "5 Drawer", image: FiveDrawers, alt: "5 Drawer" },
+    { name: "6 Drawer", image: SixDrawers, alt: "6 Drawer" },
 ]
 
 const BerowsWithDrawers = () => {

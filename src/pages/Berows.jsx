@@ -1,16 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BedroomBerows from "/src/assets/images/products/berows/bedroom-berows.webp"
-import OfficeBerows from "/src/assets/images/products/berows/office-berows.webp"
-import KidsBerows from "/src/assets/images/products/berows/kids-berows.webp"
-import SmallRoomPGBerows from "/src/assets/images/products/berows/small-room-pg-berows.webp"
+import BerowsWithMirror from "/src/assets/images/products/berows/berows-with-mirror.webp"
+import BerowsWithDrawers from "/src/assets/images/products/berows/berows-with-drawers.webp"
+import SlidingDoorBerows from "/src/assets/images/products/berows/sliding-door-berows.webp"
 import { useNavigate, Link } from "react-router-dom"
 import { useEffect } from "react";
 
-const SofaCollections = [
-    { name: "Berows with Mirror", image: BedroomBerows, alt: "Berows with Mirror", path: "/berows/berows-with-mirror" },
-    { name: "Berows with Drawers", image: OfficeBerows, alt: "Berows with Drawers", path: "/berows/berows-with-drawers" },
-    { name: "Sliding Door Berows", image: KidsBerows, alt: "Sliding Door Berows", path: "/berows/sliding-door-berows" },
-    { name: "Compact Berows", image: SmallRoomPGBerows, alt: "Compact Berows", path: "/berows/compact-berows" },
+const BerowsCollections = [
+    { name: "Berows with Mirror", image: BerowsWithMirror, alt: "Berows with Mirror", path: "/berows/berows-with-mirror" },
+    { name: "Berows with Drawers", image: BerowsWithDrawers, alt: "Berows with Drawers", path: "/berows/berows-with-drawers" },
+    { name: "Sliding Door Berows", image: SlidingDoorBerows, alt: "Sliding Door Berows", path: "/berows/sliding-door-berows" },
 ]
 
 const Berows = () => {
@@ -39,15 +37,15 @@ const Berows = () => {
 
     <div className="flex flex-col mt-6 lg:mt-8 items-center gap-6 lg:gap-8">
 
-        {SofaCollections.map((sofa) => (
+        {BerowsCollections.map((berow) => (
         <div 
-        onClick={() => navigate(sofa.path)}
+        onClick={() => navigate(berow.path)}
         className="relative h-[140px] md:h-[180px] lg:h-[320px] w-full cursor-pointer overflow-hidden rounded-3xl"
         >
-        <img src={sofa.image} alt={sofa.alt} className="h-full w-full object-cover" />
+        <img src={berow.image} alt={berow.alt} className="h-full w-full object-cover" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045]" />
         <h3 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
-            {sofa.name}
+            {berow.name}
         </h3>
         </div>
         ))}

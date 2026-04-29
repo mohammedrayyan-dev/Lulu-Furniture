@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import SingleMirror from "/src/assets/images/products/berows/berows-with-mirror/single-mirror.webp"
+import DoubleMirror from "/src/assets/images/products/berows/berows-with-mirror/double-mirror.webp"
+import FullLengthMirror from "/src/assets/images/products/berows/berows-with-mirror/full-length-mirror.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const BerowsWithMirrorCollections = [
-    { name: "Single Mirror", image: BlackPU, alt: "Single Mirror" },
-    { name: "Double Mirror", image: BrownPU, alt: "Double Mirror" },
-    { name: "Full Length Mirror", image: CreamPU, alt: "Full Length Mirror" },
+    { name: "Single Mirror", image: SingleMirror, alt: "Single Mirror" },
+    { name: "Double Mirror", image: DoubleMirror, alt: "Double Mirror" },
+    { name: "Full Length Mirror", image: FullLengthMirror, alt: "Full Length Mirror" },
 ]
 
 const BerowsWithMirror = () => {

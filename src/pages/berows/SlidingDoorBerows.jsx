@@ -1,14 +1,14 @@
 import BackArrow from "/src/assets/images/ui/icons/BackArrowIcon.png"
-import BlackPU from "/src/assets/images/products/sofas/leather-sofas/black-pu.webp"
-import BrownPU from "/src/assets/images/products/sofas/leather-sofas/brown-pu.webp"
-import CreamPU from "/src/assets/images/products/sofas/leather-sofas/cream-pu.webp"
+import TwoDoorSliding from "/src/assets/images/products/berows/sliding-door-berows/two-door-sliding.webp"
+import ThreeDoorSliding from "/src/assets/images/products/berows/sliding-door-berows/three-door-sliding.webp"
+import MirrorSliding from "/src/assets/images/products/berows/sliding-door-berows/mirror-sliding.webp"
 import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const SlidingDoorBerowsCollections = [
-    { name: "2 Door Sliding", image: BlackPU, alt: "2 Door Sliding" },
-    { name: "3 Door Sliding", image: BrownPU, alt: "3 Door Sliding" },
-    { name: "Mirror Sliding", image: CreamPU, alt: "Mirror Sliding" },
+    { name: "2 Door Sliding", image: TwoDoorSliding, alt: "2 Door Sliding" },
+    { name: "3 Door Sliding", image: ThreeDoorSliding, alt: "3 Door Sliding" },
+    { name: "Mirror Sliding", image: MirrorSliding, alt: "Mirror Sliding" },
 ]
 
 const SlidingDoorBerows = () => {

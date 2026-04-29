@@ -54,7 +54,6 @@ import CushionPillows from "./pages/comfort-essentials/CushionPillows.jsx"
 import BerowsWithMirror from "./pages/berows/BerowsWithMirror.jsx"
 import BerowsWithDrawers from "./pages/berows/BerowsWithDrawers.jsx"
 import SlidingDoorBerows from "./pages/berows/SlidingDoorBerows.jsx"
-import CompactBerows from "./pages/berows/CompactBerows.jsx"
 
 function App() {
   return (
@@ -104,7 +103,6 @@ function App() {
       <Route path="/berows/berows-with-mirror" element={<BerowsWithMirror/>}/>
       <Route path="/berows/berows-with-drawers" element={<BerowsWithDrawers/>}/>
       <Route path="/berows/sliding-door-berows" element={<SlidingDoorBerows/>}/>
-      <Route path="/berows/compact-berows" element={<CompactBerows/>}/>
 
       {/* Chairs */}
       <Route path="/chairs/office-chairs" element={<OfficeChairs/>}/>
